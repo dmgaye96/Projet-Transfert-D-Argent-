@@ -1,0 +1,233 @@
+language: php
+
+cache:
+  directories:
+    - $HOME/.composer/cache
+    - $HOME/.npm
+
+.steps:
+  - &add-composer-bin-dir-to-path |
+      export PATH="$PATH:$HOME/.composer/vendor/bin"
+  - &clear-test-app-cache |
+      tests/Fixtures/app/console cache:clear
+  - &disable-php-memory-limit |
+      echo "memory_limit=-1" >> ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/travis.ini
+  - &disable-xdebug-php-extension |
+      phpenv config-rm xdebug.ini || echo "xdebug not available"
+  - &install-mongodb-php-extension |
+      echo "extension=mongodb.so" >> ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/mongodb.ini
+  - &run-behat-tests |
+      vendor/bin/behat --format=progress --no-interaction
+  - &run-phpunit-tests |
+      vendor/bin/phpunit
+  - &update-project-dependencies |
+      composer update --prefer-dist --no-progress --no-suggest --ansi
+  - &validate-openapi-v2-json |
+      tests/Fixtures/app/console api:swagger:export > swagger.json && npx swagger-cli validate swagger.json && rm swagger.json
+  - &validate-openapi-v2-yaml |
+      tests/Fixtures/app/console api:swagger:export --yaml > swagger.yaml && npx swagger-cli validate swagger.yaml && rm swagger.yaml
+  - &validate-openapi-v3-json |
+      tests/Fixtures/app/console api:openapi:export --spec-version 3 > swagger.json && npx swagger-cli validate swagger.json && rm swagger.json
+  - &validate-openapi-v3-yaml |
+      tests/Fixtures/app/console api:openapi:export --spec-version 3 --yaml > swagger.yaml && npx swagger-cli validate swagger.yaml && rm swagger.yaml
+
+jobs:
+  include:
+    - php: '7.1'
+      before_install:
+        - *install-mongodb-php-extension
+        - *disable-xdebug-php-extension
+        - *disable-php-memory-limit
+        - *add-composer-bin-dir-to-path
+      install:
+        - |
+          composer remove --dev --no-progress --no-update --ansi \
+            doctrine/mongodb-odm \
+            doctrine/mongodb-odm-bundle \
+        - *update-project-dependencies
+      before_script:
+        - *clear-test-app-cache
+      script:
+        - *run-phpunit-tests
+        - *clear-test-app-cache
+        - *run-behat-tests
+        - *validate-openapi-v2-json
+        - *validate-openapi-v2-yaml
+        - *validate-openapi-v3-json
+        - *validate-openapi-v3-yaml
+
+    - php: '7.2'
+      before_install:
+        - *install-mongodb-php-extension
+        - *disable-xdebug-php-extension
+        - *disable-php-memory-limit
+        - *add-composer-bin-dir-to-path
+      install:
+        - *update-project-dependencies
+      before_script:
+        - *clear-test-app-cache
+      script:
+        - *run-phpunit-tests
+        - *clear-test-app-cache
+        - *run-behat-tests
+        - *validate-openapi-v2-json
+        - *validate-openapi-v2-yaml
+        - *validate-openapi-v3-json
+        - *validate-openapi-v3-yaml
+
+    - php: '7.3'
+      before_install:
+        - *install-mongodb-php-extension
+        - *disable-xdebug-php-extension
+        - *disable-php-memory-limit
+        - *add-composer-bin-dir-to-path
+      install:
+        - *update-project-dependencies
+      before_script:
+        - *clear-test-app-cache
+      script:
+        - *run-phpunit-tests
+        - *clear-test-app-cache
+        - *run-behat-tests
+        - *validate-openapi-v2-json
+        - *validate-openapi-v2-yaml
+        - *validate-openapi-v3-json
+        - *validate-openapi-v3-yaml
+
+    - php: '7.3'
+      env: deps=low
+      before_install:
+        - *install-mongodb-php-extension
+        - *disable-xdebug-php-extension
+        - *disable-php-memory-limit
+        - *add-composer-bin-dir-to-path
+      install:
+        - composer update --prefer-dist --no-progress --no-suggest --prefer-stable --prefer-lowest --ansi
+      before_script:
+        - *clear-test-app-cache
+      script:
+        - *run-phpunit-tests
+        - *clear-test-app-cache
+        - *run-behat-tests
+        - *validate-openapi-v2-json
+        - *validate-openapi-v2-yaml
+        - *validate-openapi-v3-json
+        - *validate-openapi-v3-yaml
+
+    - php: '7.3'
+      env: APP_ENV=postgres
+      services:
+        - postgresql
+      before_install:
+        - *install-mongodb-php-extension
+        - *disable-xdebug-php-extension
+        - *disable-php-memory-limit
+        - *add-composer-bin-dir-to-path
+      install:
+        - *update-project-dependencies
+      before_script:
+        - *clear-test-app-cache
+        - psql --command 'CREATE DATABASE api_platform_test;' --username postgres
+      script:
+        - *run-phpunit-tests
+        - *clear-test-app-cache
+        - vendor/bin/behat --format=progress --profile=postgres --no-interaction
+        - *validate-openapi-v2-json
+        - *validate-openapi-v2-yaml
+        - *validate-openapi-v3-json
+        - *validate-openapi-v3-yaml
+
+    - php: '7.3'
+      env: APP_ENV=mysql
+      services:
+        - mysql
+      before_install:
+        - *install-mongodb-php-extension
+        - *disable-xdebug-php-extension
+        - *disable-php-memory-limit
+        - *add-composer-bin-dir-to-path
+      install:
+        - *update-project-dependencies
+      before_script:
+        - *clear-test-app-cache
+        - mysql --execute 'CREATE DATABASE api_platform_test;'
+      script:
+        - *run-phpunit-tests
+        - *clear-test-app-cache
+        - *run-behat-tests
+        - *validate-openapi-v2-json
+        - *validate-openapi-v2-yaml
+        - *validate-openapi-v3-json
+        - *validate-openapi-v3-yaml
+
+    - php: '7.3'
+      env: APP_ENV=mongodb
+      services:
+        - mongodb
+      before_install:
+        - *install-mongodb-php-extension
+        - *disable-xdebug-php-extension
+        - *disable-php-memory-limit
+        - *add-composer-bin-dir-to-path
+      install:
+        - *update-project-dependencies
+      before_script:
+        - *clear-test-app-cache
+      script:
+        - vendor/bin/phpunit --configuration phpunit_mongodb.xml
+        - *clear-test-app-cache
+        - vendor/bin/behat --format=progress --profile=mongodb --no-interaction
+        - *validate-openapi-v2-json
+        - *validate-openapi-v2-yaml
+        - *validate-openapi-v3-json
+        - *validate-openapi-v3-yaml
+
+    - php: '7.3'
+      env: APP_ENV=elasticsearch
+      before_install:
+        - sudo apt-get purge --auto-remove elasticsearch
+        - wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
+        - echo 'deb https://artifacts.elastic.co/packages/6.x/apt stable main' | sudo tee -a /etc/apt/sources.list.d/elastic-6.x.list
+        - sudo apt-get update
+        - sudo apt-get install elasticsearch
+        - sudo service elasticsearch start
+        - *install-mongodb-php-extension
+        - *disable-xdebug-php-extension
+        - *disable-php-memory-limit
+        - *add-composer-bin-dir-to-path
+      install:
+        - *update-project-dependencies
+      before_script:
+        - *clear-test-app-cache
+      script:
+        - *run-phpunit-tests
+        - *clear-test-app-cache
+        - vendor/bin/behat --format=progress --profile=elasticsearch --no-interaction
+        - *validate-openapi-v2-json
+        - *validate-openapi-v2-yaml
+        - *validate-openapi-v3-json
+        - *validate-openapi-v3-yaml
+
+    - php: '7.3'
+      env: SYMFONY_DEPRECATIONS_HELPER=0
+      before_install:
+        - *install-mongodb-php-extension
+        - *disable-xdebug-php-extension
+        - *disable-php-memory-limit
+        - *add-composer-bin-dir-to-path
+      install:
+        - *update-project-dependencies
+      before_script:
+        - *clear-test-app-cache
+      script:
+        - *run-phpunit-tests
+        - *clear-test-app-cache
+        - *run-behat-tests
+        - *validate-openapi-v2-json
+        - *validate-openapi-v2-yaml
+        - *validate-openapi-v3-json
+        - *validate-openapi-v3-yaml
+
+  allow_failures:
+    - env: SYMFONY_DEPRECATIONS_HELPER=0
+  fast_finish: true

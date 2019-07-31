@@ -1,0 +1,10 @@
+/.php_cs
+/.php_cs.cache
+/build/
+/composer.lock
+/composer.phar
+/phpunit.xml
+/swagger.json
+/swagger.yaml
+/tests/Fixtures/app/var/
+/vendor/
