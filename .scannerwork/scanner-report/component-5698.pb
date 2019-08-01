@@ -1,0 +1,1 @@
+Â,5vendor/symfony/form/Tests/Fixtures/FooBarHTMLType.php 2phpXhr5vendor/symfony/form/Tests/Fixtures/FooBarHTMLType.php

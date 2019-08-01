@@ -1,0 +1,1 @@
+ç&=vendor/symfony/maker-bundle/src/Resources/skeleton/serializer :æ&è&r=vendor/symfony/maker-bundle/src/Resources/skeleton/serializer

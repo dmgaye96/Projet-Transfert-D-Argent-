@@ -1,0 +1,1 @@
+¢iMvendor/api-platform/core/tests/Fixtures/TestBundle/Entity/DummyDtoNoInput.php 2phpXThrMvendor/api-platform/core/tests/Fixtures/TestBundle/Entity/DummyDtoNoInput.php

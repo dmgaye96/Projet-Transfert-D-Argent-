@@ -1,0 +1,1 @@
+Ê8vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/Column.php 2phpXÄhr8vendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/Column.php

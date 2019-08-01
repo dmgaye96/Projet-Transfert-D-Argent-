@@ -1,0 +1,1 @@
+®'=vendor/symfony/maker-bundle/src/Security/UserClassBuilder.php 2phpXêhr=vendor/symfony/maker-bundle/src/Security/UserClassBuilder.php

@@ -1,0 +1,1 @@
+·iXvendor/api-platform/core/tests/Fixtures/TestBundle/Entity/DummyTableInheritanceChild.php 2phpX-hrXvendor/api-platform/core/tests/Fixtures/TestBundle/Entity/DummyTableInheritanceChild.php

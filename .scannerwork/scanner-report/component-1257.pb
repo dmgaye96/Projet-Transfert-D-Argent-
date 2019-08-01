@@ -1,0 +1,1 @@
+é	Kvendor/doctrine/migrations/lib/Doctrine/Migrations/Tools/BytesFormatter.php 2phpXhrKvendor/doctrine/migrations/lib/Doctrine/Migrations/Tools/BytesFormatter.php

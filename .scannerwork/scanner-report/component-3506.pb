@@ -1,0 +1,1 @@
+²7vendor/namshi/jose/tests/Namshi/JOSE/Test/BCJWSTest.php 2phpX&hr7vendor/namshi/jose/tests/Namshi/JOSE/Test/BCJWSTest.php

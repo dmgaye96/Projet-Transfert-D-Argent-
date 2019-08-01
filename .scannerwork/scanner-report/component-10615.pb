@@ -1,0 +1,1 @@
+÷RUvendor/symfony/dependency-injection/Tests/Fixtures/Prototype/OtherDir/Component1/Dir2 :öRrUvendor/symfony/dependency-injection/Tests/Fixtures/Prototype/OtherDir/Component1/Dir2

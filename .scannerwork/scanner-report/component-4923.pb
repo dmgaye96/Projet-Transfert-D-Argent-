@@ -1,0 +1,1 @@
+»&7vendor/symfony/maker-bundle/src/Maker/MakeMigration.php 2phpX‡hr7vendor/symfony/maker-bundle/src/Maker/MakeMigration.php

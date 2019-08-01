@@ -1,0 +1,1 @@
+Ó:<vendor/symfony/property-info/Tests/Fixtures/NoProperties.php 2phpXhr<vendor/symfony/property-info/Tests/Fixtures/NoProperties.php

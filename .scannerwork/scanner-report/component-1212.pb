@@ -1,0 +1,1 @@
+¼	\vendor/doctrine/migrations/lib/Doctrine/Migrations/Configuration/Connection/Loader/Exception :º	»	r\vendor/doctrine/migrations/lib/Doctrine/Migrations/Configuration/Connection/Loader/Exception

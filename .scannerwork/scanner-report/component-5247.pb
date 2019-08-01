@@ -1,0 +1,1 @@
+ÿ([vendor/symfony/http-kernel/Tests/DependencyInjection/AddAnnotatedClassesToCachePassTest.php 2phpXdhr[vendor/symfony/http-kernel/Tests/DependencyInjection/AddAnnotatedClassesToCachePassTest.php

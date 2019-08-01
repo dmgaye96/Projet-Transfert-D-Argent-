@@ -1,0 +1,1 @@
+úh;vendor/api-platform/core/tests/Fixtures/Elasticsearch/Model :õhùhr;vendor/api-platform/core/tests/Fixtures/Elasticsearch/Model

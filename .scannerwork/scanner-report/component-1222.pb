@@ -1,0 +1,1 @@
+Æ	Fvendor/doctrine/migrations/lib/Doctrine/Migrations/Generator/Exception :Å	Ç	È	rFvendor/doctrine/migrations/lib/Doctrine/Migrations/Generator/Exception

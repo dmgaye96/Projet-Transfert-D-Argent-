@@ -1,0 +1,1 @@
+°c[vendor/api-platform/core/src/Metadata/Resource/Factory/ShortNameResourceMetadataFactory.php 2phpX2hr[vendor/api-platform/core/src/Metadata/Resource/Factory/ShortNameResourceMetadataFactory.php

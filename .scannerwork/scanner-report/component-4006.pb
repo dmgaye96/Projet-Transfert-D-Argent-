@@ -1,0 +1,1 @@
+¦Fvendor/friendsofsymfony/rest-bundle/Tests/Functional/app/Configuration :¥¨rFvendor/friendsofsymfony/rest-bundle/Tests/Functional/app/Configuration

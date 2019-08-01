@@ -1,0 +1,1 @@
+åX>vendor/symfony/framework-bundle/Tests/Fixtures/Resources/views :äXr>vendor/symfony/framework-bundle/Tests/Fixtures/Resources/views

@@ -1,0 +1,1 @@
+Æf=vendor/api-platform/core/src/Api/FormatsProviderInterface.php 2phpXhr=vendor/api-platform/core/src/Api/FormatsProviderInterface.php

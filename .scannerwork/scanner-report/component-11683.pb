@@ -1,0 +1,1 @@
+£[?vendor/symfony/framework-bundle/Tests/Functional/app/CachePools :¢[r?vendor/symfony/framework-bundle/Tests/Functional/app/CachePools

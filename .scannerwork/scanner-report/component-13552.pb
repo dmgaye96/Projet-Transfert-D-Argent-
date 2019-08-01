@@ -1,0 +1,1 @@
+ðiKvendor/api-platform/core/tests/Fixtures/TestBundle/Entity/DummyProperty.php 2phpXphrKvendor/api-platform/core/tests/Fixtures/TestBundle/Entity/DummyProperty.php

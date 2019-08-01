@@ -1,0 +1,1 @@
+º	uvendor/doctrine/migrations/lib/Doctrine/Migrations/Configuration/Connection/Loader/Exception/InvalidConfiguration.php 2phpXhruvendor/doctrine/migrations/lib/Doctrine/Migrations/Configuration/Connection/Loader/Exception/InvalidConfiguration.php

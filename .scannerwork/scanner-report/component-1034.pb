@@ -1,0 +1,1 @@
+ä2vendor/doctrine/doctrine-migrations-bundle/Command :âãçåéèêëíîñr2vendor/doctrine/doctrine-migrations-bundle/Command

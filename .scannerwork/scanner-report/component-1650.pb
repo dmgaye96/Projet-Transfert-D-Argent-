@@ -1,0 +1,1 @@
+ò[vendor/ocramius/proxy-manager/src/ProxyManager/ProxyGenerator/Util/PublicScopeSimulator.php 2phpX¤hr[vendor/ocramius/proxy-manager/src/ProxyManager/ProxyGenerator/Util/PublicScopeSimulator.php

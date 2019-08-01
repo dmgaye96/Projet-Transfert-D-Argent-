@@ -1,0 +1,1 @@
+Ô3vendor/twig/twig/src/Extension/GlobalsInterface.php 2phpX!hr3vendor/twig/twig/src/Extension/GlobalsInterface.php

@@ -1,0 +1,1 @@
+ä@Jvendor/symfony/flex/tests/Configurator/CopyFromPackageConfiguratorTest.php 2phpX³hrJvendor/symfony/flex/tests/Configurator/CopyFromPackageConfiguratorTest.php

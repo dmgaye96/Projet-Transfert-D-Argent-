@@ -1,0 +1,1 @@
+Ø-Bvendor/symfony/form/Tests/Extension/Core/Type/PasswordTypeTest.php 2phpX7hrBvendor/symfony/form/Tests/Extension/Core/Type/PasswordTypeTest.php

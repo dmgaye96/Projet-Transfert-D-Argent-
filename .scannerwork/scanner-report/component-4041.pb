@@ -1,0 +1,1 @@
+ÉMvendor/friendsofsymfony/rest-bundle/Tests/Functional/app/ViewResponseListener :ÇrMvendor/friendsofsymfony/rest-bundle/Tests/Functional/app/ViewResponseListener

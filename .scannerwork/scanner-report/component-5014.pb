@@ -1,0 +1,1 @@
+–'8vendor/symfony/maker-bundle/src/Command/MakerCommand.php 2phpX…hr8vendor/symfony/maker-bundle/src/Command/MakerCommand.php

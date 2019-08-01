@@ -1,0 +1,1 @@
+¡=Hvendor/symfony/routing/Tests/Fixtures/localized/imported-with-locale.xml 2xmlXhrHvendor/symfony/routing/Tests/Fixtures/localized/imported-with-locale.xml

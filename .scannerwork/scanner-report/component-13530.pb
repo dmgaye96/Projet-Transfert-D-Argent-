@@ -1,0 +1,1 @@
+ÚiPvendor/api-platform/core/tests/Fixtures/TestBundle/Entity/DeprecatedResource.php 2phpX*hrPvendor/api-platform/core/tests/Fixtures/TestBundle/Entity/DeprecatedResource.php

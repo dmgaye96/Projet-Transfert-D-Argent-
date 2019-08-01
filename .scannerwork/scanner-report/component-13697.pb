@@ -1,0 +1,1 @@
+Åk.vendor/api-platform/core/tests/Metadata/schema :Äkr.vendor/api-platform/core/tests/Metadata/schema

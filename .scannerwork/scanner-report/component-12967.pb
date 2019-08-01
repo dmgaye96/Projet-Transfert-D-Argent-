@@ -1,0 +1,1 @@
+§e^vendor/api-platform/core/src/Bridge/Symfony/Bundle/CacheWarmer/CachePoolClearerCacheWarmer.php 2phpX:hr^vendor/api-platform/core/src/Bridge/Symfony/Bundle/CacheWarmer/CachePoolClearerCacheWarmer.php

@@ -1,0 +1,1 @@
+™]Svendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/xml/profiler.xml 2xmlXhrSvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/xml/profiler.xml

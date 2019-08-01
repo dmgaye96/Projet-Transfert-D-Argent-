@@ -1,0 +1,1 @@
+Ã#;vendor/symfony/debug/Tests/Fixtures/ExtendedFinalMethod.php 2phpXhr;vendor/symfony/debug/Tests/Fixtures/ExtendedFinalMethod.php

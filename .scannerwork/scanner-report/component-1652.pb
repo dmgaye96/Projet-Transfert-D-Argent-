@@ -1,0 +1,1 @@
+ô]vendor/ocramius/proxy-manager/src/ProxyManager/ProxyGenerator/Assertion/CanProxyAssertion.php 2phpXYhr]vendor/ocramius/proxy-manager/src/ProxyManager/ProxyGenerator/Assertion/CanProxyAssertion.php

@@ -1,0 +1,1 @@
+Â[vendor/friendsofsymfony/rest-bundle/Tests/Fixtures/Controller/ParamsAnnotatedController.php 2phpX)hr[vendor/friendsofsymfony/rest-bundle/Tests/Fixtures/Controller/ParamsAnnotatedController.php

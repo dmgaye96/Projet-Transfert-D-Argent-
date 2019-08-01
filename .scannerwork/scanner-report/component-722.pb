@@ -1,0 +1,1 @@
+Ò*vendor/doctrine/dbal/bin/doctrine-dbal.php 2phpX:hr*vendor/doctrine/dbal/bin/doctrine-dbal.php

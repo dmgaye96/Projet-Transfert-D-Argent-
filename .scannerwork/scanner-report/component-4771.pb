@@ -1,0 +1,1 @@
+£%Ivendor/symfony/serializer/Tests/Normalizer/Features/MaxDepthTestTrait.php 2phpXahrIvendor/symfony/serializer/Tests/Normalizer/Features/MaxDepthTestTrait.php

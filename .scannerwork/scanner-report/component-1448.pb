@@ -1,0 +1,1 @@
+¨-vendor/willdurand/negotiation/src/Negotiation :§ª©«¬­´³µ¶·¸r-vendor/willdurand/negotiation/src/Negotiation

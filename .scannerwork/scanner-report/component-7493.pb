@@ -1,0 +1,1 @@
+Å:vendor/symfony/property-info :Ä:Ç:Æ:Ý:å:ç:í:ê:î:rvendor/symfony/property-info

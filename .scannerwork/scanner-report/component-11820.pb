@@ -1,0 +1,2 @@
+¬\\vendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/php/property_accessor.php 2phpX
+hr\vendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/php/property_accessor.php

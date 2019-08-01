@@ -1,0 +1,1 @@
+˜\evendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/php/session_cookie_secure_auto.php 2phpX	hrevendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/php/session_cookie_secure_auto.php

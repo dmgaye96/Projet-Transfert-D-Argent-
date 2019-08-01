@@ -1,0 +1,1 @@
+ ^Fvendor/symfony/framework-bundle/Resources/config/translation_debug.xml 2xmlXhrFvendor/symfony/framework-bundle/Resources/config/translation_debug.xml

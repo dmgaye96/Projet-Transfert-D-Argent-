@@ -1,0 +1,1 @@
+ÙTNvendor/symfony/dependency-injection/Tests/Fixtures/xml/tag_with_empty_name.xml 2xmlXhrNvendor/symfony/dependency-injection/Tests/Fixtures/xml/tag_with_empty_name.xml

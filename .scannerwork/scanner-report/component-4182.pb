@@ -1,0 +1,1 @@
+Ö Vvendor/friendsofsymfony/rest-bundle/DependencyInjection/Compiler/TwigExceptionPass.php 2phpXhrVvendor/friendsofsymfony/rest-bundle/DependencyInjection/Compiler/TwigExceptionPass.php

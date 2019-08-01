@@ -1,0 +1,1 @@
+ý	[vendor/doctrine/migrations/lib/Doctrine/Migrations/Provider/SchemaDiffProviderInterface.php 2phpXhr[vendor/doctrine/migrations/lib/Doctrine/Migrations/Provider/SchemaDiffProviderInterface.php

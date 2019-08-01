@@ -1,0 +1,1 @@
+êovendor/friendsofsymfony/rest-bundle/Tests/Functional/Bundle/TestBundle/Controller/SerializerErrorController.php 2phpX?hrovendor/friendsofsymfony/rest-bundle/Tests/Functional/Bundle/TestBundle/Controller/SerializerErrorController.php

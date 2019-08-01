@@ -1,0 +1,1 @@
+Š^Mvendor/symfony/framework-bundle/Resources/views/Form/checkbox_widget.html.php 2phpXhrMvendor/symfony/framework-bundle/Resources/views/Form/checkbox_widget.html.php

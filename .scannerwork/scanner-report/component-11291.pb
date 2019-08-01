@@ -1,0 +1,1 @@
+›X3vendor/symfony/web-profiler-bundle/Resources/config :šX£Xr3vendor/symfony/web-profiler-bundle/Resources/config

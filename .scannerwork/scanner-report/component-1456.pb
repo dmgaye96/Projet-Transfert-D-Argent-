@@ -1,0 +1,1 @@
+°Lvendor/willdurand/negotiation/src/Negotiation/Exception/InvalidMediaType.php 2phpXhrLvendor/willdurand/negotiation/src/Negotiation/Exception/InvalidMediaType.php

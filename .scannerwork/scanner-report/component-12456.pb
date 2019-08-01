@@ -1,0 +1,1 @@
+¨a1vendor/symfony/doctrine-bridge/Tests/PropertyInfo :§ar1vendor/symfony/doctrine-bridge/Tests/PropertyInfo

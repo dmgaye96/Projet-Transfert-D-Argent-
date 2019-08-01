@@ -1,0 +1,1 @@
+ÍWRvendor/symfony/web-profiler-bundle/Tests/DependencyInjection/ConfigurationTest.php 2phpX+hrRvendor/symfony/web-profiler-bundle/Tests/DependencyInjection/ConfigurationTest.php

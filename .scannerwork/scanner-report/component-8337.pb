@@ -1,0 +1,1 @@
+‘Aivendor/symfony/security-bundle/Tests/Functional/Bundle/FormLoginBundle/Controller/LocalizedController.php 2phpXAhrivendor/symfony/security-bundle/Tests/Functional/Bundle/FormLoginBundle/Controller/LocalizedController.php

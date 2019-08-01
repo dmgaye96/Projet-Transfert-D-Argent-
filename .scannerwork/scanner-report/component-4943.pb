@@ -1,0 +1,1 @@
+Ï&Avendor/symfony/maker-bundle/src/Resources/skeleton/crud/templates :Î&Ð&Ñ&Ò&Ó&Ô&rAvendor/symfony/maker-bundle/src/Resources/skeleton/crud/templates

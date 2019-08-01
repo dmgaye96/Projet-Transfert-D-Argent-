@@ -1,0 +1,1 @@
+†<7vendor/symfony/mime/Tests/Encoder/Base64EncoderTest.php 2phpXŸhr7vendor/symfony/mime/Tests/Encoder/Base64EncoderTest.php

@@ -1,0 +1,1 @@
+òXvendor/friendsofsymfony/rest-bundle/Tests/Routing/Loader/RestXmlCollectionLoaderTest.php 2phpX½hrXvendor/friendsofsymfony/rest-bundle/Tests/Routing/Loader/RestXmlCollectionLoaderTest.php

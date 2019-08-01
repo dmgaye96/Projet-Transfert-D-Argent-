@@ -1,0 +1,1 @@
+Ò	mvendor/doctrine/migrations/lib/Doctrine/Migrations/Tools/Console/Exception/SchemaDumpRequiresNoMigrations.php 2phpXhrmvendor/doctrine/migrations/lib/Doctrine/Migrations/Tools/Console/Exception/SchemaDumpRequiresNoMigrations.php

@@ -1,0 +1,1 @@
+î$@vendor/symfony/serializer/Tests/Fixtures/GroupDummyInterface.php 2phpXhr@vendor/symfony/serializer/Tests/Fixtures/GroupDummyInterface.php

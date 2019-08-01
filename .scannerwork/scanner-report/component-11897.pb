@@ -1,0 +1,1 @@
+ù\\vendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/xml/property_accessor.xml 2xmlXhr\vendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/xml/property_accessor.xml

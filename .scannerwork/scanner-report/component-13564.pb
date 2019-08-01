@@ -1,0 +1,1 @@
+üiOvendor/api-platform/core/tests/Fixtures/TestBundle/Entity/VoDummyInspection.php 2phpXXhrOvendor/api-platform/core/tests/Fixtures/TestBundle/Entity/VoDummyInspection.php

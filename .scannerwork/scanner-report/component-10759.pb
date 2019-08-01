@@ -1,0 +1,1 @@
+‡THvendor/symfony/dependency-injection/Tests/Fixtures/StubbedTranslator.php 2phpXhrHvendor/symfony/dependency-injection/Tests/Fixtures/StubbedTranslator.php

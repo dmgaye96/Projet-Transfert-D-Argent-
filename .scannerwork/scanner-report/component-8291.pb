@@ -1,0 +1,1 @@
+ã@&vendor/symfony/flex/tests/Configurator :â@ä@å@æ@ç@è@é@ê@í@ï@r&vendor/symfony/flex/tests/Configurator

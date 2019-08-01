@@ -1,0 +1,1 @@
+¸Blvendor/symfony/security-bundle/Tests/DependencyInjection/Compiler/AddExpressionLanguageProvidersPassTest.php 2phpX;hrlvendor/symfony/security-bundle/Tests/DependencyInjection/Compiler/AddExpressionLanguageProvidersPassTest.php

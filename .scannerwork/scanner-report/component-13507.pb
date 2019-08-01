@@ -1,0 +1,1 @@
+ÃiSvendor/api-platform/core/tests/Fixtures/TestBundle/Entity/CustomNormalizedDummy.php 2phpXxhrSvendor/api-platform/core/tests/Fixtures/TestBundle/Entity/CustomNormalizedDummy.php

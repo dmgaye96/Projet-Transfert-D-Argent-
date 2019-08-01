@@ -1,0 +1,1 @@
+Ê&;vendor/symfony/maker-bundle/src/Maker/MakeAuthenticator.php 2phpXñhr;vendor/symfony/maker-bundle/src/Maker/MakeAuthenticator.php

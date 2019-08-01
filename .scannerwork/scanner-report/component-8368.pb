@@ -1,0 +1,1 @@
+°AMvendor/symfony/security-bundle/Tests/Functional/LocalizedRoutesAsPathTest.php 2phpXPhrMvendor/symfony/security-bundle/Tests/Functional/LocalizedRoutesAsPathTest.php

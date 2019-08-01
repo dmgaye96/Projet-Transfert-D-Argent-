@@ -1,0 +1,1 @@
+’Wvendor/doctrine/doctrine-migrations-bundle/Command/MigrationsVersionDoctrineCommand.php 2phpX5hrWvendor/doctrine/doctrine-migrations-bundle/Command/MigrationsVersionDoctrineCommand.php

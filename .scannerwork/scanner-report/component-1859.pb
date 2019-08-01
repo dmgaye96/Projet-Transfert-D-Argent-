@@ -1,0 +1,1 @@
+Ã:vendor/twig/twig/src/Node/Expression/GetAttrExpression.php 2phpXZhr:vendor/twig/twig/src/Node/Expression/GetAttrExpression.php

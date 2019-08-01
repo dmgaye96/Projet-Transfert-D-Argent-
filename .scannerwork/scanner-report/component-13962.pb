@@ -1,0 +1,1 @@
+Šm:vendor/api-platform/core/tests/Api/FormatsProviderTest.php 2phpX¹hr:vendor/api-platform/core/tests/Api/FormatsProviderTest.php

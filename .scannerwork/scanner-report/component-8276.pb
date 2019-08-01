@@ -1,0 +1,1 @@
+Ô@Hvendor/symfony/flex/tests/Fixtures/vendor/symfony/dummy/FirstDummyBundle :Ó@rHvendor/symfony/flex/tests/Fixtures/vendor/symfony/dummy/FirstDummyBundle

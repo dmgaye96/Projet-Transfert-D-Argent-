@@ -1,0 +1,1 @@
+¬Dvendor/willdurand/negotiation/src/Negotiation/AbstractNegotiator.php 2phpXwhrDvendor/willdurand/negotiation/src/Negotiation/AbstractNegotiator.php

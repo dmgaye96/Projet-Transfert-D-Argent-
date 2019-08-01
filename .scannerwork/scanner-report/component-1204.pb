@@ -1,0 +1,1 @@
+´	Vvendor/doctrine/migrations/lib/Doctrine/Migrations/Configuration/JsonConfiguration.php 2phpX,hrVvendor/doctrine/migrations/lib/Doctrine/Migrations/Configuration/JsonConfiguration.php

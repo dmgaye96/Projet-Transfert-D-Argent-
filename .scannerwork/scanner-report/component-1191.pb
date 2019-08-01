@@ -1,0 +1,1 @@
+§	Dvendor/doctrine/migrations/lib/Doctrine/Migrations/Configuration/XML :¦	rDvendor/doctrine/migrations/lib/Doctrine/Migrations/Configuration/XML

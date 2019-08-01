@@ -1,0 +1,1 @@
+¹Ovendor/friendsofsymfony/rest-bundle/Tests/Functional/app/AllowedMethodsListener :¸rOvendor/friendsofsymfony/rest-bundle/Tests/Functional/app/AllowedMethodsListener

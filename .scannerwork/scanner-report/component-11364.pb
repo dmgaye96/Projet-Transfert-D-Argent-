@@ -1,0 +1,1 @@
+‰XSvendor/symfony/framework-bundle/Tests/Fixtures/Resources/views/translation.html.php 2phpX2hrSvendor/symfony/framework-bundle/Tests/Fixtures/Resources/views/translation.html.php

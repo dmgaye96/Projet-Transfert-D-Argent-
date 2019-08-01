@@ -1,0 +1,1 @@
+¤hAvendor/api-platform/core/tests/Fixtures/Metadata/schema/valid.xml 2xmlXShrAvendor/api-platform/core/tests/Fixtures/Metadata/schema/valid.xml

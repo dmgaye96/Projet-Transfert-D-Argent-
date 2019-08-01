@@ -1,0 +1,1 @@
+ùURvendor/symfony/dependency-injection/Tests/Fixtures/includes/schema/project-1.0.xsd 2xmlXhrRvendor/symfony/dependency-injection/Tests/Fixtures/includes/schema/project-1.0.xsd

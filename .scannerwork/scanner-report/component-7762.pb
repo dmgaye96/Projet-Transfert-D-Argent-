@@ -1,0 +1,1 @@
+Ò<&vendor/symfony/security-csrf/Exception :Ñ<r&vendor/symfony/security-csrf/Exception

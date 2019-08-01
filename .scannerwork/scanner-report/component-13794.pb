@@ -1,0 +1,1 @@
+âk^vendor/api-platform/core/tests/Bridge/Elasticsearch/Metadata/Document/DocumentMetadataTest.php 2phpX*hr^vendor/api-platform/core/tests/Bridge/Elasticsearch/Metadata/Document/DocumentMetadataTest.php

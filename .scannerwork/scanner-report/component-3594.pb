@@ -1,0 +1,1 @@
+ŠSvendor/sensio/framework-extra-bundle/Tests/Routing/Fixtures/InvokableController.php 2phpXhrSvendor/sensio/framework-extra-bundle/Tests/Routing/Fixtures/InvokableController.php

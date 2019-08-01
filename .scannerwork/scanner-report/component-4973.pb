@@ -1,0 +1,1 @@
+í&Pvendor/symfony/maker-bundle/src/Resources/skeleton/security/UserProvider.tpl.php 2phpX@hrPvendor/symfony/maker-bundle/src/Resources/skeleton/security/UserProvider.tpl.php

@@ -1,0 +1,1 @@
+Ì:5vendor/symfony/property-info/Tests/Fixtures/Dummy.php 2phpX¹hr5vendor/symfony/property-info/Tests/Fixtures/Dummy.php

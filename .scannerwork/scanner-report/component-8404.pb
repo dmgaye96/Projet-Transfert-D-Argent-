@@ -1,0 +1,1 @@
+ÔAQvendor/symfony/security-bundle/Tests/Functional/app/StandardFormLogin/bundles.php 2phpXhrQvendor/symfony/security-bundle/Tests/Functional/app/StandardFormLogin/bundles.php

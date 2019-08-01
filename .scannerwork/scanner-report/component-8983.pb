@@ -1,0 +1,1 @@
+—F:vendor/symfony/console/Tests/Command/LockableTraitTest.php 2phpXDhr:vendor/symfony/console/Tests/Command/LockableTraitTest.php

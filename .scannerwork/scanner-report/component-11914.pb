@@ -1,0 +1,1 @@
+Š]pvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/xml/workflow_legacy_with_type_and_service.xml 2xmlXhrpvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/xml/workflow_legacy_with_type_and_service.xml

@@ -1,0 +1,1 @@
+ú]vendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/Controller/SimpleController.php 2phpX@hr]vendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/Controller/SimpleController.php

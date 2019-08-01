@@ -1,0 +1,1 @@
+£^Gvendor/symfony/framework-bundle/Resources/config/schema/symfony-1.0.xsd 2xmlX£hrGvendor/symfony/framework-bundle/Resources/config/schema/symfony-1.0.xsd

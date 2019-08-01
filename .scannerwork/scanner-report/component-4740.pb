@@ -1,0 +1,1 @@
+„%Hvendor/symfony/serializer/Tests/Fixtures/StaticConstructorNormalizer.php 2phpX!hrHvendor/symfony/serializer/Tests/Fixtures/StaticConstructorNormalizer.php

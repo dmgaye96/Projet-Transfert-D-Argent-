@@ -1,0 +1,1 @@
+ê&;vendor/symfony/maker-bundle/src/Resources/skeleton/security :é&í&r;vendor/symfony/maker-bundle/src/Resources/skeleton/security

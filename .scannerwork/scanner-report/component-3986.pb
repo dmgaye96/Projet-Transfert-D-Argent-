@@ -1,0 +1,1 @@
+’gvendor/friendsofsymfony/rest-bundle/Tests/Functional/Bundle/TestBundle/Controller/ArticleController.php 2phpX:hrgvendor/friendsofsymfony/rest-bundle/Tests/Functional/Bundle/TestBundle/Controller/ArticleController.php

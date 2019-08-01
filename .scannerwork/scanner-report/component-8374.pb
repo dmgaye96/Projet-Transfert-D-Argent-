@@ -1,0 +1,1 @@
+¶AOvendor/symfony/security-bundle/Tests/Functional/app/AutowiringTypes/bundles.php 2phpXhrOvendor/symfony/security-bundle/Tests/Functional/app/AutowiringTypes/bundles.php

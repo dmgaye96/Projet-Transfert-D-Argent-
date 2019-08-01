@@ -1,0 +1,1 @@
+ö$Bvendor/symfony/serializer/Tests/Fixtures/DummyMessageInterface.php 2phpXhrBvendor/symfony/serializer/Tests/Fixtures/DummyMessageInterface.php

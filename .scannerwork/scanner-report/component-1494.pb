@@ -1,0 +1,1 @@
+Ö>vendor/willdurand/jsonp-callback-validator/tests/bootstrap.php 2phpXhr>vendor/willdurand/jsonp-callback-validator/tests/bootstrap.php

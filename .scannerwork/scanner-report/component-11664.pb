@@ -1,0 +1,1 @@
+ê[Tvendor/symfony/framework-bundle/Tests/Functional/app/AnnotatedController/bundles.php 2phpXhrTvendor/symfony/framework-bundle/Tests/Functional/app/AnnotatedController/bundles.php

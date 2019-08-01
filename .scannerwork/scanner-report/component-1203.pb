@@ -1,0 +1,1 @@
+³	jvendor/doctrine/migrations/lib/Doctrine/Migrations/Configuration/Exception/MigrationsNamespaceRequired.php 2phpXhrjvendor/doctrine/migrations/lib/Doctrine/Migrations/Configuration/Exception/MigrationsNamespaceRequired.php

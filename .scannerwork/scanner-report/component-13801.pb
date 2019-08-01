@@ -1,0 +1,1 @@
+ék>vendor/api-platform/core/tests/Bridge/Elasticsearch/Serializer :èkr>vendor/api-platform/core/tests/Bridge/Elasticsearch/Serializer

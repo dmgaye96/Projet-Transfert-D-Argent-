@@ -1,0 +1,1 @@
+²	evendor/doctrine/migrations/lib/Doctrine/Migrations/Configuration/Exception/ConfigurationException.php 2phpXhrevendor/doctrine/migrations/lib/Doctrine/Migrations/Configuration/Exception/ConfigurationException.php

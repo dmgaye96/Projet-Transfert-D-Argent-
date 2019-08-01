@@ -1,0 +1,1 @@
+ÇEvendor/twig/twig/lib/Twig/Sandbox/SecurityNotAllowedPropertyError.php 2phpXhrEvendor/twig/twig/lib/Twig/Sandbox/SecurityNotAllowedPropertyError.php

@@ -1,0 +1,1 @@
+›kbvendor/api-platform/core/tests/Metadata/Property/Factory/AnnotationPropertyMetadataFactoryTest.php 2phpXmhrbvendor/api-platform/core/tests/Metadata/Property/Factory/AnnotationPropertyMetadataFactoryTest.php

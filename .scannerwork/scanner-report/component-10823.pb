@@ -1,0 +1,1 @@
+ÇTFvendor/symfony/dependency-injection/Tests/Fixtures/xml/withdoctype.xml 2xmlXhrFvendor/symfony/dependency-injection/Tests/Fixtures/xml/withdoctype.xml

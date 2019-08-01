@@ -1,0 +1,1 @@
+­8vendor/willdurand/negotiation/src/Negotiation/Accept.php 2phpX/hr8vendor/willdurand/negotiation/src/Negotiation/Accept.php

@@ -1,0 +1,1 @@
+Ï@Ivendor/symfony/flex/tests/Fixtures/vendor/symfony/dummy/SecondDummyBundle :Î@rIvendor/symfony/flex/tests/Fixtures/vendor/symfony/dummy/SecondDummyBundle

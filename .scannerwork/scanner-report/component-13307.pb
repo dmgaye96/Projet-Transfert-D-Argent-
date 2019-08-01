@@ -1,0 +1,1 @@
+ûgNvendor/api-platform/core/tests/Fixtures/FileConfigurations/propertyinvalid.xml 2xmlXhrNvendor/api-platform/core/tests/Fixtures/FileConfigurations/propertyinvalid.xml

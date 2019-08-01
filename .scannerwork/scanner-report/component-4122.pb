@@ -1,0 +1,1 @@
+š Xvendor/friendsofsymfony/rest-bundle/Resources/config/schema/routing/rest_routing-1.0.xsd 2xmlX3hrXvendor/friendsofsymfony/rest-bundle/Resources/config/schema/routing/rest_routing-1.0.xsd

@@ -1,0 +1,1 @@
+Ø\avendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/xml/template_and_fragments.xml 2xmlXhravendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/xml/template_and_fragments.xml

@@ -1,0 +1,1 @@
+ó=Hvendor/symfony/routing/Tests/Fixtures/AnnotatedClasses/EncodingClass.php 2phpXhrHvendor/symfony/routing/Tests/Fixtures/AnnotatedClasses/EncodingClass.php

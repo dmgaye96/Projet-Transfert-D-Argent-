@@ -1,0 +1,1 @@
+—lxvendor/api-platform/core/tests/Bridge/Symfony/Bundle/DependencyInjection/Compiler/MetadataAwareNameConverterPassTest.php 2phpXghrxvendor/api-platform/core/tests/Bridge/Symfony/Bundle/DependencyInjection/Compiler/MetadataAwareNameConverterPassTest.php

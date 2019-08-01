@@ -1,0 +1,1 @@
+©a<vendor/symfony/doctrine-bridge/Tests/ManagerRegistryTest.php 2phpX;hr<vendor/symfony/doctrine-bridge/Tests/ManagerRegistryTest.php

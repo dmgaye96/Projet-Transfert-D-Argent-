@@ -1,0 +1,1 @@
+…Hvendor/doctrine/doctrine-migrations-bundle/Resources/config/services.xml 2xmlX)hrHvendor/doctrine/doctrine-migrations-bundle/Resources/config/services.xml

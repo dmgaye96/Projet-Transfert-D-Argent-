@@ -1,0 +1,1 @@
+¼Cvendor/friendsofsymfony/rest-bundle/Tests/Functional/app/Templating :ºrCvendor/friendsofsymfony/rest-bundle/Tests/Functional/app/Templating

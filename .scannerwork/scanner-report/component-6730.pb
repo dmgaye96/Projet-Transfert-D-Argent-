@@ -1,0 +1,1 @@
+Ê4Zvendor/symfony/http-foundation/Tests/Fixtures/response-functional/cookie_raw_urlencode.php 2phpXhrZvendor/symfony/http-foundation/Tests/Fixtures/response-functional/cookie_raw_urlencode.php

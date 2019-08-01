@@ -1,0 +1,1 @@
+Â%2vendor/symfony/serializer/Tests/SerializerTest.php 2phpX®hr2vendor/symfony/serializer/Tests/SerializerTest.php

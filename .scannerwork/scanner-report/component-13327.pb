@@ -1,0 +1,1 @@
+èhNvendor/api-platform/core/tests/Fixtures/FileConfigurations/empty-operation.xml 2xmlXhrNvendor/api-platform/core/tests/Fixtures/FileConfigurations/empty-operation.xml

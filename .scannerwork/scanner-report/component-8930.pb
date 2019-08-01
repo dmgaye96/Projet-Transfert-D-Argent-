@@ -1,0 +1,1 @@
+‚E5vendor/symfony/console/Tests/Fixtures/Foo6Command.php 2phpXhr5vendor/symfony/console/Tests/Fixtures/Foo6Command.php

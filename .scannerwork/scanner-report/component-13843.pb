@@ -1,0 +1,1 @@
+“levendor/api-platform/core/tests/Bridge/Symfony/Bundle/DependencyInjection/ApiPlatformExtensionTest.php 2phpX¤	hrevendor/api-platform/core/tests/Bridge/Symfony/Bundle/DependencyInjection/ApiPlatformExtensionTest.php

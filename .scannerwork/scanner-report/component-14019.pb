@@ -1,0 +1,1 @@
+ÃmHvendor/lexik/jwt-authentication-bundle/Tests/Functional/GetTokenTest.php 2phpXEhrHvendor/lexik/jwt-authentication-bundle/Tests/Functional/GetTokenTest.php

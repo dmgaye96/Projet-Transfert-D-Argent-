@@ -1,0 +1,1 @@
+©2vendor/nikic/php-parser/grammar/rebuildParsers.php 2phpX‚hr2vendor/nikic/php-parser/grammar/rebuildParsers.php

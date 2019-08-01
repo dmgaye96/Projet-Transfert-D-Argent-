@@ -1,0 +1,1 @@
+êKvendor/doctrine/orm/lib/Doctrine/ORM/Query/AST/Functions/BitAndFunction.php 2phpXChrKvendor/doctrine/orm/lib/Doctrine/ORM/Query/AST/Functions/BitAndFunction.php

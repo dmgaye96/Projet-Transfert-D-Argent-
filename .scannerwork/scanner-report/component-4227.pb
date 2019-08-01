@@ -1,0 +1,1 @@
+ƒ!Pvendor/friendsofsymfony/rest-bundle/Controller/TemplatingExceptionController.php 2phpX.hrPvendor/friendsofsymfony/rest-bundle/Controller/TemplatingExceptionController.php

@@ -1,0 +1,1 @@
+ÂF&vendor/symfony/console/Tests/Formatter :ÁFÄFÃFr&vendor/symfony/console/Tests/Formatter

@@ -1,0 +1,1 @@
+…`=vendor/symfony/config/Tests/Resource/ComposerResourceTest.php 2phpX0hr=vendor/symfony/config/Tests/Resource/ComposerResourceTest.php

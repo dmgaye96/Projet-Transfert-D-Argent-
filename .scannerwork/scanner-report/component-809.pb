@@ -1,0 +1,1 @@
+©Fvendor/doctrine/dbal/lib/Doctrine/DBAL/Exception/ReadOnlyException.php 2phpXhrFvendor/doctrine/dbal/lib/Doctrine/DBAL/Exception/ReadOnlyException.php

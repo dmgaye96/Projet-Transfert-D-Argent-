@@ -1,0 +1,1 @@
+ök0vendor/api-platform/core/tests/Metadata/Property :ôkùkr0vendor/api-platform/core/tests/Metadata/Property

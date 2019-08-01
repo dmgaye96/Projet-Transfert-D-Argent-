@@ -1,0 +1,1 @@
+ú8vendor/doctrine/doctrine-migrations-bundle/Tests/Command :ør8vendor/doctrine/doctrine-migrations-bundle/Tests/Command

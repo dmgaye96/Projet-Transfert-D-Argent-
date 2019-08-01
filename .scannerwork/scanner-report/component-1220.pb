@@ -1,0 +1,1 @@
+Ä	<vendor/doctrine/migrations/lib/Doctrine/Migrations/Generator :Ã	É	Ê	Ë	r<vendor/doctrine/migrations/lib/Doctrine/Migrations/Generator

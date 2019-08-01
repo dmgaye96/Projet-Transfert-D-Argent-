@@ -1,0 +1,1 @@
+Ë4Yvendor/symfony/http-foundation/Tests/Fixtures/response-functional/invalid_cookie_name.php 2phpXhrYvendor/symfony/http-foundation/Tests/Fixtures/response-functional/invalid_cookie_name.php

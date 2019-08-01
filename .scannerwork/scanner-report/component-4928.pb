@@ -1,0 +1,1 @@
+À&5vendor/symfony/maker-bundle/src/Maker/MakeCommand.php 2phpXPhr5vendor/symfony/maker-bundle/src/Maker/MakeCommand.php

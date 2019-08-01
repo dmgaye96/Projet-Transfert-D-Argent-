@@ -1,0 +1,1 @@
+ÅAPvendor/symfony/security-bundle/Tests/Functional/Bundle/MissingUserProviderBundle :ÄArPvendor/symfony/security-bundle/Tests/Functional/Bundle/MissingUserProviderBundle

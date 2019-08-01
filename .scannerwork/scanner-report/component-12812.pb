@@ -1,0 +1,1 @@
+Œdzvendor/api-platform/core/src/Bridge/Elasticsearch/DataProvider/Extension/RequestBodySearchCollectionExtensionInterface.php 2phpXhrzvendor/api-platform/core/src/Bridge/Elasticsearch/DataProvider/Extension/RequestBodySearchCollectionExtensionInterface.php

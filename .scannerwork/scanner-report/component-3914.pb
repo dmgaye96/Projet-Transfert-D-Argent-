@@ -1,0 +1,1 @@
+Ê[vendor/friendsofsymfony/rest-bundle/Tests/Fixtures/Controller/Directory/UsersController.php 2phpX*hr[vendor/friendsofsymfony/rest-bundle/Tests/Fixtures/Controller/Directory/UsersController.php

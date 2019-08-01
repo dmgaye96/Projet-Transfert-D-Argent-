@@ -1,0 +1,1 @@
+ß^'vendor/symfony/framework-bundle/Command :,Þ^à^á^â^å^ã^ä^æ^ç^è^é^ê^ë^ì^í^ï^ð^ñ^î^ò^ó^ô^r'vendor/symfony/framework-bundle/Command

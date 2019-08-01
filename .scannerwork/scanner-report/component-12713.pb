@@ -1,0 +1,1 @@
+©c,vendor/api-platform/core/src/Metadata/schema :¨cr,vendor/api-platform/core/src/Metadata/schema

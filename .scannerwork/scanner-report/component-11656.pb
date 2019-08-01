@@ -1,0 +1,1 @@
+ˆ[Cvendor/symfony/framework-bundle/Tests/Functional/app/CachePoolClear :‡[rCvendor/symfony/framework-bundle/Tests/Functional/app/CachePoolClear

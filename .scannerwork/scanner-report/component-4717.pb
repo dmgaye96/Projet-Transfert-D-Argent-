@@ -1,0 +1,1 @@
+í$2vendor/symfony/serializer/Tests/Fixtures/Dummy.php 2phpX,hr2vendor/symfony/serializer/Tests/Fixtures/Dummy.php

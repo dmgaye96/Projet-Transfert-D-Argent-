@@ -1,0 +1,1 @@
+ªE5vendor/symfony/console/Tests/Fixtures/Foo3Command.php 2phpXhr5vendor/symfony/console/Tests/Fixtures/Foo3Command.php

@@ -1,0 +1,1 @@
+Á	Kvendor/doctrine/migrations/lib/Doctrine/Migrations/Configuration/Connection :À	rKvendor/doctrine/migrations/lib/Doctrine/Migrations/Configuration/Connection

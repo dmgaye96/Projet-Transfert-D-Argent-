@@ -1,0 +1,1 @@
+©dKvendor/api-platform/core/src/Bridge/Elasticsearch/Metadata/Resource/Factory :¨drKvendor/api-platform/core/src/Bridge/Elasticsearch/Metadata/Resource/Factory

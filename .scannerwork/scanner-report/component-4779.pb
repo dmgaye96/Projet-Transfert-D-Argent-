@@ -1,0 +1,1 @@
+«%Cvendor/symfony/serializer/Tests/Normalizer/ObjectNormalizerTest.php 2phpXÞhrCvendor/symfony/serializer/Tests/Normalizer/ObjectNormalizerTest.php

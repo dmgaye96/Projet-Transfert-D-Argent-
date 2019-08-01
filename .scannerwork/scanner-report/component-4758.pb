@@ -1,0 +1,1 @@
+–%Ivendor/symfony/serializer/Tests/Normalizer/DateIntervalNormalizerTest.php 2phpX¦hrIvendor/symfony/serializer/Tests/Normalizer/DateIntervalNormalizerTest.php

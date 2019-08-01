@@ -1,0 +1,1 @@
+®;vendor/friendsofsymfony/rest-bundle/Tests/Fixtures/User.php 2phpXhr;vendor/friendsofsymfony/rest-bundle/Tests/Fixtures/User.php

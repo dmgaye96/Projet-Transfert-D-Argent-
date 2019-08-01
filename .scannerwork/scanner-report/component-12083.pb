@@ -1,0 +1,1 @@
+³^@vendor/symfony/framework-bundle/Resources/config/translation.xml 2xmlX’hr@vendor/symfony/framework-bundle/Resources/config/translation.xml

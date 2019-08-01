@@ -1,0 +1,1 @@
+½ +vendor/friendsofsymfony/rest-bundle/Version :¼ ¾ r+vendor/friendsofsymfony/rest-bundle/Version

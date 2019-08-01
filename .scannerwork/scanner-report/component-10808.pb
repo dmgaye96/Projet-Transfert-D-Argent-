@@ -1,0 +1,1 @@
+¸TUvendor/symfony/dependency-injection/Tests/Fixtures/php/services_uninitialized_ref.php 2phpXrhrUvendor/symfony/dependency-injection/Tests/Fixtures/php/services_uninitialized_ref.php

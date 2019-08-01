@@ -1,0 +1,1 @@
+ÃHvendor/willdurand/negotiation/tests/Negotiation/Tests/NegotiatorTest.php 2phpXÄhrHvendor/willdurand/negotiation/tests/Negotiation/Tests/NegotiatorTest.php

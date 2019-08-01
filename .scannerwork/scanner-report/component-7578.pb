@@ -1,0 +1,1 @@
+š;Nvendor/symfony/property-access/Tests/Fixtures/TestClassTypeErrorInsideCall.php 2phpXhrNvendor/symfony/property-access/Tests/Fixtures/TestClassTypeErrorInsideCall.php

@@ -1,0 +1,1 @@
+æ=9vendor/symfony/routing/Tests/Fixtures/scalar_defaults.xml 2xmlX"hr9vendor/symfony/routing/Tests/Fixtures/scalar_defaults.xml

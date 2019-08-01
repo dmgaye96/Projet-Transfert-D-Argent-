@@ -1,0 +1,1 @@
+¹[?vendor/symfony/framework-bundle/Tests/Functional/app/Serializer :¸[r?vendor/symfony/framework-bundle/Tests/Functional/app/Serializer

@@ -1,0 +1,1 @@
+ò=Cvendor/symfony/routing/Tests/Fixtures/AnnotatedClasses/FooClass.php 2phpXhrCvendor/symfony/routing/Tests/Fixtures/AnnotatedClasses/FooClass.php

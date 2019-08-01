@@ -1,0 +1,1 @@
+¯@$vendor/symfony/flex/src/Configurator :®@°@±@²@³@´@µ@¶@·@¸@º@r$vendor/symfony/flex/src/Configurator

@@ -1,0 +1,1 @@
+Ñ=vendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle :År=vendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle

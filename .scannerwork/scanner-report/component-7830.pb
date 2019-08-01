@@ -1,0 +1,1 @@
+–=Ovendor/symfony/routing/Tests/Fixtures/OtherAnnotatedClasses/NoStartTagClass.php 2phpXhrOvendor/symfony/routing/Tests/Fixtures/OtherAnnotatedClasses/NoStartTagClass.php

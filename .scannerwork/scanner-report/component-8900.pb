@@ -1,0 +1,1 @@
+ÄE7vendor/symfony/console/Tests/Fixtures/FoobarCommand.php 2phpXhr7vendor/symfony/console/Tests/Fixtures/FoobarCommand.php

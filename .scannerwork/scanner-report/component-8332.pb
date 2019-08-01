@@ -1,0 +1,1 @@
+ŒAovendor/symfony/security-bundle/Tests/Functional/Bundle/FormLoginBundle/Security/LocalizedFormFailureHandler.php 2phpX#hrovendor/symfony/security-bundle/Tests/Functional/Bundle/FormLoginBundle/Security/LocalizedFormFailureHandler.php

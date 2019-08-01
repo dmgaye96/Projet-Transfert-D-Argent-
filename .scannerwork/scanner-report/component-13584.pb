@@ -1,0 +1,1 @@
+êjovendor/api-platform/core/tests/Fixtures/TestBundle/DataProvider/ResourceInterfaceImplementationDataProvider.php 2phpX,hrovendor/api-platform/core/tests/Fixtures/TestBundle/DataProvider/ResourceInterfaceImplementationDataProvider.php

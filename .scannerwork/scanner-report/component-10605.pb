@@ -1,0 +1,1 @@
+ÌRGvendor/symfony/dependency-injection/Tests/Fixtures/Prototype/BadClasses :ÏRrGvendor/symfony/dependency-injection/Tests/Fixtures/Prototype/BadClasses

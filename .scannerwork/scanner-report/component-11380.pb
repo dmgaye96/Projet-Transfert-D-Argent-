@@ -1,0 +1,1 @@
+ÙX^vendor/symfony/framework-bundle/Tests/Fixtures/TestBundle/Fabpot/FooBundle/FabpotFooBundle.php 2phpXhr^vendor/symfony/framework-bundle/Tests/Fixtures/TestBundle/Fabpot/FooBundle/FabpotFooBundle.php

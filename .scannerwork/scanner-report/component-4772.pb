@@ -1,0 +1,1 @@
+¤%Rvendor/symfony/serializer/Tests/Normalizer/Features/IgnoredAttributesTestTrait.php 2phpXZhrRvendor/symfony/serializer/Tests/Normalizer/Features/IgnoredAttributesTestTrait.php

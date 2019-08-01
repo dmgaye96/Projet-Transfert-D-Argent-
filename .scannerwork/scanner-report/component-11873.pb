@@ -1,0 +1,1 @@
+á\|vendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/xml/workflow_with_multiple_transitions_with_same_name.xml 2xmlX,hr|vendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/xml/workflow_with_multiple_transitions_with_same_name.xml

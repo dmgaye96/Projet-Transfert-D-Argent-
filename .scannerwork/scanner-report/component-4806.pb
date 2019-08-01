@@ -1,0 +1,1 @@
+Æ%Jvendor/symfony/serializer/Tests/DependencyInjection/SerializerPassTest.php 2phpXLhrJvendor/symfony/serializer/Tests/DependencyInjection/SerializerPassTest.php

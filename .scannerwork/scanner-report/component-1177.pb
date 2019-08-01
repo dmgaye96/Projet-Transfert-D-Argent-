@@ -1,0 +1,1 @@
+™	vendor/doctrine/migrations/bin :›	rvendor/doctrine/migrations/bin

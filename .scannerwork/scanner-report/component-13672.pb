@@ -1,0 +1,1 @@
+èjIvendor/api-platform/core/tests/Problem/Serializer/ErrorNormalizerTest.php 2phpXqhrIvendor/api-platform/core/tests/Problem/Serializer/ErrorNormalizerTest.php

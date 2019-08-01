@@ -1,0 +1,1 @@
+¥Svendor/friendsofsymfony/rest-bundle/Tests/Functional/app/Configuration/security.php 2phpXhrSvendor/friendsofsymfony/rest-bundle/Tests/Functional/app/Configuration/security.php

@@ -1,0 +1,1 @@
+ƒ Ivendor/friendsofsymfony/rest-bundle/Resources/doc/examples/RssHandler.php 2phpXyhrIvendor/friendsofsymfony/rest-bundle/Resources/doc/examples/RssHandler.php

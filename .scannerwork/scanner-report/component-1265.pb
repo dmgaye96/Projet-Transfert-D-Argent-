@@ -1,0 +1,1 @@
+ñ	Wvendor/doctrine/migrations/lib/Doctrine/Migrations/Exception/MigrationClassNotFound.php 2phpXhrWvendor/doctrine/migrations/lib/Doctrine/Migrations/Exception/MigrationClassNotFound.php

@@ -1,0 +1,1 @@
+¨	[vendor/doctrine/migrations/lib/Doctrine/Migrations/Configuration/Exception/YamlNotValid.php 2phpXhr[vendor/doctrine/migrations/lib/Doctrine/Migrations/Configuration/Exception/YamlNotValid.php

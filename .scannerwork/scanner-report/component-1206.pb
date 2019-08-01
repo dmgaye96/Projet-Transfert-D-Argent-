@@ -1,0 +1,1 @@
+¶	Rvendor/doctrine/migrations/lib/Doctrine/Migrations/Configuration/Configuration.php 2phpX¥hrRvendor/doctrine/migrations/lib/Doctrine/Migrations/Configuration/Configuration.php

@@ -1,0 +1,1 @@
+Éuvendor/ocramius/proxy-manager/src/ProxyManager/ProxyGenerator/RemoteObject/MethodGenerator/StaticProxyConstructor.php 2phpX4hruvendor/ocramius/proxy-manager/src/ProxyManager/ProxyGenerator/RemoteObject/MethodGenerator/StaticProxyConstructor.php

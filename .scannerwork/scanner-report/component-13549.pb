@@ -1,0 +1,1 @@
+íi[vendor/api-platform/core/tests/Fixtures/TestBundle/Entity/DummyForAdditionalFieldsInput.php 2phpX#hr[vendor/api-platform/core/tests/Fixtures/TestBundle/Entity/DummyForAdditionalFieldsInput.php

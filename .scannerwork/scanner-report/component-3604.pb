@@ -1,0 +1,1 @@
+”Nvendor/sensio/framework-extra-bundle/Tests/Templating/Fixture/FooBundle/Action :’rNvendor/sensio/framework-extra-bundle/Tests/Templating/Fixture/FooBundle/Action

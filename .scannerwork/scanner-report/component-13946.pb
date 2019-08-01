@@ -1,0 +1,1 @@
+úlJvendor/api-platform/core/tests/Hal/Serializer/EntrypointNormalizerTest.php 2phpXLhrJvendor/api-platform/core/tests/Hal/Serializer/EntrypointNormalizerTest.php

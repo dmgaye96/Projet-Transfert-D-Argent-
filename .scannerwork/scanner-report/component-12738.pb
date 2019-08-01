@@ -1,0 +1,1 @@
+Âcbvendor/api-platform/core/src/Metadata/Property/Factory/AnnotationPropertyNameCollectionFactory.php 2phpXdhrbvendor/api-platform/core/src/Metadata/Property/Factory/AnnotationPropertyNameCollectionFactory.php

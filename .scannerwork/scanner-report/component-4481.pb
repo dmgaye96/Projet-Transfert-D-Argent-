@@ -1,0 +1,1 @@
+Å#=vendor/symfony/var-exporter/Tests/Fixtures/final-stdclass.php 2phpXhr=vendor/symfony/var-exporter/Tests/Fixtures/final-stdclass.php

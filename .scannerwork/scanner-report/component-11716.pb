@@ -1,0 +1,1 @@
+Ä[Evendor/symfony/framework-bundle/Tests/Kernel/MicroKernelTraitTest.php 2phpX+hrEvendor/symfony/framework-bundle/Tests/Kernel/MicroKernelTraitTest.php

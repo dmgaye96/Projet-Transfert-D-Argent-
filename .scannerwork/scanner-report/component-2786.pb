@@ -1,0 +1,1 @@
+â>vendor/nikic/php-parser/test/PhpParser/Node/Stmt/ClassTest.php 2phpX<hr>vendor/nikic/php-parser/test/PhpParser/Node/Stmt/ClassTest.php

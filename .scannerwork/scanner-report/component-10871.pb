@@ -1,0 +1,1 @@
+÷TMvendor/symfony/dependency-injection/Tests/Fixtures/xml/defaults_bindings2.xml 2xmlXhrMvendor/symfony/dependency-injection/Tests/Fixtures/xml/defaults_bindings2.xml

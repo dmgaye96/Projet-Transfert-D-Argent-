@@ -1,0 +1,1 @@
+m@vendor/api-platform/core/tests/Api/ResourceClassResolverTest.php 2phpXÂhr@vendor/api-platform/core/tests/Api/ResourceClassResolverTest.php

@@ -1,0 +1,1 @@
+–]fvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/xml/validation_no_static_method.xml 2xmlXhrfvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/xml/validation_no_static_method.xml

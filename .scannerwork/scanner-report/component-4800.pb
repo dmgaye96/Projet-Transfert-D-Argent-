@@ -1,0 +1,1 @@
+À%Avendor/symfony/serializer/Tests/Annotation/SerializedNameTest.php 2phpX8hrAvendor/symfony/serializer/Tests/Annotation/SerializedNameTest.php

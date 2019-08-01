@@ -1,0 +1,1 @@
+–?<vendor/symfony/twig-bundle/Tests/Functional/EmptyAppTest.php 2phpX;hr<vendor/symfony/twig-bundle/Tests/Functional/EmptyAppTest.php

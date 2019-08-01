@@ -1,0 +1,1 @@
+©.vendor/friendsofsymfony/rest-bundle/Tests/View :§¨ªr.vendor/friendsofsymfony/rest-bundle/Tests/View

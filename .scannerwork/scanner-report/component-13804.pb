@@ -1,0 +1,1 @@
+ìkSvendor/api-platform/core/tests/Bridge/Elasticsearch/Util/FieldDatatypeTraitTest.php 2phpXhhrSvendor/api-platform/core/tests/Bridge/Elasticsearch/Util/FieldDatatypeTraitTest.php

@@ -1,0 +1,1 @@
+¸ifvendor/api-platform/core/tests/Fixtures/TestBundle/Entity/DummyTableInheritanceNotApiResourceChild.php 2phpX.hrfvendor/api-platform/core/tests/Fixtures/TestBundle/Entity/DummyTableInheritanceNotApiResourceChild.php

@@ -1,0 +1,1 @@
+è$<vendor/symfony/serializer/Tests/Fixtures/GroupDummyChild.php 2phpX"hr<vendor/symfony/serializer/Tests/Fixtures/GroupDummyChild.php

@@ -1,0 +1,1 @@
+¶=>vendor/symfony/routing/Tests/Fixtures/list_in_map_defaults.xml 2xmlXhr>vendor/symfony/routing/Tests/Fixtures/list_in_map_defaults.xml

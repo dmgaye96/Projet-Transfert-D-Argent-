@@ -1,0 +1,1 @@
+ÂmIvendor/lexik/jwt-authentication-bundle/Tests/Functional/Bundle/Controller :ÀmrIvendor/lexik/jwt-authentication-bundle/Tests/Functional/Bundle/Controller

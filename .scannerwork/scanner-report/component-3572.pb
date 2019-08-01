@@ -1,0 +1,1 @@
+ôFvendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/Security :órFvendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/Security

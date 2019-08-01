@@ -1,0 +1,1 @@
+õ$:vendor/symfony/serializer/Tests/Fixtures/MaxDepthDummy.php 2phpX3hr:vendor/symfony/serializer/Tests/Fixtures/MaxDepthDummy.php

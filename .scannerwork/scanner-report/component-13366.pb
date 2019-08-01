@@ -1,0 +1,1 @@
+¶hQvendor/api-platform/core/tests/Fixtures/TestBundle/Document/NoCollectionDummy.php 2phpX'hrQvendor/api-platform/core/tests/Fixtures/TestBundle/Document/NoCollectionDummy.php

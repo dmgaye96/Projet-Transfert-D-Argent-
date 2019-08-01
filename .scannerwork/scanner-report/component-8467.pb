@@ -1,0 +1,1 @@
+“BXvendor/symfony/security-bundle/Tests/DependencyInjection/Fixtures/php/sodium_encoder.php 2phpXhrXvendor/symfony/security-bundle/Tests/DependencyInjection/Fixtures/php/sodium_encoder.php

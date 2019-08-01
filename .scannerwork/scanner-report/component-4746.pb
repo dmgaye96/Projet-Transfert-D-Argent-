@@ -1,0 +1,1 @@
+Š%Cvendor/symfony/serializer/Tests/Fixtures/StaticConstructorDummy.php 2phpX hrCvendor/symfony/serializer/Tests/Fixtures/StaticConstructorDummy.php

@@ -1,0 +1,1 @@
+®>2vendor/symfony/routing/Tests/Fixtures/glob/baz.xml 2xmlX	hr2vendor/symfony/routing/Tests/Fixtures/glob/baz.xml

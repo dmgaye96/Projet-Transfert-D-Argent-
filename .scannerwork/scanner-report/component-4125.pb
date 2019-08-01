@@ -1,0 +1,1 @@
+ù Hvendor/friendsofsymfony/rest-bundle/Resources/config/format_listener.xml 2xmlXhrHvendor/friendsofsymfony/rest-bundle/Resources/config/format_listener.xml

@@ -1,0 +1,1 @@
+Æc^vendor/api-platform/core/src/Metadata/Property/Factory/CachedPropertyNameCollectionFactory.php 2phpX3hr^vendor/api-platform/core/src/Metadata/Property/Factory/CachedPropertyNameCollectionFactory.php

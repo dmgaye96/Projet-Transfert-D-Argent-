@@ -1,0 +1,1 @@
+£	Wvendor/doctrine/migrations/lib/Doctrine/Migrations/Configuration/ArrayConfiguration.php 2phpXhrWvendor/doctrine/migrations/lib/Doctrine/Migrations/Configuration/ArrayConfiguration.php

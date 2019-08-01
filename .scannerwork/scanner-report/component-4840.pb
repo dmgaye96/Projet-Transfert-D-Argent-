@@ -1,0 +1,1 @@
+è%>vendor/symfony/serializer/Normalizer/NormalizableInterface.php 2phpX(hr>vendor/symfony/serializer/Normalizer/NormalizableInterface.php

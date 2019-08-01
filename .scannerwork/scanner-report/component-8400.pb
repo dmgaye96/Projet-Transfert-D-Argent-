@@ -1,0 +1,1 @@
+ÐAMvendor/symfony/security-bundle/Tests/Functional/app/JsonLoginLdap/bundles.php 2phpXhrMvendor/symfony/security-bundle/Tests/Functional/app/JsonLoginLdap/bundles.php

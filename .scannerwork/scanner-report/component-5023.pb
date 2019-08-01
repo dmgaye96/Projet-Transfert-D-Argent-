@@ -1,0 +1,1 @@
+Ÿ'Cvendor/symfony/maker-bundle/src/Security/UserClassConfiguration.php 2phpXShrCvendor/symfony/maker-bundle/src/Security/UserClassConfiguration.php

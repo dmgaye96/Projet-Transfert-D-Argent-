@@ -1,0 +1,1 @@
+ûhvendor/doctrine/doctrine-migrations-bundle/Tests/DependencyInjection/DoctrineMigrationsExtensionTest.php 2phpX*hrhvendor/doctrine/doctrine-migrations-bundle/Tests/DependencyInjection/DoctrineMigrationsExtensionTest.php

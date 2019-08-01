@@ -1,0 +1,1 @@
+¦2vendor/doctrine/dbal/lib/Doctrine/DBAL/Connections :¥r2vendor/doctrine/dbal/lib/Doctrine/DBAL/Connections

@@ -1,0 +1,1 @@
+ÛXvendor/ocramius/proxy-manager/src/ProxyManager/Inflector/ClassNameInflectorInterface.php 2phpX&hrXvendor/ocramius/proxy-manager/src/ProxyManager/Inflector/ClassNameInflectorInterface.php

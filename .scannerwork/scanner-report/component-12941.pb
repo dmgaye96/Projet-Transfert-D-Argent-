@@ -1,0 +1,1 @@
+çeVvendor/api-platform/core/src/Bridge/Symfony/Bundle/Resources/config/data_collector.xml 2xmlXhrVvendor/api-platform/core/src/Bridge/Symfony/Bundle/Resources/config/data_collector.xml

@@ -1,0 +1,1 @@
+¹\^vendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/php/serializer_disabled.php 2phpXhr^vendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/php/serializer_disabled.php

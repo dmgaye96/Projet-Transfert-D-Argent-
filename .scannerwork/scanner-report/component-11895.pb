@@ -1,0 +1,1 @@
+÷\^vendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/xml/templating_disabled.xml 2xmlXhr^vendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/xml/templating_disabled.xml

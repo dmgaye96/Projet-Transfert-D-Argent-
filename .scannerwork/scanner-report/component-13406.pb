@@ -1,0 +1,1 @@
+ÞhUvendor/api-platform/core/tests/Fixtures/TestBundle/Document/DummyTableInheritance.php 2phpX\hrUvendor/api-platform/core/tests/Fixtures/TestBundle/Document/DummyTableInheritance.php

@@ -1,0 +1,1 @@
+µ=.vendor/symfony/routing/Tests/Fixtures/foo1.xml 2xmlXhr.vendor/symfony/routing/Tests/Fixtures/foo1.xml

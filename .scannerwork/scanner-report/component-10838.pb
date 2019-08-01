@@ -1,0 +1,1 @@
+ÖTEvendor/symfony/dependency-injection/Tests/Fixtures/xml/namespaces.xml 2xmlXhrEvendor/symfony/dependency-injection/Tests/Fixtures/xml/namespaces.xml

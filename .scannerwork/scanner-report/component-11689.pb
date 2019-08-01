@@ -1,0 +1,1 @@
+©[Ivendor/symfony/framework-bundle/Tests/Functional/app/Profiler/bundles.php 2phpXhrIvendor/symfony/framework-bundle/Tests/Functional/app/Profiler/bundles.php

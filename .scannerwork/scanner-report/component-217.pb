@@ -1,0 +1,1 @@
+Ù$vendor/doctrine/orm/bin/doctrine.php 2phpXFhr$vendor/doctrine/orm/bin/doctrine.php

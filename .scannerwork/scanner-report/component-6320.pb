@@ -1,0 +1,1 @@
+°1<vendor/symfony/twig-bridge/Tests/Command/LintCommandTest.php 2phpXphr<vendor/symfony/twig-bridge/Tests/Command/LintCommandTest.php

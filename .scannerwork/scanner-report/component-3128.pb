@@ -1,0 +1,1 @@
+¸Bvendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation :·ºrBvendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation

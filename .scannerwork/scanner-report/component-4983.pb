@@ -1,0 +1,1 @@
+÷&^vendor/symfony/maker-bundle/src/Resources/skeleton/registration/RegistrationController.tpl.php 2phpX>hr^vendor/symfony/maker-bundle/src/Resources/skeleton/registration/RegistrationController.tpl.php

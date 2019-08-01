@@ -1,0 +1,1 @@
+½\vvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/php/validation_strict_email_and_validation_mode.php 2phpX	hrvvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/php/validation_strict_email_and_validation_mode.php

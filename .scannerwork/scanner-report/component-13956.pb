@@ -1,0 +1,1 @@
+„m:vendor/api-platform/core/tests/Util/ClassInfoTraitTest.php 2phpX4hr:vendor/api-platform/core/tests/Util/ClassInfoTraitTest.php

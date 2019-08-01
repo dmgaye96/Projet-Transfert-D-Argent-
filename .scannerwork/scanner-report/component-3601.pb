@@ -1,0 +1,1 @@
+‘jvendor/sensio/framework-extra-bundle/Tests/Templating/Fixture/FooBarBundle/Controller/FooBarController.php 2phpXhrjvendor/sensio/framework-extra-bundle/Tests/Templating/Fixture/FooBarBundle/Controller/FooBarController.php

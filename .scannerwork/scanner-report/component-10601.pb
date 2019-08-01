@@ -1,0 +1,1 @@
+ÈRSvendor/symfony/dependency-injection/Tests/Fixtures/Prototype/Sub/NoLoadBarTrait.php 2phpXhrSvendor/symfony/dependency-injection/Tests/Fixtures/Prototype/Sub/NoLoadBarTrait.php

@@ -1,0 +1,1 @@
+ÅCvendor/friendsofsymfony/rest-bundle/Tests/Functional/app/Serializer :ÆrCvendor/friendsofsymfony/rest-bundle/Tests/Functional/app/Serializer

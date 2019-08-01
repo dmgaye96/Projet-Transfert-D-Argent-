@@ -1,0 +1,1 @@
+§AFvendor/symfony/security-bundle/Tests/Functional/Bundle/JsonLoginBundle :¦ArFvendor/symfony/security-bundle/Tests/Functional/Bundle/JsonLoginBundle

@@ -1,0 +1,1 @@
+‹<vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst :ŠŒŽ‘“r<vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst

@@ -1,0 +1,1 @@
+º(Hvendor/symfony/http-kernel/Tests/Fragment/InlineFragmentRendererTest.php 2phpX›hrHvendor/symfony/http-kernel/Tests/Fragment/InlineFragmentRendererTest.php

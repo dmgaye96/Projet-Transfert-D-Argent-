@@ -1,0 +1,1 @@
+§;vendor/friendsofsymfony/rest-bundle/Tests/View/ViewTest.php 2phpX¨hr;vendor/friendsofsymfony/rest-bundle/Tests/View/ViewTest.php

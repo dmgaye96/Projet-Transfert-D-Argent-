@@ -1,0 +1,1 @@
+ùXCvendor/symfony/web-profiler-bundle/Resources/config/routing/wdt.xml 2xmlXhrCvendor/symfony/web-profiler-bundle/Resources/config/routing/wdt.xml

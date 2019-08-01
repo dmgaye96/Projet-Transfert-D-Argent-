@@ -1,0 +1,1 @@
+«(Ivendor/symfony/http-kernel/Tests/Fixtures/Controller/ExtendingSession.php 2phpXhrIvendor/symfony/http-kernel/Tests/Fixtures/Controller/ExtendingSession.php

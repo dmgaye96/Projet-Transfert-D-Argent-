@@ -1,0 +1,1 @@
+ÄTIvendor/symfony/dependency-injection/Tests/Fixtures/CaseSensitiveClass.php 2phpXhrIvendor/symfony/dependency-injection/Tests/Fixtures/CaseSensitiveClass.php

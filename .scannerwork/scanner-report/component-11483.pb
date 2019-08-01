@@ -1,0 +1,1 @@
+ÛYRvendor/symfony/framework-bundle/Tests/Fixtures/Descriptor/existing_class_def_1.xml 2xmlXhrRvendor/symfony/framework-bundle/Tests/Fixtures/Descriptor/existing_class_def_1.xml

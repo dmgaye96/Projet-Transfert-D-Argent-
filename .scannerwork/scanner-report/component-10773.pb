@@ -1,0 +1,1 @@
+•TRvendor/symfony/dependency-injection/Tests/Fixtures/php/services_private_frozen.php 2phpXHhrRvendor/symfony/dependency-injection/Tests/Fixtures/php/services_private_frozen.php

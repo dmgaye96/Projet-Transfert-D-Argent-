@@ -1,0 +1,1 @@
+³&1vendor/symfony/maker-bundle/src/EventRegistry.php 2phpX—hr1vendor/symfony/maker-bundle/src/EventRegistry.php

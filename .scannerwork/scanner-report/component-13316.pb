@@ -1,0 +1,1 @@
+„hNvendor/api-platform/core/tests/Fixtures/FileConfigurations/resources_empty.xml 2xmlXhrNvendor/api-platform/core/tests/Fixtures/FileConfigurations/resources_empty.xml

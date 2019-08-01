@@ -1,0 +1,1 @@
+î&Jvendor/symfony/maker-bundle/src/Resources/skeleton/command/Command.tpl.php 2phpX)hrJvendor/symfony/maker-bundle/src/Resources/skeleton/command/Command.tpl.php

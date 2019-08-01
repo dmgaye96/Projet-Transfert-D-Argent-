@@ -1,0 +1,1 @@
+Ä;vendor/doctrine/doctrine-bundle/Command/DoctrineCommand.php 2phpXˆhr;vendor/doctrine/doctrine-bundle/Command/DoctrineCommand.php

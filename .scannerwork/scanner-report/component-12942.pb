@@ -1,0 +1,1 @@
+ŽeNvendor/api-platform/core/src/Bridge/Symfony/Bundle/Resources/config/filter.xml 2xmlXhrNvendor/api-platform/core/src/Bridge/Symfony/Bundle/Resources/config/filter.xml

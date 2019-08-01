@@ -1,0 +1,1 @@
+ù<5vendor/symfony/routing/Tests/Fixtures/withdoctype.xml 2xmlXhr5vendor/symfony/routing/Tests/Fixtures/withdoctype.xml

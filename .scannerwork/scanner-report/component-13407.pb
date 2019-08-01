@@ -1,0 +1,1 @@
+ßhLvendor/api-platform/core/tests/Fixtures/TestBundle/Document/SecuredDummy.php 2phpXphrLvendor/api-platform/core/tests/Fixtures/TestBundle/Document/SecuredDummy.php

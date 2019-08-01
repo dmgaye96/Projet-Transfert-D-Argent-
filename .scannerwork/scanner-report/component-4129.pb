@@ -1,0 +1,1 @@
+¡ Ovendor/friendsofsymfony/rest-bundle/Resources/config/param_fetcher_listener.xml 2xmlXhrOvendor/friendsofsymfony/rest-bundle/Resources/config/param_fetcher_listener.xml

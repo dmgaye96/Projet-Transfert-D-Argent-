@@ -1,0 +1,1 @@
+§dCvendor/api-platform/core/src/Bridge/Elasticsearch/Metadata/Document :¦drCvendor/api-platform/core/src/Bridge/Elasticsearch/Metadata/Document

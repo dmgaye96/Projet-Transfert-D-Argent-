@@ -1,0 +1,1 @@
+„YQvendor/symfony/framework-bundle/Tests/Fixtures/TestBundle/FooBundle/FooBundle.php 2phpXhrQvendor/symfony/framework-bundle/Tests/Fixtures/TestBundle/FooBundle/FooBundle.php

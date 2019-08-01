@@ -1,0 +1,1 @@
+Èivendor/friendsofsymfony/rest-bundle/Tests/Fixtures/Controller/AnnotatedNonPluralizedArticleController.php 2phpX9hrivendor/friendsofsymfony/rest-bundle/Tests/Fixtures/Controller/AnnotatedNonPluralizedArticleController.php

@@ -1,0 +1,1 @@
+ŠdYvendor/api-platform/core/src/Bridge/Elasticsearch/DataProvider/CollectionDataProvider.php 2phpX{hrYvendor/api-platform/core/src/Bridge/Elasticsearch/DataProvider/CollectionDataProvider.php

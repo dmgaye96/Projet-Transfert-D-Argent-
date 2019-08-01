@@ -1,0 +1,1 @@
+õ7Hvendor/symfony/validator/Tests/Mapping/Loader/StaticMethodLoaderTest.php 2phpXçhrHvendor/symfony/validator/Tests/Mapping/Loader/StaticMethodLoaderTest.php

@@ -1,0 +1,1 @@
+²#4vendor/symfony/debug/Tests/Fixtures/VirtualTrait.php 2phpXhr4vendor/symfony/debug/Tests/Fixtures/VirtualTrait.php

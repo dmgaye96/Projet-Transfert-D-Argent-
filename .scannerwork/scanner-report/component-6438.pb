@@ -1,0 +1,1 @@
+¦2]vendor/symfony/security-http/Tests/Authentication/DefaultAuthenticationSuccessHandlerTest.php 2phpXrhr]vendor/symfony/security-http/Tests/Authentication/DefaultAuthenticationSuccessHandlerTest.php

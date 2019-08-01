@@ -1,0 +1,1 @@
+Ì!>vendor/symfony/phpunit-bridge/Legacy/CoverageListenerTrait.php 2phpX€hr>vendor/symfony/phpunit-bridge/Legacy/CoverageListenerTrait.php

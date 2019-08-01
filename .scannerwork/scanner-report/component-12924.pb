@@ -1,0 +1,1 @@
+üdUvendor/api-platform/core/src/Bridge/Symfony/Bundle/Resources/config/metadata/yaml.xml 2xmlX#hrUvendor/api-platform/core/src/Bridge/Symfony/Bundle/Resources/config/metadata/yaml.xml

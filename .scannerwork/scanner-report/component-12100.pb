@@ -1,0 +1,1 @@
+Ä^@vendor/symfony/framework-bundle/Resources/config/http_client.xml 2xmlXhr@vendor/symfony/framework-bundle/Resources/config/http_client.xml

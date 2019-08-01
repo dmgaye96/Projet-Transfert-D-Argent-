@@ -1,0 +1,1 @@
+­dJvendor/api-platform/core/src/Bridge/Elasticsearch/Serializer/NameConverter :¬drJvendor/api-platform/core/src/Bridge/Elasticsearch/Serializer/NameConverter

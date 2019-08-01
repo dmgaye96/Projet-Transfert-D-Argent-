@@ -1,0 +1,1 @@
+¤,!vendor/symfony/security-core/Role :¡,£,¥,¦,r!vendor/symfony/security-core/Role

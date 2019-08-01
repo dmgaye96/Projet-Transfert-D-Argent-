@@ -1,0 +1,1 @@
+žaBvendor/symfony/doctrine-bridge/Tests/PropertyInfo/Fixtures/Foo.php 2phpXhrBvendor/symfony/doctrine-bridge/Tests/PropertyInfo/Fixtures/Foo.php

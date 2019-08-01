@@ -1,0 +1,1 @@
+“hvendor/friendsofsymfony/rest-bundle/Tests/Functional/Bundle/TestBundle/Controller/Version2Controller.php 2phpX:hrhvendor/friendsofsymfony/rest-bundle/Tests/Functional/Bundle/TestBundle/Controller/Version2Controller.php

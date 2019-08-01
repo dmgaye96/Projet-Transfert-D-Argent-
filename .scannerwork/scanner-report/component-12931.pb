@@ -1,0 +1,1 @@
+ƒeUvendor/api-platform/core/src/Bridge/Symfony/Bundle/Resources/config/elasticsearch.xml 2xmlXˆhrUvendor/api-platform/core/src/Bridge/Symfony/Bundle/Resources/config/elasticsearch.xml

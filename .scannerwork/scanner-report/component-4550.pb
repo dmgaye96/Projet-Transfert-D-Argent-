@@ -1,0 +1,1 @@
+Æ#;vendor/symfony/debug/Tests/Fixtures/DeprecatedInterface.php 2phpXhr;vendor/symfony/debug/Tests/Fixtures/DeprecatedInterface.php

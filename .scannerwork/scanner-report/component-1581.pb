@@ -1,0 +1,1 @@
+­ˆvendor/ocramius/proxy-manager/src/ProxyManager/ProxyGenerator/AccessInterceptorScopeLocalizer/MethodGenerator/StaticProxyConstructor.php 2phpX=hrˆvendor/ocramius/proxy-manager/src/ProxyManager/ProxyGenerator/AccessInterceptorScopeLocalizer/MethodGenerator/StaticProxyConstructor.php

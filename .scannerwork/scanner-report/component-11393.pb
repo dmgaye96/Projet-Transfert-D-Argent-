@@ -1,0 +1,1 @@
+ÅYRvendor/symfony/framework-bundle/Tests/Fixtures/TestBundle/FooBundle/Controller/Sub :ÄYrRvendor/symfony/framework-bundle/Tests/Fixtures/TestBundle/FooBundle/Controller/Sub

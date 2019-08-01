@@ -1,0 +1,1 @@
+ÍF&vendor/symfony/console/Application.php 2phpX«	hr&vendor/symfony/console/Application.php

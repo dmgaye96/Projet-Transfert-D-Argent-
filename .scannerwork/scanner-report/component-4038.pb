@@ -1,0 +1,1 @@
+ÆOvendor/friendsofsymfony/rest-bundle/Tests/Functional/app/Serializer/bundles.php 2phpXhrOvendor/friendsofsymfony/rest-bundle/Tests/Functional/app/Serializer/bundles.php

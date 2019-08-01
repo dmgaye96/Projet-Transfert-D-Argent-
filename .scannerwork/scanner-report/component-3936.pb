@@ -1,0 +1,1 @@
+àWvendor/friendsofsymfony/rest-bundle/Tests/Fixtures/Routes/prefixed_users_collection.xml 2xmlXhrWvendor/friendsofsymfony/rest-bundle/Tests/Fixtures/Routes/prefixed_users_collection.xml

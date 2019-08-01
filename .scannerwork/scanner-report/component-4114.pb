@@ -1,0 +1,1 @@
+’ Uvendor/friendsofsymfony/rest-bundle/Resources/config/request_body_param_converter.xml 2xmlXhrUvendor/friendsofsymfony/rest-bundle/Resources/config/request_body_param_converter.xml

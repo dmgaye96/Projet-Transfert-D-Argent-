@@ -1,0 +1,1 @@
+“Uvendor/sensio/framework-extra-bundle/Tests/Templating/Fixture/FooBarBundle/Controller :‘rUvendor/sensio/framework-extra-bundle/Tests/Templating/Fixture/FooBarBundle/Controller

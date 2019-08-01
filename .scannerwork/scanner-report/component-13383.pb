@@ -1,0 +1,1 @@
+ÇhTvendor/api-platform/core/tests/Fixtures/TestBundle/Document/SerializableResource.php 2phpX-hrTvendor/api-platform/core/tests/Fixtures/TestBundle/Document/SerializableResource.php

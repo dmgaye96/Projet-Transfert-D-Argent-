@@ -1,0 +1,1 @@
+ï@Hvendor/symfony/flex/tests/Configurator/DockerComposeConfiguratorTest.php 2phpXÆhrHvendor/symfony/flex/tests/Configurator/DockerComposeConfiguratorTest.php

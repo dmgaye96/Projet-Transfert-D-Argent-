@@ -1,0 +1,1 @@
+†Yivendor/symfony/framework-bundle/Tests/Fixtures/TestBundle/FooBundle/Controller/Test/DefaultController.php 2phpXhrivendor/symfony/framework-bundle/Tests/Fixtures/TestBundle/FooBundle/Controller/Test/DefaultController.php

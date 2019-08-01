@@ -1,0 +1,1 @@
+ûjvendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/Controller/InvokableClassLevelController.php 2phpX hrjvendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/Controller/InvokableClassLevelController.php

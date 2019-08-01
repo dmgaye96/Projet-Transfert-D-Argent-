@@ -1,0 +1,1 @@
+Î&Vvendor/symfony/maker-bundle/src/Resources/skeleton/crud/templates/_delete_form.tpl.php 2phpXhrVvendor/symfony/maker-bundle/src/Resources/skeleton/crud/templates/_delete_form.tpl.php

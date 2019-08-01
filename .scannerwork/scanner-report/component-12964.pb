@@ -1,0 +1,1 @@
+¤ehvendor/api-platform/core/src/Bridge/Symfony/Bundle/DependencyInjection/Compiler/AnnotationFilterPass.php 2phpXWhrhvendor/api-platform/core/src/Bridge/Symfony/Bundle/DependencyInjection/Compiler/AnnotationFilterPass.php

@@ -1,0 +1,1 @@
+ê@Dvendor/symfony/flex/tests/Configurator/GitignoreConfiguratorTest.php 2phpXŠhrDvendor/symfony/flex/tests/Configurator/GitignoreConfiguratorTest.php

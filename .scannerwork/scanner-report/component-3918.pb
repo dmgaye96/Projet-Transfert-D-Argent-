@@ -1,0 +1,1 @@
+Î`vendor/friendsofsymfony/rest-bundle/Tests/Fixtures/Controller/Directory/UserTopicsController.php 2phpX$hr`vendor/friendsofsymfony/rest-bundle/Tests/Fixtures/Controller/Directory/UserTopicsController.php

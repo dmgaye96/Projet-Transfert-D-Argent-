@@ -1,0 +1,1 @@
+±ndvendor/lexik/jwt-authentication-bundle/DependencyInjection/Compiler/WireGenerateTokenCommandPass.php 2phpXhrdvendor/lexik/jwt-authentication-bundle/DependencyInjection/Compiler/WireGenerateTokenCommandPass.php

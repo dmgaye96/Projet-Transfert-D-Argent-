@@ -1,0 +1,1 @@
+¦'Bvendor/symfony/maker-bundle/src/Security/SecurityConfigUpdater.php 2phpX¯hrBvendor/symfony/maker-bundle/src/Security/SecurityConfigUpdater.php

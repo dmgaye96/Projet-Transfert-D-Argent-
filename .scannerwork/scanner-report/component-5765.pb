@@ -1,0 +1,1 @@
+…-!vendor/symfony/form/Tests/Command :„-r!vendor/symfony/form/Tests/Command

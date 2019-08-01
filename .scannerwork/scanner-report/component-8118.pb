@@ -1,0 +1,1 @@
+¶?Mvendor/symfony/twig-bundle/Tests/DependencyInjection/Fixtures/xml/formats.xml 2xmlXhrMvendor/symfony/twig-bundle/Tests/DependencyInjection/Fixtures/xml/formats.xml

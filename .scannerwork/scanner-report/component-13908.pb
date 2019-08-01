@@ -1,0 +1,1 @@
+Ôlfvendor/api-platform/core/tests/Bridge/Doctrine/MongoDbOdm/PropertyInfo/Fixtures/DoctrineEmbeddable.php 2phpXhrfvendor/api-platform/core/tests/Bridge/Doctrine/MongoDbOdm/PropertyInfo/Fixtures/DoctrineEmbeddable.php

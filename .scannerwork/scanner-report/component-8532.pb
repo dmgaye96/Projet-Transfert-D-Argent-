@@ -1,0 +1,1 @@
+ÔB>vendor/symfony/security-bundle/Resources/config/collectors.xml 2xmlXhr>vendor/symfony/security-bundle/Resources/config/collectors.xml

@@ -1,0 +1,1 @@
+±=Hvendor/symfony/routing/Tests/Fixtures/localized/importer-with-locale.xml 2xmlXhrHvendor/symfony/routing/Tests/Fixtures/localized/importer-with-locale.xml

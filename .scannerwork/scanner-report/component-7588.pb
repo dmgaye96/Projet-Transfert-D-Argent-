@@ -1,0 +1,1 @@
+¤;Evendor/symfony/property-access/Tests/Fixtures/TestClassIsWritable.php 2phpXhrEvendor/symfony/property-access/Tests/Fixtures/TestClassIsWritable.php

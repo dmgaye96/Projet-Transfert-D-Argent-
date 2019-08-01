@@ -1,0 +1,1 @@
+œ\Xvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/php/property_info.php 2phpXhrXvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/php/property_info.php

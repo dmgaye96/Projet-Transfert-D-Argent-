@@ -1,0 +1,1 @@
+ùkIvendor/api-platform/core/tests/Metadata/Property/PropertyMetadataTest.php 2phpXlhrIvendor/api-platform/core/tests/Metadata/Property/PropertyMetadataTest.php

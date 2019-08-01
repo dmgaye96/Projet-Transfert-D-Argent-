@@ -1,0 +1,1 @@
+þ*vendor/doctrine/doctrine-migrations-bundle :˜r*vendor/doctrine/doctrine-migrations-bundle

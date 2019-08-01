@@ -1,0 +1,1 @@
+‹(Uvendor/symfony/http-kernel/Tests/Fixtures/ExtensionNotValidBundle/DependencyInjection :Š(rUvendor/symfony/http-kernel/Tests/Fixtures/ExtensionNotValidBundle/DependencyInjection

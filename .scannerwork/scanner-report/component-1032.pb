@@ -1,0 +1,1 @@
+ˆ;vendor/doctrine/doctrine-migrations-bundle/Resources/config :…r;vendor/doctrine/doctrine-migrations-bundle/Resources/config

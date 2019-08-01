@@ -1,0 +1,1 @@
+› Cvendor/friendsofsymfony/rest-bundle/Resources/config/schema/routing :š rCvendor/friendsofsymfony/rest-bundle/Resources/config/schema/routing

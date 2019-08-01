@@ -1,0 +1,1 @@
+ÿivendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/Controller/InvokableContainerController.php 2phpX=hrivendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/Controller/InvokableContainerController.php

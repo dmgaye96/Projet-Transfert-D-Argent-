@@ -1,0 +1,1 @@
+–X:vendor/symfony/web-profiler-bundle/Resources/config/schema :•Xr:vendor/symfony/web-profiler-bundle/Resources/config/schema

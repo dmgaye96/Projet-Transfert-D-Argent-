@@ -1,0 +1,1 @@
+€(Yvendor/symfony/http-kernel/Tests/Fixtures/ExtensionLoadedBundle/ExtensionLoadedBundle.php 2phpXhrYvendor/symfony/http-kernel/Tests/Fixtures/ExtensionLoadedBundle/ExtensionLoadedBundle.php

@@ -1,0 +1,1 @@
+ÂhLvendor/api-platform/core/tests/Fixtures/TestBundle/Document/DummyProduct.php 2phpXƒhrLvendor/api-platform/core/tests/Fixtures/TestBundle/Document/DummyProduct.php

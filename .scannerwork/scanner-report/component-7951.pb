@@ -1,0 +1,1 @@
+>Yvendor/symfony/routing/Tests/Fixtures/AnnotationFixtures/InvokableLocalizedController.php 2phpXhrYvendor/symfony/routing/Tests/Fixtures/AnnotationFixtures/InvokableLocalizedController.php

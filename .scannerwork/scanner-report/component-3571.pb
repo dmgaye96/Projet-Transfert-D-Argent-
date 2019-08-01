@@ -1,0 +1,1 @@
+óYvendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/Security/IsGrantedVoter.php 2phpX.hrYvendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/Security/IsGrantedVoter.php

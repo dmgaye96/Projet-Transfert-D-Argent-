@@ -1,0 +1,1 @@
+¤^7vendor/symfony/framework-bundle/Resources/config/schema :£^r7vendor/symfony/framework-bundle/Resources/config/schema

@@ -1,0 +1,1 @@
+’]Uvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/xml/templating.xml 2xmlXhrUvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/xml/templating.xml

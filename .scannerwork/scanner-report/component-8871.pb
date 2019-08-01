@@ -1,0 +1,1 @@
+§E<vendor/symfony/console/Tests/Fixtures/DescriptorCommand3.php 2phpXhr<vendor/symfony/console/Tests/Fixtures/DescriptorCommand3.php

@@ -1,0 +1,1 @@
+Š_Vvendor/symfony/framework-bundle/DependencyInjection/Compiler/LoggingTranslatorPass.php 2phpX7hrVvendor/symfony/framework-bundle/DependencyInjection/Compiler/LoggingTranslatorPass.php

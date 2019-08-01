@@ -1,0 +1,1 @@
+…&$vendor/symfony/serializer/Annotation :„&†&‡&‰&r$vendor/symfony/serializer/Annotation

@@ -1,0 +1,1 @@
+çXvendor/doctrine/doctrine-migrations-bundle/Command/MigrationsGenerateDoctrineCommand.php 2phpX5hrXvendor/doctrine/doctrine-migrations-bundle/Command/MigrationsGenerateDoctrineCommand.php

@@ -1,0 +1,1 @@
+çhOvendor/api-platform/core/tests/Fixtures/FileConfigurations/resourcesinvalid.xml 2xmlXhrOvendor/api-platform/core/tests/Fixtures/FileConfigurations/resourcesinvalid.xml

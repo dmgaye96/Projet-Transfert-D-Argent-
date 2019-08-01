@@ -1,0 +1,1 @@
+ÊRWvendor/symfony/dependency-injection/Tests/Fixtures/Prototype/Sub/NoLoadBarInterface.php 2phpXhrWvendor/symfony/dependency-injection/Tests/Fixtures/Prototype/Sub/NoLoadBarInterface.php

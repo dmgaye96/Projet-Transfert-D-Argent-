@@ -1,0 +1,1 @@
+Î	bvendor/doctrine/migrations/lib/Doctrine/Migrations/Tools/Console/Exception/VersionDoesNotExist.php 2phpXhrbvendor/doctrine/migrations/lib/Doctrine/Migrations/Tools/Console/Exception/VersionDoesNotExist.php

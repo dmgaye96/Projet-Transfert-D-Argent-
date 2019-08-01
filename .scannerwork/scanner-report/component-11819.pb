@@ -1,0 +1,1 @@
+«\bvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/php/serializer_legacy_cache.php 2phpX	hrbvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/php/serializer_legacy_cache.php

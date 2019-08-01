@@ -1,0 +1,1 @@
+–Pvendor/sensio/framework-extra-bundle/Tests/Templating/Fixture/Controller/MyAdmin :•rPvendor/sensio/framework-extra-bundle/Tests/Templating/Fixture/Controller/MyAdmin

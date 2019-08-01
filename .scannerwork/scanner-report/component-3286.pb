@@ -1,0 +1,1 @@
+Ö8vendor/phpdocumentor/type-resolver/src/Types/Static_.php 2phpX'hr8vendor/phpdocumentor/type-resolver/src/Types/Static_.php

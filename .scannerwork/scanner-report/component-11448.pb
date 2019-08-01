@@ -1,0 +1,1 @@
+¸YTvendor/symfony/framework-bundle/Tests/Fixtures/Descriptor/callable_from_callable.xml 2xmlXhrTvendor/symfony/framework-bundle/Tests/Fixtures/Descriptor/callable_from_callable.xml

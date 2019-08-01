@@ -1,0 +1,1 @@
+ç[?vendor/symfony/framework-bundle/Tests/Functional/app/TransDebug :é[r?vendor/symfony/framework-bundle/Tests/Functional/app/TransDebug

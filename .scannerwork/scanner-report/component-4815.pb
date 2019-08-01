@@ -1,0 +1,1 @@
+Ï%<vendor/symfony/serializer/Tests/Encoder/ChainEncoderTest.php 2phpXŠhr<vendor/symfony/serializer/Tests/Encoder/ChainEncoderTest.php

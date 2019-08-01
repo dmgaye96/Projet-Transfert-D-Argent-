@@ -1,0 +1,1 @@
+°TZvendor/symfony/dependency-injection/Tests/Fixtures/php/services_unsupported_characters.php 2phpX˜hrZvendor/symfony/dependency-injection/Tests/Fixtures/php/services_unsupported_characters.php

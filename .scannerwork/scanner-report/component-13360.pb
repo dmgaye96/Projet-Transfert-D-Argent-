@@ -1,0 +1,1 @@
+°hOvendor/api-platform/core/tests/Fixtures/TestBundle/Document/DummyDtoNoInput.php 2phpXRhrOvendor/api-platform/core/tests/Fixtures/TestBundle/Document/DummyDtoNoInput.php

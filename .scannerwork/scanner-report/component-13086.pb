@@ -1,0 +1,1 @@
+žfDvendor/api-platform/core/src/Serializer/InputOutputMetadataTrait.php 2phpX3hrDvendor/api-platform/core/src/Serializer/InputOutputMetadataTrait.php

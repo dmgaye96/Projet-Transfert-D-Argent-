@@ -1,0 +1,1 @@
+â$2vendor/symfony/serializer/SerializerAwareTrait.php 2phpX$hr2vendor/symfony/serializer/SerializerAwareTrait.php

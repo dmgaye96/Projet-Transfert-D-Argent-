@@ -1,0 +1,1 @@
+¼&<vendor/symfony/maker-bundle/src/Maker/MakeFunctionalTest.php 2phpXWhr<vendor/symfony/maker-bundle/src/Maker/MakeFunctionalTest.php

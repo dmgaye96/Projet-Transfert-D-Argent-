@@ -1,0 +1,1 @@
+¯&Avendor/symfony/serializer/Encoder/NormalizationAwareInterface.php 2phpXhrAvendor/symfony/serializer/Encoder/NormalizationAwareInterface.php

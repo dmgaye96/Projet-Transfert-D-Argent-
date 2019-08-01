@@ -1,0 +1,1 @@
+£Fvendor/friendsofsymfony/rest-bundle/Tests/Functional/app/AppKernel.php 2phpX}hrFvendor/friendsofsymfony/rest-bundle/Tests/Functional/app/AppKernel.php

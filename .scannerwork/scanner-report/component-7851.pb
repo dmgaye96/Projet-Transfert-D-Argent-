@@ -1,0 +1,1 @@
+«=8vendor/symfony/routing/Tests/Fixtures/localized/utf8.php 2phpXhr8vendor/symfony/routing/Tests/Fixtures/localized/utf8.php

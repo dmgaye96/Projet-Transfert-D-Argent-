@@ -1,0 +1,1 @@
+—kavendor/api-platform/core/tests/Metadata/Property/Factory/InheritedPropertyMetadataFactoryTest.php 2phpX1hravendor/api-platform/core/tests/Metadata/Property/Factory/InheritedPropertyMetadataFactoryTest.php

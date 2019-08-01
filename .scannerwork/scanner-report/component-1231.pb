@@ -1,0 +1,1 @@
+Ï	evendor/doctrine/migrations/lib/Doctrine/Migrations/Tools/Console/Exception/ConnectionNotSpecified.php 2phpXhrevendor/doctrine/migrations/lib/Doctrine/Migrations/Tools/Console/Exception/ConnectionNotSpecified.php

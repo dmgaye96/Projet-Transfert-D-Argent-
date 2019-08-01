@@ -1,0 +1,1 @@
+ð=Cvendor/symfony/routing/Tests/Fixtures/AnnotatedClasses/BazClass.php 2phpXhrCvendor/symfony/routing/Tests/Fixtures/AnnotatedClasses/BazClass.php

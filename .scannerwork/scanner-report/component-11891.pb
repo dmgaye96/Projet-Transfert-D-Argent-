@@ -1,0 +1,1 @@
+ó\Rvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/xml/request.xml 2xmlXhrRvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/xml/request.xml

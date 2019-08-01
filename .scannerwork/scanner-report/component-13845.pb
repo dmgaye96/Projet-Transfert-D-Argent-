@@ -1,0 +1,1 @@
+•l^vendor/api-platform/core/tests/Bridge/Symfony/Bundle/DependencyInjection/ConfigurationTest.php 2phpXÐhr^vendor/api-platform/core/tests/Bridge/Symfony/Bundle/DependencyInjection/ConfigurationTest.php

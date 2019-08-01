@@ -1,0 +1,1 @@
+²hUvendor/api-platform/core/tests/Fixtures/TestBundle/Document/SingleFileConfigDummy.php 2phpX6hrUvendor/api-platform/core/tests/Fixtures/TestBundle/Document/SingleFileConfigDummy.php

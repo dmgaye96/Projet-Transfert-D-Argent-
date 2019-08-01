@@ -1,0 +1,1 @@
+›!Jvendor/symfony/phpunit-bridge/Tests/Fixtures/coverage/tests/BarCovTest.php 2phpXhrJvendor/symfony/phpunit-bridge/Tests/Fixtures/coverage/tests/BarCovTest.php

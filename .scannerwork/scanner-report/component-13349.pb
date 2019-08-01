@@ -1,0 +1,1 @@
+¥h7vendor/api-platform/core/tests/Fixtures/Metadata/schema :¤h¦hr7vendor/api-platform/core/tests/Fixtures/Metadata/schema

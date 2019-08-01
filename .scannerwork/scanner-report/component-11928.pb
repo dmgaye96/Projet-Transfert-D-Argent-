@@ -1,0 +1,1 @@
+˜]Xvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/xml/csrf_disabled.xml 2xmlXhrXvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/xml/csrf_disabled.xml

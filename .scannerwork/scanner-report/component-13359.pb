@@ -1,0 +1,1 @@
+¯h]vendor/api-platform/core/tests/Fixtures/TestBundle/Document/CustomWritableIdentifierDummy.php 2phpXIhr]vendor/api-platform/core/tests/Fixtures/TestBundle/Document/CustomWritableIdentifierDummy.php

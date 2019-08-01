@@ -1,0 +1,1 @@
+ÉUAvendor/symfony/dependency-injection/Tests/Fixtures/xml/extension1 :ÇUrAvendor/symfony/dependency-injection/Tests/Fixtures/xml/extension1

@@ -1,0 +1,1 @@
+Í(Rvendor/symfony/http-kernel/Tests/Exception/PreconditionFailedHttpExceptionTest.php 2phpXhrRvendor/symfony/http-kernel/Tests/Exception/PreconditionFailedHttpExceptionTest.php

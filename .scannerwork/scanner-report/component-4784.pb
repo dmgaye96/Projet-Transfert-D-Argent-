@@ -1,0 +1,1 @@
+°%Mvendor/symfony/serializer/Tests/Normalizer/JsonSerializableNormalizerTest.php 2phpXuhrMvendor/symfony/serializer/Tests/Normalizer/JsonSerializableNormalizerTest.php

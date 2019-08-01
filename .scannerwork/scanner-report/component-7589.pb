@@ -1,0 +1,1 @@
+¥;Cvendor/symfony/property-access/Tests/Fixtures/TestClassMagicGet.php 2phpX+hrCvendor/symfony/property-access/Tests/Fixtures/TestClassMagicGet.php

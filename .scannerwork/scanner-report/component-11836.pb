@@ -1,0 +1,1 @@
+¼\mvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/php/assets_version_strategy_as_service.php 2phpX	hrmvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/php/assets_version_strategy_as_service.php

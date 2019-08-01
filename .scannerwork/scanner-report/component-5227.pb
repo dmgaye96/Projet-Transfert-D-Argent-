@@ -1,0 +1,1 @@
+ë(:vendor/symfony/http-kernel/Tests/Profiler/ProfilerTest.php 2phpXjhr:vendor/symfony/http-kernel/Tests/Profiler/ProfilerTest.php

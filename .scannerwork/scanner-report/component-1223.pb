@@ -1,0 +1,1 @@
+Ç	cvendor/doctrine/migrations/lib/Doctrine/Migrations/Generator/Exception/InvalidTemplateSpecified.php 2phpXhrcvendor/doctrine/migrations/lib/Doctrine/Migrations/Generator/Exception/InvalidTemplateSpecified.php

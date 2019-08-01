@@ -1,0 +1,1 @@
+»0:vendor/symfony/templating/Tests/Fixtures/templates/foo.php 2phpXhr:vendor/symfony/templating/Tests/Fixtures/templates/foo.php

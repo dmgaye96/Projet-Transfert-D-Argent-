@@ -1,0 +1,1 @@
+í	\vendor/doctrine/migrations/lib/Doctrine/Migrations/Exception/MigrationsDirectoryRequired.php 2phpXhr\vendor/doctrine/migrations/lib/Doctrine/Migrations/Exception/MigrationsDirectoryRequired.php

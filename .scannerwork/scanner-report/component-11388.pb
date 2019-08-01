@@ -1,0 +1,1 @@
+üX^vendor/symfony/framework-bundle/Tests/Fixtures/TestBundle/Sensio/FooBundle/SensioFooBundle.php 2phpXhr^vendor/symfony/framework-bundle/Tests/Fixtures/TestBundle/Sensio/FooBundle/SensioFooBundle.php

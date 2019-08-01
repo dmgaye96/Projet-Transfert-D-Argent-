@@ -1,0 +1,1 @@
+ÛAMvendor/symfony/security-bundle/Tests/Functional/app/CsrfFormLogin/bundles.php 2phpXhrMvendor/symfony/security-bundle/Tests/Functional/app/CsrfFormLogin/bundles.php

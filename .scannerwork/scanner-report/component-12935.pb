@@ -1,0 +1,1 @@
+‡eTvendor/api-platform/core/src/Bridge/Symfony/Bundle/Resources/config/routing/docs.xml 2xmlXhrTvendor/api-platform/core/src/Bridge/Symfony/Bundle/Resources/config/routing/docs.xml

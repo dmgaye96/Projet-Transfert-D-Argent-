@@ -1,0 +1,1 @@
+¯!`vendor/symfony/phpunit-bridge/Tests/DeprecationErrorHandler/fake_vendor/acme/lib/SomeService.php 2phpXhr`vendor/symfony/phpunit-bridge/Tests/DeprecationErrorHandler/fake_vendor/acme/lib/SomeService.php

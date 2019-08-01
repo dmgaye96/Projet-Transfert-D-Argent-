@@ -1,0 +1,1 @@
+¢;Dvendor/symfony/property-access/Tests/Fixtures/TestClassMagicCall.php 2phpX&hrDvendor/symfony/property-access/Tests/Fixtures/TestClassMagicCall.php

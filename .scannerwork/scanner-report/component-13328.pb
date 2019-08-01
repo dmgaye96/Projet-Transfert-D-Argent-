@@ -1,0 +1,1 @@
+êhOvendor/api-platform/core/tests/Fixtures/FileConfigurations/legacyoperations.xml 2xmlXhrOvendor/api-platform/core/tests/Fixtures/FileConfigurations/legacyoperations.xml

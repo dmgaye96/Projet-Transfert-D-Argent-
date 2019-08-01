@@ -1,0 +1,1 @@
+í@Bvendor/symfony/flex/tests/Configurator/BundlesConfiguratorTest.php 2phpXZhrBvendor/symfony/flex/tests/Configurator/BundlesConfiguratorTest.php

@@ -1,0 +1,1 @@
+¤?Kvendor/symfony/twig-bundle/Tests/DependencyInjection/Fixtures/php/extra.php 2phpX	hrKvendor/symfony/twig-bundle/Tests/DependencyInjection/Fixtures/php/extra.php

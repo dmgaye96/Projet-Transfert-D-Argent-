@@ -1,0 +1,1 @@
+¹]]vendor/symfony/framework-bundle/Tests/DependencyInjection/Compiler/CacheCollectorPassTest.php 2phpX5hr]vendor/symfony/framework-bundle/Tests/DependencyInjection/Compiler/CacheCollectorPassTest.php

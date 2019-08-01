@@ -1,0 +1,1 @@
+öNvendor/friendsofsymfony/rest-bundle/Routing/Loader/RestXmlCollectionLoader.php 2phpX£hrNvendor/friendsofsymfony/rest-bundle/Routing/Loader/RestXmlCollectionLoader.php

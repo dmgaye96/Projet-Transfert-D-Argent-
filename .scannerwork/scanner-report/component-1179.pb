@@ -1,0 +1,1 @@
+›	6vendor/doctrine/migrations/bin/doctrine-migrations.php 2phpX]hr6vendor/doctrine/migrations/bin/doctrine-migrations.php

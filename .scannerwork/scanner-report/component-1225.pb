@@ -1,0 +1,1 @@
+É	Mvendor/doctrine/migrations/lib/Doctrine/Migrations/Generator/SqlGenerator.php 2phpXPhrMvendor/doctrine/migrations/lib/Doctrine/Migrations/Generator/SqlGenerator.php

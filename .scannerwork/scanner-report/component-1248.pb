@@ -1,0 +1,1 @@
+à	Zvendor/doctrine/migrations/lib/Doctrine/Migrations/Tools/Console/Command/StatusCommand.php 2phpXœhrZvendor/doctrine/migrations/lib/Doctrine/Migrations/Tools/Console/Command/StatusCommand.php

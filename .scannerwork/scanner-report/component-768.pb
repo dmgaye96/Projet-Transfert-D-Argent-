@@ -1,0 +1,1 @@
+€Bvendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/MySqlPlatform.php 2phpX†	hrBvendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/MySqlPlatform.php

@@ -1,0 +1,1 @@
+ëX>vendor/symfony/framework-bundle/Tests/Fixtures/WarmedClass.php 2phpXhr>vendor/symfony/framework-bundle/Tests/Fixtures/WarmedClass.php

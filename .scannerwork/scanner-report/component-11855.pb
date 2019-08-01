@@ -1,0 +1,1 @@
+Ï\ivendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/php/templating_php_assets_disabled.php 2phpX	hrivendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/php/templating_php_assets_disabled.php

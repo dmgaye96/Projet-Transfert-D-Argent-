@@ -1,0 +1,1 @@
+ä	dvendor/doctrine/migrations/lib/Doctrine/Migrations/Tools/Console/Helper/MigrationDirectoryHelper.php 2phpXKhrdvendor/doctrine/migrations/lib/Doctrine/Migrations/Tools/Console/Helper/MigrationDirectoryHelper.php

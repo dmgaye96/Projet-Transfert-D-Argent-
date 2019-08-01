@@ -1,0 +1,1 @@
+þxvendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/Controller/MultipleActionsClassLevelTemplateController.php 2phpX6hrxvendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/Controller/MultipleActionsClassLevelTemplateController.php

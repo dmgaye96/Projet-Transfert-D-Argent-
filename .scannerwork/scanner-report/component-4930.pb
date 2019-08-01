@@ -1,0 +1,1 @@
+Â&4vendor/symfony/maker-bundle/src/Maker/MakeEntity.php 2phpX¥hr4vendor/symfony/maker-bundle/src/Maker/MakeEntity.php

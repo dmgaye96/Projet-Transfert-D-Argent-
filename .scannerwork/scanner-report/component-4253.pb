@@ -1,0 +1,1 @@
+ù!Ivendor/symfony/phpunit-bridge/Tests/Fixtures/coverage/tests/bootstrap.php 2phpXhrIvendor/symfony/phpunit-bridge/Tests/Fixtures/coverage/tests/bootstrap.php

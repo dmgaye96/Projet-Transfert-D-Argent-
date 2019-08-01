@@ -1,0 +1,1 @@
+§,vendor/doctrine/dbal/lib/Doctrine/DBAL/Query :¦©r,vendor/doctrine/dbal/lib/Doctrine/DBAL/Query

@@ -1,0 +1,1 @@
+íhNvendor/api-platform/core/tests/Fixtures/TestBundle/Document/DummyDtoCustom.php 2phpX;hrNvendor/api-platform/core/tests/Fixtures/TestBundle/Document/DummyDtoCustom.php

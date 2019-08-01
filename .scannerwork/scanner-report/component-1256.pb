@@ -1,0 +1,1 @@
+è	fvendor/doctrine/migrations/lib/Doctrine/Migrations/Tools/Console/Helper/MigrationStatusInfosHelper.php 2phpX^hrfvendor/doctrine/migrations/lib/Doctrine/Migrations/Tools/Console/Helper/MigrationStatusInfosHelper.php

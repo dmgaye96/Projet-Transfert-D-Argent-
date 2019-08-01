@@ -1,0 +1,1 @@
+­'?vendor/symfony/maker-bundle/src/Util/ClassSourceManipulator.php 2phpXÂ	hr?vendor/symfony/maker-bundle/src/Util/ClassSourceManipulator.php

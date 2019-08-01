@@ -1,0 +1,1 @@
+€Anvendor/symfony/security-bundle/Tests/Functional/Bundle/MissingUserProviderBundle/MissingUserProviderBundle.php 2phpXhrnvendor/symfony/security-bundle/Tests/Functional/Bundle/MissingUserProviderBundle/MissingUserProviderBundle.php

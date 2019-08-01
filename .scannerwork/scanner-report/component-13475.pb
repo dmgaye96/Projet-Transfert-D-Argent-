@@ -1,0 +1,1 @@
+£iOvendor/api-platform/core/tests/Fixtures/TestBundle/Entity/NoCollectionDummy.php 2phpX)hrOvendor/api-platform/core/tests/Fixtures/TestBundle/Entity/NoCollectionDummy.php

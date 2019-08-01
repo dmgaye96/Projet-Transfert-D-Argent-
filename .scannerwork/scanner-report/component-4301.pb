@@ -1,0 +1,1 @@
+Í!>vendor/symfony/phpunit-bridge/Legacy/CoverageListenerForV6.php 2phpX'hr>vendor/symfony/phpunit-bridge/Legacy/CoverageListenerForV6.php

@@ -1,0 +1,1 @@
+²?Jvendor/symfony/twig-bundle/Tests/DependencyInjection/Fixtures/xml/full.xml 2xmlXhrJvendor/symfony/twig-bundle/Tests/DependencyInjection/Fixtures/xml/full.xml

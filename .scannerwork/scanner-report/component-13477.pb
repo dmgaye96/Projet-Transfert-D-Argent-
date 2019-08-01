@@ -1,0 +1,1 @@
+¥iNvendor/api-platform/core/tests/Fixtures/TestBundle/Entity/PlainObjectDummy.php 2phpX9hrNvendor/api-platform/core/tests/Fixtures/TestBundle/Entity/PlainObjectDummy.php

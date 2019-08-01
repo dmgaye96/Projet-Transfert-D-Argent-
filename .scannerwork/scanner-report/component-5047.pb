@@ -1,0 +1,1 @@
+·'6vendor/symfony/maker-bundle/src/Test/MakerTestCase.php 2phpXDhr6vendor/symfony/maker-bundle/src/Test/MakerTestCase.php

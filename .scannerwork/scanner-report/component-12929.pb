@@ -1,0 +1,1 @@
+Åefvendor/api-platform/core/src/Bridge/Symfony/Bundle/Resources/config/doctrine_orm_mercure_publisher.xml 2xmlXhrfvendor/api-platform/core/src/Bridge/Symfony/Bundle/Resources/config/doctrine_orm_mercure_publisher.xml

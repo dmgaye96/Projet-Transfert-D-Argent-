@@ -1,0 +1,1 @@
+ÛNvendor/friendsofsymfony/rest-bundle/Tests/Fixtures/Routes/users_collection.xml 2xmlXhrNvendor/friendsofsymfony/rest-bundle/Tests/Fixtures/Routes/users_collection.xml

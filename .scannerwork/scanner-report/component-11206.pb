@@ -1,0 +1,1 @@
+ÆW,vendor/symfony/web-profiler-bundle/Tests/Csp :ÅWr,vendor/symfony/web-profiler-bundle/Tests/Csp

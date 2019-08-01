@@ -1,0 +1,1 @@
+ÙEvendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/SqliteSchemaManager.php 2phpXöhrEvendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/SqliteSchemaManager.php

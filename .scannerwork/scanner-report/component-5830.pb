@@ -1,0 +1,1 @@
+Æ-bvendor/symfony/form/Tests/Extension/Core/DataTransformer/MoneyToLocalizedStringTransformerTest.php 2phpXvhrbvendor/symfony/form/Tests/Extension/Core/DataTransformer/MoneyToLocalizedStringTransformerTest.php

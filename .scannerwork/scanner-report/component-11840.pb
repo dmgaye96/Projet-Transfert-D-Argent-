@@ -1,0 +1,1 @@
+À\bvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/php/validation_auto_mapping.php 2phpXhrbvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/php/validation_auto_mapping.php

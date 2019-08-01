@@ -1,0 +1,1 @@
+¼hCvendor/api-platform/core/tests/Fixtures/TestBundle/Document/Foo.php 2phpXMhrCvendor/api-platform/core/tests/Fixtures/TestBundle/Document/Foo.php

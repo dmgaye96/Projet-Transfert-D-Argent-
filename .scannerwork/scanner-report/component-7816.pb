@@ -1,0 +1,1 @@
+ˆ=9vendor/symfony/routing/Tests/Fixtures/namespaceprefix.xml 2xmlXhr9vendor/symfony/routing/Tests/Fixtures/namespaceprefix.xml

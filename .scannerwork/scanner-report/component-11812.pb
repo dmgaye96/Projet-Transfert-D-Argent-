@@ -1,0 +1,2 @@
+¤\fvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/php/validation_no_static_method.php 2phpX
+hrfvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/php/validation_no_static_method.php

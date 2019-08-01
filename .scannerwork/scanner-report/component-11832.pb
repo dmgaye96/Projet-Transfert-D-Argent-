@@ -1,0 +1,1 @@
+¸\_vendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/php/templating_no_assets.php 2phpXhr_vendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/php/templating_no_assets.php

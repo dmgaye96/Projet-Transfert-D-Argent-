@@ -1,0 +1,1 @@
+¸	Rvendor/doctrine/migrations/lib/Doctrine/Migrations/Configuration/Connection/Loader :·	¹	½	¿	rRvendor/doctrine/migrations/lib/Doctrine/Migrations/Configuration/Connection/Loader

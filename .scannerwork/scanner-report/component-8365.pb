@@ -1,0 +1,1 @@
+­Advendor/symfony/security-bundle/Tests/Functional/Bundle/JsonLoginBundle/Controller/TestController.php 2phpXhrdvendor/symfony/security-bundle/Tests/Functional/Bundle/JsonLoginBundle/Controller/TestController.php

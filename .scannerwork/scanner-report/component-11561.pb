@@ -1,0 +1,1 @@
+©Z@vendor/symfony/framework-bundle/Tests/Templating/Helper/Fixtures :¨Z­Zr@vendor/symfony/framework-bundle/Tests/Templating/Helper/Fixtures

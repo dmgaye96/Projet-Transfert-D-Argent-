@@ -1,0 +1,1 @@
+Ø%:vendor/symfony/serializer/Normalizer/DataUriNormalizer.php 2phpX¸hr:vendor/symfony/serializer/Normalizer/DataUriNormalizer.php

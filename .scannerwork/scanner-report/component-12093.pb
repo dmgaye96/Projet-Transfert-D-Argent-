@@ -1,0 +1,1 @@
+½^Evendor/symfony/framework-bundle/Resources/config/templating_debug.xml 2xmlXhrEvendor/symfony/framework-bundle/Resources/config/templating_debug.xml

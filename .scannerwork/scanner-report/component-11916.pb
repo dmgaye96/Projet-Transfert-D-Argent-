@@ -1,0 +1,1 @@
+Œ]_vendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/xml/php_errors_log_level.xml 2xmlXhr_vendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/xml/php_errors_log_level.xml

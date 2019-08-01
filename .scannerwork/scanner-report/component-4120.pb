@@ -1,0 +1,1 @@
+˜ ;vendor/friendsofsymfony/rest-bundle/Resources/config/schema :— r;vendor/friendsofsymfony/rest-bundle/Resources/config/schema

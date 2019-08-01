@@ -1,0 +1,1 @@
+‰(Avendor/symfony/http-kernel/Tests/Fixtures/ExtensionNotValidBundle :ˆ(rAvendor/symfony/http-kernel/Tests/Fixtures/ExtensionNotValidBundle

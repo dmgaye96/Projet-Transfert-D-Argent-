@@ -1,0 +1,1 @@
+°]Mvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/TestBundle :®]rMvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/TestBundle

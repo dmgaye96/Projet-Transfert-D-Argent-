@@ -1,0 +1,1 @@
+œmIvendor/api-platform/core/tests/JsonApi/Serializer/ErrorNormalizerTest.php 2phpXLhrIvendor/api-platform/core/tests/JsonApi/Serializer/ErrorNormalizerTest.php

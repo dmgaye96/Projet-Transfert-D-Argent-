@@ -1,0 +1,1 @@
+™iKvendor/api-platform/core/tests/Fixtures/TestBundle/Dto/NonResourceClass.php 2phpXhrKvendor/api-platform/core/tests/Fixtures/TestBundle/Dto/NonResourceClass.php

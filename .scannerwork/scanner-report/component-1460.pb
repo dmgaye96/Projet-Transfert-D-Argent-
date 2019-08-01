@@ -1,0 +1,1 @@
+´<vendor/willdurand/negotiation/src/Negotiation/BaseAccept.php 2phpX›hr<vendor/willdurand/negotiation/src/Negotiation/BaseAccept.php

@@ -1,0 +1,1 @@
+óUvendor/friendsofsymfony/rest-bundle/Tests/Routing/Loader/DirectoryRouteLoaderTest.php 2phpXBhrUvendor/friendsofsymfony/rest-bundle/Tests/Routing/Loader/DirectoryRouteLoaderTest.php

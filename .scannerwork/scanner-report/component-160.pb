@@ -1,0 +1,1 @@
+ >vendor/doctrine/doctrine-bundle/Resources/config/messenger.xml 2xmlX(hr>vendor/doctrine/doctrine-bundle/Resources/config/messenger.xml

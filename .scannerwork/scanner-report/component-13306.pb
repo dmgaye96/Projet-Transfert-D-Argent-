@@ -1,0 +1,1 @@
+úgOvendor/api-platform/core/tests/Fixtures/FileConfigurations/noitemoperations.xml 2xmlXhrOvendor/api-platform/core/tests/Fixtures/FileConfigurations/noitemoperations.xml

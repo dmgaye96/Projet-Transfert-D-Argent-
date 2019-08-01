@@ -1,0 +1,1 @@
+÷D3vendor/symfony/console/Tests/Fixtures/command_2.xml 2xmlXhr3vendor/symfony/console/Tests/Fixtures/command_2.xml

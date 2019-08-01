@@ -1,0 +1,1 @@
+šlqvendor/api-platform/core/tests/Bridge/Symfony/Bundle/DependencyInjection/Compiler/ElasticsearchClientPassTest.php 2phpXRhrqvendor/api-platform/core/tests/Bridge/Symfony/Bundle/DependencyInjection/Compiler/ElasticsearchClientPassTest.php

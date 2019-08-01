@@ -1,0 +1,1 @@
+¬hSvendor/api-platform/core/tests/Fixtures/TestBundle/Document/DummyDtoInputOutput.php 2phpX1hrSvendor/api-platform/core/tests/Fixtures/TestBundle/Document/DummyDtoInputOutput.php

@@ -1,0 +1,1 @@
+»Ivendor/nikic/php-parser/test/PhpParser/Builder/TraitUseAdaptationTest.php 2phpXkhrIvendor/nikic/php-parser/test/PhpParser/Builder/TraitUseAdaptationTest.php

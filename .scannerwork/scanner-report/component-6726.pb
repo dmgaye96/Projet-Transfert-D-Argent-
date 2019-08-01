@@ -1,0 +1,1 @@
+Æ4Yvendor/symfony/http-foundation/Tests/Fixtures/response-functional/cookie_samesite_lax.php 2phpX	hrYvendor/symfony/http-foundation/Tests/Fixtures/response-functional/cookie_samesite_lax.php

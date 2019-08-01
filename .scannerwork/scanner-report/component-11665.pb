@@ -1,0 +1,1 @@
+ë[Hvendor/symfony/framework-bundle/Tests/Functional/app/AnnotatedController :ê[rHvendor/symfony/framework-bundle/Tests/Functional/app/AnnotatedController

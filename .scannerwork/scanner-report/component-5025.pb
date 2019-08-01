@@ -1,0 +1,1 @@
+¡'%vendor/symfony/maker-bundle/src/Event :ž'r%vendor/symfony/maker-bundle/src/Event

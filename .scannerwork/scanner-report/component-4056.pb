@@ -1,0 +1,1 @@
+Øfvendor/friendsofsymfony/rest-bundle/Tests/DependencyInjection/Compiler/FormatListenerRulesPassTest.php 2phpXrhrfvendor/friendsofsymfony/rest-bundle/Tests/DependencyInjection/Compiler/FormatListenerRulesPassTest.php

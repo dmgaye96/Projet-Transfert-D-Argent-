@@ -1,0 +1,1 @@
+¢~Lvar/cache/dev/ContainerXfGWB1E/getApiPlatform_Listener_View_WriteService.php 2phpXhrLvar/cache/dev/ContainerXfGWB1E/getApiPlatform_Listener_View_WriteService.php

@@ -1,0 +1,1 @@
+Á%;vendor/symfony/serializer/Tests/Annotation/MaxDepthTest.php 2phpX:hr;vendor/symfony/serializer/Tests/Annotation/MaxDepthTest.php

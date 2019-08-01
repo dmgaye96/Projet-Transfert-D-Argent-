@@ -1,0 +1,1 @@
+”kbvendor/api-platform/core/tests/Metadata/Property/Factory/SerializerPropertyMetadataFactoryTest.php 2phpX¢hrbvendor/api-platform/core/tests/Metadata/Property/Factory/SerializerPropertyMetadataFactoryTest.php

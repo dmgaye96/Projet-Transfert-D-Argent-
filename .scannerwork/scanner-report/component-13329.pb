@@ -1,0 +1,1 @@
+‘hHvendor/api-platform/core/tests/Fixtures/FileConfigurations/resources.xml 2xmlXRhrHvendor/api-platform/core/tests/Fixtures/FileConfigurations/resources.xml

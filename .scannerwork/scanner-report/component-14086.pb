@@ -1,0 +1,1 @@
+†nKvendor/lexik/jwt-authentication-bundle/Resources/config/token_extractor.xml 2xmlXhrKvendor/lexik/jwt-authentication-bundle/Resources/config/token_extractor.xml

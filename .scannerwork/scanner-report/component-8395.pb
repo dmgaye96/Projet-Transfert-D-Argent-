@@ -1,0 +1,1 @@
+ËAIvendor/symfony/security-bundle/Tests/Functional/app/JsonLogin/bundles.php 2phpXhrIvendor/symfony/security-bundle/Tests/Functional/app/JsonLogin/bundles.php

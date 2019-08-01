@@ -1,0 +1,1 @@
+ÍYWvendor/symfony/framework-bundle/Tests/Fixtures/Descriptor/event_dispatcher_1_event1.xml 2xmlXhrWvendor/symfony/framework-bundle/Tests/Fixtures/Descriptor/event_dispatcher_1_event1.xml

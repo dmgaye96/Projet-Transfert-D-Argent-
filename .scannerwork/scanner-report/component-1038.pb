@@ -1,0 +1,1 @@
+ŽVvendor/doctrine/doctrine-migrations-bundle/Command/MigrationsRollupDoctrineCommand.php 2phpX5hrVvendor/doctrine/doctrine-migrations-bundle/Command/MigrationsRollupDoctrineCommand.php

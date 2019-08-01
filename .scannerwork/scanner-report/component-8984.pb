@@ -1,0 +1,1 @@
+˜F8vendor/symfony/console/Tests/Command/ListCommandTest.php 2phpXrhr8vendor/symfony/console/Tests/Command/ListCommandTest.php

@@ -1,0 +1,1 @@
+êkmvendor/api-platform/core/tests/Bridge/Elasticsearch/Serializer/NameConverter/InnerFieldsNameConverterTest.php 2phpX4hrmvendor/api-platform/core/tests/Bridge/Elasticsearch/Serializer/NameConverter/InnerFieldsNameConverterTest.php

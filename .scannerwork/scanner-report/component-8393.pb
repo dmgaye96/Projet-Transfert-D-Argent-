@@ -1,0 +1,1 @@
+ÉA=vendor/symfony/security-bundle/Tests/Functional/app/JsonLogin :ËAr=vendor/symfony/security-bundle/Tests/Functional/app/JsonLogin

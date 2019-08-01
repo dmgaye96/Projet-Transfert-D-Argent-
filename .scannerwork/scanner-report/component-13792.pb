@@ -1,0 +1,1 @@
+àkvvendor/api-platform/core/tests/Bridge/Elasticsearch/Metadata/Document/Factory/AttributeDocumentMetadataFactoryTest.php 2phpXHhrvvendor/api-platform/core/tests/Bridge/Elasticsearch/Metadata/Document/Factory/AttributeDocumentMetadataFactoryTest.php

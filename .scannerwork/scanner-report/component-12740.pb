@@ -1,0 +1,1 @@
+Äc_vendor/api-platform/core/src/Metadata/Property/Factory/AnnotationSubresourceMetadataFactory.php 2phpXchr_vendor/api-platform/core/src/Metadata/Property/Factory/AnnotationSubresourceMetadataFactory.php

@@ -1,0 +1,1 @@
+ÅBvendor/willdurand/negotiation/tests/Negotiation/Tests/TestCase.php 2phpXhrBvendor/willdurand/negotiation/tests/Negotiation/Tests/TestCase.php

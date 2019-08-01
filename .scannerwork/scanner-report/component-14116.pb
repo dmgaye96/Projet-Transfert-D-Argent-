@@ -1,0 +1,1 @@
+¤nEvendor/lexik/jwt-authentication-bundle/Command/CheckConfigCommand.php 2phpX?hrEvendor/lexik/jwt-authentication-bundle/Command/CheckConfigCommand.php

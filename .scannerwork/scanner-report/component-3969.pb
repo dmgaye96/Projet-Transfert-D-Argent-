@@ -1,0 +1,1 @@
+Å4vendor/friendsofsymfony/rest-bundle/Tests/Functional :ÄÇÉÑÖòöõúùûür4vendor/friendsofsymfony/rest-bundle/Tests/Functional

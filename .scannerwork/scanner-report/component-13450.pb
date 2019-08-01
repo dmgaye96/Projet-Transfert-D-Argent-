@@ -1,0 +1,1 @@
+ŠiNvendor/api-platform/core/tests/Fixtures/TestBundle/Model/ResourceInterface.php 2phpXhrNvendor/api-platform/core/tests/Fixtures/TestBundle/Model/ResourceInterface.php

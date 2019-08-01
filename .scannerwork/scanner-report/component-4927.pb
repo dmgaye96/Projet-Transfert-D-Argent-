@@ -1,0 +1,1 @@
+¿&?vendor/symfony/maker-bundle/src/Maker/MakeSerializerEncoder.php 2phpXNhr?vendor/symfony/maker-bundle/src/Maker/MakeSerializerEncoder.php

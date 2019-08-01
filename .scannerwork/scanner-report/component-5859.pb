@@ -1,0 +1,1 @@
+ã-Avendor/symfony/form/Tests/Extension/Core/Type/IntegerTypeTest.php 2phpX`hrAvendor/symfony/form/Tests/Extension/Core/Type/IntegerTypeTest.php

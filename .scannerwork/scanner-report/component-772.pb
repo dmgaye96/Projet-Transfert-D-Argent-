@@ -1,0 +1,1 @@
+Ñ9vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/Keywords :0ÉÖÜáàâäãçéèêëíìîïñóòôöõår9vendor/doctrine/dbal/lib/Doctrine/DBAL/Platforms/Keywords

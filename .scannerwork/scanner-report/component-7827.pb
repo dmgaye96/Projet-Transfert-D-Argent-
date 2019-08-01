@@ -1,0 +1,1 @@
+“=;vendor/symfony/routing/Tests/Fixtures/OtherAnnotatedClasses :’=•=–=r;vendor/symfony/routing/Tests/Fixtures/OtherAnnotatedClasses

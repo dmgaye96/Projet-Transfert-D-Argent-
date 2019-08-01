@@ -1,0 +1,1 @@
+ÙTHvendor/symfony/dependency-injection/Tests/Fixtures/xml/class_from_id.xml 2xmlXhrHvendor/symfony/dependency-injection/Tests/Fixtures/xml/class_from_id.xml

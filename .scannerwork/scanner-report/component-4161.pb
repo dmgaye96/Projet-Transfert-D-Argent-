@@ -1,0 +1,1 @@
+Á Nvendor/friendsofsymfony/rest-bundle/Version/Resolver/HeaderVersionResolver.php 2phpX1hrNvendor/friendsofsymfony/rest-bundle/Version/Resolver/HeaderVersionResolver.php

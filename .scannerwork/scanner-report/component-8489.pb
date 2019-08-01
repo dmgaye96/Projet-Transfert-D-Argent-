@@ -1,0 +1,1 @@
+©B[vendor/symfony/security-bundle/Tests/DependencyInjection/Fixtures/xml/listener_provider.xml 2xmlXhr[vendor/symfony/security-bundle/Tests/DependencyInjection/Fixtures/xml/listener_provider.xml

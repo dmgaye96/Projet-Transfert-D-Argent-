@@ -1,0 +1,1 @@
+Òk_vendor/api-platform/core/tests/Bridge/Elasticsearch/DataProvider/CollectionDataProviderTest.php 2phpX±hr_vendor/api-platform/core/tests/Bridge/Elasticsearch/DataProvider/CollectionDataProviderTest.php

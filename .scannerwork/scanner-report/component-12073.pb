@@ -1,0 +1,1 @@
+©^Dvendor/symfony/framework-bundle/Resources/config/property_access.xml 2xmlXhrDvendor/symfony/framework-bundle/Resources/config/property_access.xml

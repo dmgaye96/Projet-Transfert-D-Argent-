@@ -1,0 +1,1 @@
+·!Pvendor/symfony/phpunit-bridge/Tests/DeprecationErrorHandler/fake_vendor/composer :¶!rPvendor/symfony/phpunit-bridge/Tests/DeprecationErrorHandler/fake_vendor/composer

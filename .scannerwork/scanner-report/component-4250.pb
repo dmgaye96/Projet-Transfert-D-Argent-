@@ -1,0 +1,1 @@
+š!Vvendor/symfony/phpunit-bridge/Tests/Fixtures/coverage/tests/CoversDefaultClassTest.php 2phpXhrVvendor/symfony/phpunit-bridge/Tests/Fixtures/coverage/tests/CoversDefaultClassTest.php

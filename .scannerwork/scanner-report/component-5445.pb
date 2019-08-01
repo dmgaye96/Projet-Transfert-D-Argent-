@@ -1,0 +1,1 @@
+Å*;vendor/symfony/security-core/Tests/User/UserCheckerTest.php 2phpX¢hr;vendor/symfony/security-core/Tests/User/UserCheckerTest.php

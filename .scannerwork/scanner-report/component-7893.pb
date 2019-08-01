@@ -1,0 +1,1 @@
+Õ=6vendor/symfony/routing/Tests/Fixtures/nonvalidnode.xml 2xmlX	hr6vendor/symfony/routing/Tests/Fixtures/nonvalidnode.xml

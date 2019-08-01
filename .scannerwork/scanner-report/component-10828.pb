@@ -1,0 +1,1 @@
+ÌTKvendor/symfony/dependency-injection/Tests/Fixtures/xml/tag_without_name.xml 2xmlXhrKvendor/symfony/dependency-injection/Tests/Fixtures/xml/tag_without_name.xml

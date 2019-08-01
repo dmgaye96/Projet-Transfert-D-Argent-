@@ -1,0 +1,1 @@
+ÇYvendor/friendsofsymfony/rest-bundle/Tests/Functional/app/ViewResponseListener/bundles.php 2phpXhrYvendor/friendsofsymfony/rest-bundle/Tests/Functional/app/ViewResponseListener/bundles.php

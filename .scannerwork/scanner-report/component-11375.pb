@@ -1,0 +1,1 @@
+ÔXGvendor/symfony/framework-bundle/Tests/Fixtures/Serialization/Author.php 2phpX	hrGvendor/symfony/framework-bundle/Tests/Fixtures/Serialization/Author.php

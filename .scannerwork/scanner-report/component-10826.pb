@@ -1,0 +1,1 @@
+ÊTXvendor/symfony/dependency-injection/Tests/Fixtures/xml/services_inline_not_candidate.xml 2xmlXhrXvendor/symfony/dependency-injection/Tests/Fixtures/xml/services_inline_not_candidate.xml

@@ -1,0 +1,1 @@
+®\fvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/php/http_client_default_options.php 2phpXhrfvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/php/http_client_default_options.php

@@ -1,0 +1,1 @@
+ 	=vendor/doctrine/migrations/lib/Doctrine/Migrations/Events.php 2phpXhr=vendor/doctrine/migrations/lib/Doctrine/Migrations/Events.php

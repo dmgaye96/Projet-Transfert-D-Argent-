@@ -1,0 +1,1 @@
+€%@vendor/symfony/serializer/Tests/Fixtures/DenormalizableDummy.php 2phpXhr@vendor/symfony/serializer/Tests/Fixtures/DenormalizableDummy.php

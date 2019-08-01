@@ -1,0 +1,1 @@
+Ò `vendor/friendsofsymfony/rest-bundle/DependencyInjection/Compiler/SerializerConfigurationPass.php 2phpXChr`vendor/friendsofsymfony/rest-bundle/DependencyInjection/Compiler/SerializerConfigurationPass.php

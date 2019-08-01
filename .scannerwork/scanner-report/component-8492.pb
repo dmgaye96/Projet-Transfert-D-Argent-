@@ -1,0 +1,1 @@
+¬BUvendor/symfony/security-bundle/Tests/DependencyInjection/Fixtures/xml/simple_auth.xml 2xmlXhrUvendor/symfony/security-bundle/Tests/DependencyInjection/Fixtures/xml/simple_auth.xml

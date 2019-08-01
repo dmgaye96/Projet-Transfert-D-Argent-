@@ -1,0 +1,1 @@
+¥%Kvendor/symfony/serializer/Tests/Normalizer/Features/AttributesTestTrait.php 2phpXmhrKvendor/symfony/serializer/Tests/Normalizer/Features/AttributesTestTrait.php

@@ -1,0 +1,1 @@
+Ø [vendor/friendsofsymfony/rest-bundle/DependencyInjection/Compiler/ConfigurationCheckPass.php 2phpX-hr[vendor/friendsofsymfony/rest-bundle/DependencyInjection/Compiler/ConfigurationCheckPass.php

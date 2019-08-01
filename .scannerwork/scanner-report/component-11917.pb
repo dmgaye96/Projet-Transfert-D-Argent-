@@ -1,0 +1,1 @@
+ç]evendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/xml/session_cookie_secure_auto.xml 2xmlXhrevendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/xml/session_cookie_secure_auto.xml

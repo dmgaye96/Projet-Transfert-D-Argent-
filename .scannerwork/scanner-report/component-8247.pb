@@ -1,0 +1,1 @@
+·@<vendor/symfony/flex/src/Configurator/BundlesConfigurator.php 2phpXlhr<vendor/symfony/flex/src/Configurator/BundlesConfigurator.php

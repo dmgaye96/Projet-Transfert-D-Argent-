@@ -1,0 +1,1 @@
+™kOvendor/api-platform/core/tests/Metadata/Property/PropertyNameCollectionTest.php 2phpX!hrOvendor/api-platform/core/tests/Metadata/Property/PropertyNameCollectionTest.php

@@ -1,0 +1,1 @@
+ï	<vendor/doctrine/migrations/lib/Doctrine/Migrations/Exception :í	î	ñ	ò	ó	ô	õ	ö	÷	ø	ú	ù	û	ü	r<vendor/doctrine/migrations/lib/Doctrine/Migrations/Exception

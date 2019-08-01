@@ -1,0 +1,1 @@
+  Kvendor/friendsofsymfony/rest-bundle/Resources/config/mime_type_listener.xml 2xmlXhrKvendor/friendsofsymfony/rest-bundle/Resources/config/mime_type_listener.xml

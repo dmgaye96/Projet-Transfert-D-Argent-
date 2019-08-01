@@ -1,0 +1,1 @@
+¾=vendor/friendsofsymfony/rest-bundle/Tests/Fixtures/Controller :"½¿ÀÁÂÃÄÅÆÇÈÉÏÐÑÒÓr=vendor/friendsofsymfony/rest-bundle/Tests/Fixtures/Controller

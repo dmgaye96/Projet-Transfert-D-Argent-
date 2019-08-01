@@ -1,0 +1,1 @@
+‚a:vendor/symfony/doctrine-bridge/Tests/Fixtures/BaseUser.php 2phpX2hr:vendor/symfony/doctrine-bridge/Tests/Fixtures/BaseUser.php

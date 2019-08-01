@@ -1,0 +1,1 @@
+±BXvendor/symfony/security-bundle/Tests/DependencyInjection/Fixtures/xml/sodium_encoder.xml 2xmlXhrXvendor/symfony/security-bundle/Tests/DependencyInjection/Fixtures/xml/sodium_encoder.xml

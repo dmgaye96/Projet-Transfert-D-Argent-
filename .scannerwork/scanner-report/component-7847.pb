@@ -1,0 +1,1 @@
+§=Fvendor/symfony/routing/Tests/Fixtures/localized/importer-with-utf8.php 2phpXhrFvendor/symfony/routing/Tests/Fixtures/localized/importer-with-utf8.php

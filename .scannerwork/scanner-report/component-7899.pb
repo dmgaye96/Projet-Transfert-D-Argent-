@@ -1,0 +1,1 @@
+Û=Ivendor/symfony/routing/Tests/Fixtures/import_with_name_prefix/routing.xml 2xmlXhrIvendor/symfony/routing/Tests/Fixtures/import_with_name_prefix/routing.xml

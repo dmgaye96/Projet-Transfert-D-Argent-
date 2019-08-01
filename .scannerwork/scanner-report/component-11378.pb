@@ -1,0 +1,1 @@
+ÚXGvendor/symfony/framework-bundle/Tests/Fixtures/Messenger/BarMessage.php 2phpXhrGvendor/symfony/framework-bundle/Tests/Fixtures/Messenger/BarMessage.php

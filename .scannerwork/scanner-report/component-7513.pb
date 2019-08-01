@@ -1,0 +1,1 @@
+Ù:Hvendor/symfony/property-info/Tests/Extractor/SerializerExtractorTest.php 2phpX,hrHvendor/symfony/property-info/Tests/Extractor/SerializerExtractorTest.php

@@ -1,0 +1,1 @@
+†%Kvendor/symfony/serializer/Tests/Fixtures/PropertyCircularReferenceDummy.php 2phpXhrKvendor/symfony/serializer/Tests/Fixtures/PropertyCircularReferenceDummy.php

@@ -1,0 +1,1 @@
+Æ@`vendor/symfony/flex/tests/Fixtures/vendor/doctrine/doctrine-cache-bundle/DoctrineCacheBundle.php 2phpXhr`vendor/symfony/flex/tests/Fixtures/vendor/doctrine/doctrine-cache-bundle/DoctrineCacheBundle.php

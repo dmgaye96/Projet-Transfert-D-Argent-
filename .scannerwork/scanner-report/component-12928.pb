@@ -1,0 +1,1 @@
+€eOvendor/api-platform/core/src/Bridge/Symfony/Bundle/Resources/config/graphql.xml 2xmlXchrOvendor/api-platform/core/src/Bridge/Symfony/Bundle/Resources/config/graphql.xml

@@ -1,0 +1,1 @@
+£-vendor/friendsofsymfony/rest-bundle/Inflector :¢¤r-vendor/friendsofsymfony/rest-bundle/Inflector

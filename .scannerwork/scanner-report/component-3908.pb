@@ -1,0 +1,1 @@
+ÄVvendor/friendsofsymfony/rest-bundle/Tests/Fixtures/Controller/TypeHintedController.php 2phpX)hrVvendor/friendsofsymfony/rest-bundle/Tests/Fixtures/Controller/TypeHintedController.php

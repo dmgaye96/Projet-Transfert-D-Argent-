@@ -1,0 +1,1 @@
+ÏXQvendor/symfony/framework-bundle/Tests/Fixtures/Serialization/Resources/person.xml 2xmlXhrQvendor/symfony/framework-bundle/Tests/Fixtures/Serialization/Resources/person.xml

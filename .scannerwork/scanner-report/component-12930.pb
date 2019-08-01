@@ -1,0 +1,1 @@
+‚eMvendor/api-platform/core/src/Bridge/Symfony/Bundle/Resources/config/debug.xml 2xmlXhrMvendor/api-platform/core/src/Bridge/Symfony/Bundle/Resources/config/debug.xml

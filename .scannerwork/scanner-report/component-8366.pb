@@ -1,0 +1,1 @@
+®AQvendor/symfony/security-bundle/Tests/Functional/Bundle/JsonLoginBundle/Controller :­ArQvendor/symfony/security-bundle/Tests/Functional/Bundle/JsonLoginBundle/Controller

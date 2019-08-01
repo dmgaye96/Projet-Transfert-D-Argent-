@@ -1,0 +1,1 @@
+Ç`$vendor/symfony/config/Tests/Resource :Å`à`á`Ü`Ö`â`É`Ñ`r$vendor/symfony/config/Tests/Resource

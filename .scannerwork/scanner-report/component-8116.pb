@@ -1,0 +1,1 @@
+´?Kvendor/symfony/twig-bundle/Tests/DependencyInjection/Fixtures/xml/extra.xml 2xmlXhrKvendor/symfony/twig-bundle/Tests/DependencyInjection/Fixtures/xml/extra.xml

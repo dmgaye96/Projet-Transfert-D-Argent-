@@ -1,0 +1,1 @@
+‰eWvendor/api-platform/core/src/Bridge/Symfony/Bundle/Resources/config/routing/graphql.xml 2xmlXhrWvendor/api-platform/core/src/Bridge/Symfony/Bundle/Resources/config/routing/graphql.xml

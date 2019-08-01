@@ -1,0 +1,1 @@
+œ%Rvendor/symfony/serializer/Tests/Normalizer/Features/CircularReferenceTestTrait.php 2phpX/hrRvendor/symfony/serializer/Tests/Normalizer/Features/CircularReferenceTestTrait.php

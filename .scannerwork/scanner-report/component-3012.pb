@@ -1,0 +1,1 @@
+Ä%vendor/nikic/php-parser/lib/PhpParser :.¿ÓÕÖÙÚÛÝÞßàáâãäåæçèéêëõr%vendor/nikic/php-parser/lib/PhpParser

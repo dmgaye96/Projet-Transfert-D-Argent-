@@ -1,0 +1,1 @@
+ãEvendor/doctrine/orm/lib/Doctrine/ORM/Tools/Console/Command/SchemaTool :äçêårEvendor/doctrine/orm/lib/Doctrine/ORM/Tools/Console/Command/SchemaTool

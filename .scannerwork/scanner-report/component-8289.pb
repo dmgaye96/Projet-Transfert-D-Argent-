@@ -1,0 +1,1 @@
+á@!vendor/symfony/flex/tests/Command :ß@r!vendor/symfony/flex/tests/Command

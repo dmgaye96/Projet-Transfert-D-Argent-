@@ -1,0 +1,1 @@
+©VQvendor/symfony/dependency-injection/Loader/Configurator/PrototypeConfigurator.php 2phpXUhrQvendor/symfony/dependency-injection/Loader/Configurator/PrototypeConfigurator.php

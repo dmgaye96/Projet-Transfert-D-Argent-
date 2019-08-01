@@ -1,0 +1,1 @@
+×iJvendor/api-platform/core/tests/Fixtures/TestBundle/Entity/SecuredDummy.php 2phpXqhrJvendor/api-platform/core/tests/Fixtures/TestBundle/Entity/SecuredDummy.php

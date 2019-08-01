@@ -1,0 +1,1 @@
+¡,4vendor/symfony/security-core/Role/SwitchUserRole.php 2phpX>hr4vendor/symfony/security-core/Role/SwitchUserRole.php

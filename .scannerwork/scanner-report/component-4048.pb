@@ -1,0 +1,1 @@
+ÐQvendor/friendsofsymfony/rest-bundle/Tests/Serializer/JMSSerializerAdapterTest.php 2phpXuhrQvendor/friendsofsymfony/rest-bundle/Tests/Serializer/JMSSerializerAdapterTest.php

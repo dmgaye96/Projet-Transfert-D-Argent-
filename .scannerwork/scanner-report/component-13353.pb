@@ -1,0 +1,1 @@
+©hBvendor/api-platform/core/tests/Fixtures/DummyResourceInterface.php 2phpXhrBvendor/api-platform/core/tests/Fixtures/DummyResourceInterface.php

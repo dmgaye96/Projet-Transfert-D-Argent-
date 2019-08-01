@@ -1,0 +1,1 @@
+’<7vendor/symfony/mime/Resources/bin/update_mime_types.php 2phpX«hr7vendor/symfony/mime/Resources/bin/update_mime_types.php

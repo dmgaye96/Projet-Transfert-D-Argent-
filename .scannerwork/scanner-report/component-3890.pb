@@ -1,0 +1,1 @@
+²5vendor/friendsofsymfony/rest-bundle/Tests/Negotiation :±r5vendor/friendsofsymfony/rest-bundle/Tests/Negotiation

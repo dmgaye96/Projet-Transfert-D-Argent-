@@ -1,0 +1,1 @@
+„5Svendor/symfony/http-foundation/Tests/Session/Storage/Handler/Fixtures/read_only.php 2phpX	hrSvendor/symfony/http-foundation/Tests/Session/Storage/Handler/Fixtures/read_only.php

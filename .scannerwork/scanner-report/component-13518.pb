@@ -1,0 +1,1 @@
+ÎiRvendor/api-platform/core/tests/Fixtures/TestBundle/Entity/ReadableOnlyProperty.php 2phpX?hrRvendor/api-platform/core/tests/Fixtures/TestBundle/Entity/ReadableOnlyProperty.php

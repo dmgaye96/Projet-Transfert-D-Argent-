@@ -1,0 +1,1 @@
+“eWvendor/api-platform/core/src/Bridge/Symfony/Bundle/Resources/config/http_cache_tags.xml 2xmlXhrWvendor/api-platform/core/src/Bridge/Symfony/Bundle/Resources/config/http_cache_tags.xml

@@ -1,0 +1,1 @@
+ákMvendor/api-platform/core/tests/Bridge/Elasticsearch/Metadata/Document/Factory :ßkàkäkåkrMvendor/api-platform/core/tests/Bridge/Elasticsearch/Metadata/Document/Factory

@@ -1,0 +1,1 @@
+¶!bvendor/symfony/phpunit-bridge/Tests/DeprecationErrorHandler/fake_vendor/composer/autoload_real.php 2phpXhrbvendor/symfony/phpunit-bridge/Tests/DeprecationErrorHandler/fake_vendor/composer/autoload_real.php

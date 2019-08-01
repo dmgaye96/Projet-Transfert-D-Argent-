@@ -1,0 +1,1 @@
+î=Cvendor/symfony/routing/Tests/Fixtures/AnnotatedClasses/FooTrait.php 2phpXhrCvendor/symfony/routing/Tests/Fixtures/AnnotatedClasses/FooTrait.php

@@ -1,0 +1,1 @@
+¤Aavendor/symfony/security-bundle/Tests/Functional/Bundle/CsrfFormLoginBundle/Form/UserLoginType.php 2phpXXhravendor/symfony/security-bundle/Tests/Functional/Bundle/CsrfFormLoginBundle/Form/UserLoginType.php

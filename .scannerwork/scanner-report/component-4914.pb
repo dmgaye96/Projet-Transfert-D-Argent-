@@ -1,0 +1,1 @@
+²&:vendor/symfony/serializer/Tests/Encoder/XmlEncoderTest.php 2phpXšhr:vendor/symfony/serializer/Tests/Encoder/XmlEncoderTest.php

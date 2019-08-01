@@ -1,0 +1,1 @@
+Á-Yvendor/symfony/form/Tests/Extension/Core/DataTransformer/ChoiceToValueTransformerTest.php 2phpXbhrYvendor/symfony/form/Tests/Extension/Core/DataTransformer/ChoiceToValueTransformerTest.php

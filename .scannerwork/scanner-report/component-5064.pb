@@ -1,0 +1,1 @@
+È'Avendor/symfony/maker-bundle/src/Doctrine/EntityClassGenerator.php 2phpX<hrAvendor/symfony/maker-bundle/src/Doctrine/EntityClassGenerator.php

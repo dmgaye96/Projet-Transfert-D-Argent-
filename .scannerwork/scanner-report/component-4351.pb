@@ -1,0 +1,1 @@
+ÿ!7vendor/symfony/var-dumper/Tests/Fixtures/xml_reader.xml 2xmlXhr7vendor/symfony/var-dumper/Tests/Fixtures/xml_reader.xml

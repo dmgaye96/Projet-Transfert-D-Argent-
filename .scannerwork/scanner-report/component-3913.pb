@@ -1,0 +1,1 @@
+É`vendor/friendsofsymfony/rest-bundle/Tests/Fixtures/Controller/AnnotatedVersionUserController.php 2phpX6hr`vendor/friendsofsymfony/rest-bundle/Tests/Fixtures/Controller/AnnotatedVersionUserController.php

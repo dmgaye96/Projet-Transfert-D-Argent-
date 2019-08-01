@@ -1,0 +1,1 @@
+žjjvendor/api-platform/core/tests/Fixtures/TestBundle/MessengerHandler/Document/MessengerWithInputHandler.php 2phpXhrjvendor/api-platform/core/tests/Fixtures/TestBundle/MessengerHandler/Document/MessengerWithInputHandler.php

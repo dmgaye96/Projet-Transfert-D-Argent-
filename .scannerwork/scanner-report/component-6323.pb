@@ -1,0 +1,1 @@
+³1(vendor/symfony/twig-bridge/Tests/Command :°1²1r(vendor/symfony/twig-bridge/Tests/Command

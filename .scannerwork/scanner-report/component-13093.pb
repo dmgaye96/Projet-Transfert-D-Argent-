@@ -1,0 +1,1 @@
+¥f+vendor/api-platform/core/src/Hal/Serializer :¤f¦f§f¨fr+vendor/api-platform/core/src/Hal/Serializer

@@ -1,0 +1,1 @@
+ò"Hvendor/symfony/var-exporter/Tests/Fixtures/hard-references-recursive.php 2phpXhrHvendor/symfony/var-exporter/Tests/Fixtures/hard-references-recursive.php

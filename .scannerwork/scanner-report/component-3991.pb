@@ -1,0 +1,1 @@
+—nvendor/friendsofsymfony/rest-bundle/Tests/Functional/Bundle/TestBundle/Controller/AllowedMethodsController.php 2phpXhrnvendor/friendsofsymfony/rest-bundle/Tests/Functional/Bundle/TestBundle/Controller/AllowedMethodsController.php

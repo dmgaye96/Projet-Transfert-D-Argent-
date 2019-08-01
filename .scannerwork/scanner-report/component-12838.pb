@@ -1,0 +1,1 @@
+¦dXvendor/api-platform/core/src/Bridge/Elasticsearch/Metadata/Document/DocumentMetadata.php 2phpXLhrXvendor/api-platform/core/src/Bridge/Elasticsearch/Metadata/Document/DocumentMetadata.php

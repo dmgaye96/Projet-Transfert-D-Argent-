@@ -1,0 +1,1 @@
+ð&Kvendor/symfony/maker-bundle/src/Resources/skeleton/event/Subscriber.tpl.php 2phpXhrKvendor/symfony/maker-bundle/src/Resources/skeleton/event/Subscriber.tpl.php

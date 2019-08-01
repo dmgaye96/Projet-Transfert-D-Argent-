@@ -1,0 +1,1 @@
+¶ZHvendor/symfony/framework-bundle/Tests/Templating/Helper/Resources/Custom :µZ´Z·ZrHvendor/symfony/framework-bundle/Tests/Templating/Helper/Resources/Custom

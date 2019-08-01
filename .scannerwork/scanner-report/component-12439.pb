@@ -1,0 +1,1 @@
+—aEvendor/symfony/doctrine-bridge/Tests/Resources/validator/BaseUser.xml 2xmlXhrEvendor/symfony/doctrine-bridge/Tests/Resources/validator/BaseUser.xml

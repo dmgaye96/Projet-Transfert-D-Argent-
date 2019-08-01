@@ -1,0 +1,1 @@
+¸[Kvendor/symfony/framework-bundle/Tests/Functional/app/Serializer/bundles.php 2phpXhrKvendor/symfony/framework-bundle/Tests/Functional/app/Serializer/bundles.php

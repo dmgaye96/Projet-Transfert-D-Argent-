@@ -1,0 +1,1 @@
+„]mvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/xml/validation_multiple_static_methods.xml 2xmlXhrmvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/xml/validation_multiple_static_methods.xml

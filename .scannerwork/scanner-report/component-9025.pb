@@ -1,0 +1,1 @@
+ÁF>vendor/symfony/console/Tests/Formatter/OutputFormatterTest.php 2phpXßhr>vendor/symfony/console/Tests/Formatter/OutputFormatterTest.php

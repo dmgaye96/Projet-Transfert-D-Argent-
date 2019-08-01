@@ -1,0 +1,1 @@
+–j^vendor/api-platform/core/tests/Fixtures/TestBundle/DataTransformer/InputDtoDataTransformer.php 2phpX8hr^vendor/api-platform/core/tests/Fixtures/TestBundle/DataTransformer/InputDtoDataTransformer.php

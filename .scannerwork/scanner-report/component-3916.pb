@@ -1,0 +1,1 @@
+ÌSvendor/friendsofsymfony/rest-bundle/Tests/Fixtures/Controller/Directory/NoClass.php 2phpXhrSvendor/friendsofsymfony/rest-bundle/Tests/Fixtures/Controller/Directory/NoClass.php

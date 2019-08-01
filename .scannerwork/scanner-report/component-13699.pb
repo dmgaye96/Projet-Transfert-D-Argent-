@@ -1,0 +1,1 @@
+ƒk8vendor/api-platform/core/tests/Metadata/Resource/Factory :‚k„k…k†k‡kˆk‰kŠk‹kŒkkr8vendor/api-platform/core/tests/Metadata/Resource/Factory

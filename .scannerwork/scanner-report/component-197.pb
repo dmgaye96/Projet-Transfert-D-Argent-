@@ -1,0 +1,1 @@
+ÅGvendor/doctrine/doctrine-bundle/Command/DropDatabaseDoctrineCommand.php 2phpXhrGvendor/doctrine/doctrine-bundle/Command/DropDatabaseDoctrineCommand.php

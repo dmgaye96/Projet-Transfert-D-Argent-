@@ -1,0 +1,1 @@
+ˆkcvendor/api-platform/core/tests/Metadata/Resource/Factory/InputOutputResourceMetadataFactoryTest.php 2phpXBhrcvendor/api-platform/core/tests/Metadata/Resource/Factory/InputOutputResourceMetadataFactoryTest.php

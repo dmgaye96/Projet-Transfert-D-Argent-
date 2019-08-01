@@ -1,0 +1,1 @@
+©'Fvendor/symfony/maker-bundle/src/Security/SecurityControllerBuilder.php 2phpXPhrFvendor/symfony/maker-bundle/src/Security/SecurityControllerBuilder.php

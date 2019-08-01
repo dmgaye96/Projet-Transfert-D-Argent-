@@ -1,0 +1,1 @@
+‚]_vendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/xml/templating_no_assets.xml 2xmlXhr_vendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/xml/templating_no_assets.xml

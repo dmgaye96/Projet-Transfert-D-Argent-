@@ -1,0 +1,1 @@
+Ígvendor/friendsofsymfony/rest-bundle/Tests/Fixtures/Controller/Directory/UserTopicCommentsController.php 2phpXhrgvendor/friendsofsymfony/rest-bundle/Tests/Fixtures/Controller/Directory/UserTopicCommentsController.php

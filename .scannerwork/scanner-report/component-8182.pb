@@ -1,0 +1,1 @@
+ö?>vendor/symfony/twig-bundle/Resources/config/routing/errors.xml 2xmlXhr>vendor/symfony/twig-bundle/Resources/config/routing/errors.xml

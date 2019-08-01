@@ -1,0 +1,1 @@
+¶X7vendor/symfony/framework-bundle/Console/Application.php 2phpXÐhr7vendor/symfony/framework-bundle/Console/Application.php

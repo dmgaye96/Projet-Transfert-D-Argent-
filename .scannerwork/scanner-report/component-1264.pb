@@ -1,0 +1,1 @@
+ð	Svendor/doctrine/migrations/lib/Doctrine/Migrations/Tools/BooleanStringFormatter.php 2phpX#hrSvendor/doctrine/migrations/lib/Doctrine/Migrations/Tools/BooleanStringFormatter.php

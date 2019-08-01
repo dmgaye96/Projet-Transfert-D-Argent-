@@ -1,0 +1,1 @@
+Ÿ\hvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/php/esi_and_ssi_without_fragments.php 2phpXhrhvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/php/esi_and_ssi_without_fragments.php

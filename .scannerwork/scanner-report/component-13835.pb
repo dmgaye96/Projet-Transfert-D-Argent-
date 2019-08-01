@@ -1,0 +1,1 @@
+‹lSvendor/api-platform/core/tests/Bridge/Symfony/Bundle/Command/SwaggerCommandTest.php 2phpXˆhrSvendor/api-platform/core/tests/Bridge/Symfony/Bundle/Command/SwaggerCommandTest.php

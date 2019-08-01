@@ -1,0 +1,1 @@
+¾]Wvendor/symfony/framework-bundle/Tests/DependencyInjection/XmlFrameworkExtensionTest.php 2phpX$hrWvendor/symfony/framework-bundle/Tests/DependencyInjection/XmlFrameworkExtensionTest.php

@@ -1,0 +1,1 @@
+èdvendor/sensio/framework-extra-bundle/Tests/Templating/Fixture/BarBundle/Controller/BarController.php 2phpXhrdvendor/sensio/framework-extra-bundle/Tests/Templating/Fixture/BarBundle/Controller/BarController.php

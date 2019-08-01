@@ -1,0 +1,1 @@
+ÍIvendor/willdurand/jsonp-callback-validator/src/JsonpCallbackValidator.php 2phpXPhrIvendor/willdurand/jsonp-callback-validator/src/JsonpCallbackValidator.php

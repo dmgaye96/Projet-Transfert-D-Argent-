@@ -1,0 +1,1 @@
+¶#4vendor/symfony/debug/Tests/Fixtures/casemismatch.php 2phpXhr4vendor/symfony/debug/Tests/Fixtures/casemismatch.php

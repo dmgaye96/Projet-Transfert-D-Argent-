@@ -1,0 +1,1 @@
+²!kvendor/symfony/phpunit-bridge/Tests/DeprecationErrorHandler/fake_vendor/acme/outdated-lib/outdated_file.php 2phpXhrkvendor/symfony/phpunit-bridge/Tests/DeprecationErrorHandler/fake_vendor/acme/outdated-lib/outdated_file.php

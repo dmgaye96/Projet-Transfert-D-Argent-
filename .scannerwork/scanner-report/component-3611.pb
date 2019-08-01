@@ -1,0 +1,1 @@
+›Rvendor/sensio/framework-extra-bundle/Tests/Templating/Fixture/FooBundle/Controller :™rRvendor/sensio/framework-extra-bundle/Tests/Templating/Fixture/FooBundle/Controller

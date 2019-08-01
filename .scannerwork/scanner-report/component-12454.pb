@@ -1,0 +1,1 @@
+¦aSvendor/symfony/doctrine-bridge/Tests/PropertyInfo/Fixtures/DoctrineWithEmbedded.php 2phpX%hrSvendor/symfony/doctrine-bridge/Tests/PropertyInfo/Fixtures/DoctrineWithEmbedded.php

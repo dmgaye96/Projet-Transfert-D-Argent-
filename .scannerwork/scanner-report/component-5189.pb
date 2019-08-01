@@ -1,0 +1,1 @@
+Å(Jvendor/symfony/http-kernel/Tests/Exception/BadRequestHttpExceptionTest.php 2phpXhrJvendor/symfony/http-kernel/Tests/Exception/BadRequestHttpExceptionTest.php

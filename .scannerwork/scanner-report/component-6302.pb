@@ -1,0 +1,1 @@
+ž1<vendor/symfony/twig-bridge/Tests/Mime/TemplatedEmailTest.php 2phpX%hr<vendor/symfony/twig-bridge/Tests/Mime/TemplatedEmailTest.php

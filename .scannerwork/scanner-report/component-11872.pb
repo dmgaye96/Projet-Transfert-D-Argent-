@@ -1,0 +1,1 @@
+à\bvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/xml/serializer_legacy_cache.xml 2xmlXhrbvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/xml/serializer_legacy_cache.xml

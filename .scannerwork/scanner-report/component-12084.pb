@@ -1,0 +1,1 @@
+´^>vendor/symfony/framework-bundle/Resources/config/mime_type.xml 2xmlXhr>vendor/symfony/framework-bundle/Resources/config/mime_type.xml

@@ -1,0 +1,1 @@
+¦^vendor/sensio/framework-extra-bundle/Tests/EventListener/Fixture/FooControllerCacheAtClass.php 2phpXhr^vendor/sensio/framework-extra-bundle/Tests/EventListener/Fixture/FooControllerCacheAtClass.php

@@ -1,0 +1,1 @@
+‡F.vendor/symfony/console/Command/ListCommand.php 2phpX[hr.vendor/symfony/console/Command/ListCommand.php

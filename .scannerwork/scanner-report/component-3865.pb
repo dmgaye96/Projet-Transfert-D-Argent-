@@ -1,0 +1,1 @@
+™Avendor/friendsofsymfony/rest-bundle/View/ViewHandlerInterface.php 2phpXlhrAvendor/friendsofsymfony/rest-bundle/View/ViewHandlerInterface.php

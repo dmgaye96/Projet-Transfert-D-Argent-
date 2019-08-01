@@ -1,0 +1,1 @@
+°'5vendor/symfony/maker-bundle/src/Util/ClassDetails.php 2phpXNhr5vendor/symfony/maker-bundle/src/Util/ClassDetails.php

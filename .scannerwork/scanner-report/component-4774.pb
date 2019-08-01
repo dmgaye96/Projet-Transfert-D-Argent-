@@ -1,0 +1,1 @@
+¦%Cvendor/symfony/serializer/Tests/Normalizer/Features/ObjectDummy.php 2phpX?hrCvendor/symfony/serializer/Tests/Normalizer/Features/ObjectDummy.php

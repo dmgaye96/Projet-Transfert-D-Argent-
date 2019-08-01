@@ -1,0 +1,1 @@
+Ë	Lvendor/doctrine/migrations/lib/Doctrine/Migrations/Generator/FileBuilder.php 2phpXWhrLvendor/doctrine/migrations/lib/Doctrine/Migrations/Generator/FileBuilder.php

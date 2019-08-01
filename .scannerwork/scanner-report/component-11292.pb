@@ -1,0 +1,1 @@
+œXHvendor/symfony/web-profiler-bundle/Resources/config/routing/profiler.xml 2xmlX0hrHvendor/symfony/web-profiler-bundle/Resources/config/routing/profiler.xml

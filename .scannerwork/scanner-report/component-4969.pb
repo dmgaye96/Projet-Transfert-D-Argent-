@@ -1,0 +1,1 @@
+é&Ivendor/symfony/maker-bundle/src/Resources/skeleton/security/Voter.tpl.php 2phpX*hrIvendor/symfony/maker-bundle/src/Resources/skeleton/security/Voter.tpl.php

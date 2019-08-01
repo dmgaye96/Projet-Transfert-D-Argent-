@@ -1,0 +1,1 @@
+˜`vendor/sensio/framework-extra-bundle/Tests/Templating/Fixture/FooBundle/Controller/SubController :—r`vendor/sensio/framework-extra-bundle/Tests/Templating/Fixture/FooBundle/Controller/SubController

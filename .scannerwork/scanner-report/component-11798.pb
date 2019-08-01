@@ -1,0 +1,2 @@
+–\avendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/php/validation_annotations.php 2phpX
+hravendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/php/validation_annotations.php

@@ -1,0 +1,1 @@
+ûYVvendor/symfony/framework-bundle/Tests/Fixtures/Descriptor/definition_without_class.xml 2xmlXhrVvendor/symfony/framework-bundle/Tests/Fixtures/Descriptor/definition_without_class.xml

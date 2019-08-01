@@ -1,0 +1,1 @@
+ûRbvendor/symfony/dependency-injection/Tests/Fixtures/Prototype/OtherDir/Component1/Dir1/Service1.php 2phpXhrbvendor/symfony/dependency-injection/Tests/Fixtures/Prototype/OtherDir/Component1/Dir1/Service1.php

@@ -1,0 +1,1 @@
+È/5vendor/symfony/form/Extension/Core/Type/ColorType.php 2phpX"hr5vendor/symfony/form/Extension/Core/Type/ColorType.php

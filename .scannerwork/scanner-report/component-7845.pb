@@ -1,0 +1,1 @@
+¥=dvendor/symfony/routing/Tests/Fixtures/localized/importer-with-locale-imports-non-localized-route.xml 2xmlXhrdvendor/symfony/routing/Tests/Fixtures/localized/importer-with-locale-imports-non-localized-route.xml

@@ -1,0 +1,1 @@
+Ä37vendor/symfony/cache/Tests/Fixtures/ExternalAdapter.php 2phpXMhr7vendor/symfony/cache/Tests/Fixtures/ExternalAdapter.php

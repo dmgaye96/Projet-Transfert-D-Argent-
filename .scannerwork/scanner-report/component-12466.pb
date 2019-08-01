@@ -1,0 +1,1 @@
+²aEvendor/symfony/doctrine-bridge/Tests/DependencyInjection/CompilerPass :±a´arEvendor/symfony/doctrine-bridge/Tests/DependencyInjection/CompilerPass

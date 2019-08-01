@@ -1,0 +1,1 @@
+‹=Ovendor/symfony/routing/Tests/Fixtures/import_with_no_trailing_slash/routing.xml 2xmlXhrOvendor/symfony/routing/Tests/Fixtures/import_with_no_trailing_slash/routing.xml

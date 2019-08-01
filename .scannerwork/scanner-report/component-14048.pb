@@ -1,0 +1,1 @@
+àm^vendor/lexik/jwt-authentication-bundle/Tests/Response/JWTAuthenticationSuccessResponseTest.php 2phpX,hr^vendor/lexik/jwt-authentication-bundle/Tests/Response/JWTAuthenticationSuccessResponseTest.php

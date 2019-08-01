@@ -1,0 +1,1 @@
+’kIvendor/api-platform/core/tests/Metadata/Resource/ResourceMetadataTest.php 2phpXnhrIvendor/api-platform/core/tests/Metadata/Resource/ResourceMetadataTest.php

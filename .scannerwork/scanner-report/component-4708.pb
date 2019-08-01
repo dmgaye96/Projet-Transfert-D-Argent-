@@ -1,0 +1,1 @@
+ä$(vendor/symfony/serializer/Tests/Fixtures :Dã$å$æ$è$ç$ê$ë$ì$í$î$ñ$ğ$ò$ó$ô$õ$ö$÷$ø$ù$û$ü$ı$ş$ÿ$€%%‚%„%…%†%‡%ˆ%Š%r(vendor/symfony/serializer/Tests/Fixtures

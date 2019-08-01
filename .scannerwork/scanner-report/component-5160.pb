@@ -1,0 +1,1 @@
+¨(Wvendor/symfony/http-kernel/Tests/Fixtures/ExtensionPresentBundle/Command/BarCommand.php 2phpXhrWvendor/symfony/http-kernel/Tests/Fixtures/ExtensionPresentBundle/Command/BarCommand.php

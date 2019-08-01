@@ -1,0 +1,1 @@
+‰[Bvendor/symfony/framework-bundle/Tests/Functional/app/AppKernel.php 2phpXdhrBvendor/symfony/framework-bundle/Tests/Functional/app/AppKernel.php

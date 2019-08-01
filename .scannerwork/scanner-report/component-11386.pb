@@ -1,0 +1,1 @@
+úXovendor/symfony/framework-bundle/Tests/Fixtures/TestBundle/Sensio/Cms/FooBundle/Controller/DefaultController.php 2phpXhrovendor/symfony/framework-bundle/Tests/Fixtures/TestBundle/Sensio/Cms/FooBundle/Controller/DefaultController.php

@@ -1,0 +1,1 @@
+¾Ovendor/doctrine/doctrine-bundle/Command/Proxy/ConvertMappingDoctrineCommand.php 2phpX;hrOvendor/doctrine/doctrine-bundle/Command/Proxy/ConvertMappingDoctrineCommand.php

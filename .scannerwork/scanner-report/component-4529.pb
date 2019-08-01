@@ -1,0 +1,1 @@
+±#7vendor/symfony/debug/Tests/Fixtures/DeprecatedClass.php 2phpXhr7vendor/symfony/debug/Tests/Fixtures/DeprecatedClass.php

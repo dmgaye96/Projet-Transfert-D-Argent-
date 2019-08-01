@@ -1,0 +1,1 @@
+êBvendor/friendsofsymfony/rest-bundle/Tests/Fixtures/Context/Adapter :érBvendor/friendsofsymfony/rest-bundle/Tests/Fixtures/Context/Adapter

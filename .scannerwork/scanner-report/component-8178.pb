@@ -1,0 +1,1 @@
+ò?2vendor/symfony/twig-bundle/Resources/config/schema :ñ?r2vendor/symfony/twig-bundle/Resources/config/schema

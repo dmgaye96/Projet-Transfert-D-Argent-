@@ -1,0 +1,1 @@
+Ú\uvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/xml/workflow_legacy_with_arguments_and_service.xml 2xmlXhruvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/xml/workflow_legacy_with_arguments_and_service.xml

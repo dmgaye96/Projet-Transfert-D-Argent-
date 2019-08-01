@@ -1,0 +1,1 @@
+‘Gvendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst/Trait_.php 2phpXhrGvendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst/Trait_.php

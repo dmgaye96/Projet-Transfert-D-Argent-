@@ -1,0 +1,1 @@
+¬dgvendor/api-platform/core/src/Bridge/Elasticsearch/Serializer/NameConverter/InnerFieldsNameConverter.php 2phpX?hrgvendor/api-platform/core/src/Bridge/Elasticsearch/Serializer/NameConverter/InnerFieldsNameConverter.php

@@ -1,0 +1,1 @@
+²(;vendor/symfony/http-kernel/Tests/Fixtures/KernelForTest.php 2phpX0hr;vendor/symfony/http-kernel/Tests/Fixtures/KernelForTest.php

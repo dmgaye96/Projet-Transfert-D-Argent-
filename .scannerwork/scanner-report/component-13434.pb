@@ -1,0 +1,1 @@
+úhHvendor/api-platform/core/tests/Fixtures/TestBundle/Document/FooDummy.php 2phpXMhrHvendor/api-platform/core/tests/Fixtures/TestBundle/Document/FooDummy.php

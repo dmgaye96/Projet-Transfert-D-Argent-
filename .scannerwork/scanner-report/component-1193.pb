@@ -1,0 +1,1 @@
+©	Jvendor/doctrine/migrations/lib/Doctrine/Migrations/Configuration/Exception :¨	ª	«	¬	­	®	¯	°	²	³	±	rJvendor/doctrine/migrations/lib/Doctrine/Migrations/Configuration/Exception

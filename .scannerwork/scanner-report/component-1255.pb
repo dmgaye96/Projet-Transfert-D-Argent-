@@ -1,0 +1,1 @@
+ç	hvendor/doctrine/migrations/lib/Doctrine/Migrations/Tools/Console/Helper/ConfigurationHelperInterface.php 2phpXhrhvendor/doctrine/migrations/lib/Doctrine/Migrations/Tools/Console/Helper/ConfigurationHelperInterface.php

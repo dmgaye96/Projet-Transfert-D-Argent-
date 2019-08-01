@@ -1,0 +1,1 @@
+£djvendor/api-platform/core/src/Bridge/Elasticsearch/Metadata/Document/Factory/CatDocumentMetadataFactory.php 2phpXZhrjvendor/api-platform/core/src/Bridge/Elasticsearch/Metadata/Document/Factory/CatDocumentMetadataFactory.php

@@ -1,0 +1,1 @@
+Ê\Qvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/php/assets.php 2phpX!hrQvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/php/assets.php

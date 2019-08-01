@@ -1,0 +1,1 @@
+‰hXvendor/api-platform/core/tests/Fixtures/FileConfigurations/resources_with_parameters.xml 2xmlXShrXvendor/api-platform/core/tests/Fixtures/FileConfigurations/resources_with_parameters.xml

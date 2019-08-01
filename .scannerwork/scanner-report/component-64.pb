@@ -1,0 +1,1 @@
+@:vendor/doctrine/common/lib/Doctrine/Common/Proxy/Exception :?ACBr:vendor/doctrine/common/lib/Doctrine/Common/Proxy/Exception

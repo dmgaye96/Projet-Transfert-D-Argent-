@@ -1,0 +1,1 @@
+Óevendor/friendsofsymfony/rest-bundle/Tests/DependencyInjection/Compiler/ConfigurationCheckPassTest.php 2phpX6hrevendor/friendsofsymfony/rest-bundle/Tests/DependencyInjection/Compiler/ConfigurationCheckPassTest.php

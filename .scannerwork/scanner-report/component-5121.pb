@@ -1,0 +1,1 @@
+Å(?vendor/symfony/http-kernel/Tests/Fixtures/ExtensionLoadedBundle :Ä(r?vendor/symfony/http-kernel/Tests/Fixtures/ExtensionLoadedBundle

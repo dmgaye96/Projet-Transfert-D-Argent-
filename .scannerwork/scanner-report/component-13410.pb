@@ -1,0 +1,1 @@
+âhRvendor/api-platform/core/tests/Fixtures/TestBundle/Document/DeprecatedResource.php 2phpX)hrRvendor/api-platform/core/tests/Fixtures/TestBundle/Document/DeprecatedResource.php

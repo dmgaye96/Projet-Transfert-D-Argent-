@@ -1,0 +1,1 @@
+á_;vendor/symfony/config/Tests/Fixtures/Util/document_type.xml 2xmlXhr;vendor/symfony/config/Tests/Fixtures/Util/document_type.xml

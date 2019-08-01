@@ -1,0 +1,1 @@
+è&Pvendor/symfony/maker-bundle/src/Resources/skeleton/serializer/Normalizer.tpl.php 2phpX'hrPvendor/symfony/maker-bundle/src/Resources/skeleton/serializer/Normalizer.tpl.php

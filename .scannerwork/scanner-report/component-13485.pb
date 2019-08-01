@@ -1,0 +1,1 @@
+­iAvendor/api-platform/core/tests/Fixtures/TestBundle/Entity/Foo.php 2phpXOhrAvendor/api-platform/core/tests/Fixtures/TestBundle/Entity/Foo.php

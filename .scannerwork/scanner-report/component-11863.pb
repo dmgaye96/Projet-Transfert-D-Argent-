@@ -1,0 +1,1 @@
+×\svendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/CustomPathBundle/Resources/config/validation.xml 2xmlXhrsvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/CustomPathBundle/Resources/config/validation.xml

@@ -1,0 +1,1 @@
+•aCvendor/symfony/doctrine-bridge/Tests/Resources/orm/BaseUser.orm.xml 2xmlXhrCvendor/symfony/doctrine-bridge/Tests/Resources/orm/BaseUser.orm.xml

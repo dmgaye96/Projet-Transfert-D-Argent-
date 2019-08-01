@@ -1,0 +1,2 @@
+¯\mvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/php/validation_multiple_static_methods.php 2phpX
+hrmvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/php/validation_multiple_static_methods.php

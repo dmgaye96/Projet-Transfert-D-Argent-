@@ -1,0 +1,1 @@
+îiVvendor/api-platform/core/tests/Fixtures/TestBundle/Entity/DummyForAdditionalFields.php 2phpX9hrVvendor/api-platform/core/tests/Fixtures/TestBundle/Entity/DummyForAdditionalFields.php

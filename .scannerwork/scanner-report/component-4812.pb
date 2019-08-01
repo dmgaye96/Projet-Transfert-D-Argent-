@@ -1,0 +1,1 @@
+Ì%;vendor/symfony/serializer/Tests/Encoder/JsonEncoderTest.php 2phpXzhr;vendor/symfony/serializer/Tests/Encoder/JsonEncoderTest.php

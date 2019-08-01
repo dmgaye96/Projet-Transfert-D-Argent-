@@ -1,0 +1,1 @@
+¿CFvendor/symfony/finder/Tests/Iterator/FilecontentFilterIteratorTest.php 2phpXWhrFvendor/symfony/finder/Tests/Iterator/FilecontentFilterIteratorTest.php

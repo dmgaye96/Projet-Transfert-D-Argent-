@@ -1,0 +1,1 @@
+‘j`vendor/api-platform/core/tests/Fixtures/TestBundle/DataProvider/SerializableItemDataProvider.php 2phpX1hr`vendor/api-platform/core/tests/Fixtures/TestBundle/DataProvider/SerializableItemDataProvider.php

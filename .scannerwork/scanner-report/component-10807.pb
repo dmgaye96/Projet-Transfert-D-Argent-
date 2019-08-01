@@ -1,0 +1,1 @@
+·TVvendor/symfony/dependency-injection/Tests/Fixtures/php/services_errored_definition.php 2phpXèhrVvendor/symfony/dependency-injection/Tests/Fixtures/php/services_errored_definition.php

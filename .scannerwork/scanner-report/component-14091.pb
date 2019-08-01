@@ -1,0 +1,1 @@
+‹nPvendor/lexik/jwt-authentication-bundle/Resources/config/response_interceptor.xml 2xmlXhrPvendor/lexik/jwt-authentication-bundle/Resources/config/response_interceptor.xml

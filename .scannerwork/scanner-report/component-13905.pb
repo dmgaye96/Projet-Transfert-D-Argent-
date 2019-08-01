@@ -1,0 +1,1 @@
+ÑlWvendor/api-platform/core/tests/Bridge/Doctrine/MongoDbOdm/PropertyInfo/Fixtures/Foo.php 2phpXhrWvendor/api-platform/core/tests/Bridge/Doctrine/MongoDbOdm/PropertyInfo/Fixtures/Foo.php

@@ -1,0 +1,1 @@
+ò\kvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/xml/validation_email_validation_mode.xml 2xmlXhrkvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/xml/validation_email_validation_mode.xml

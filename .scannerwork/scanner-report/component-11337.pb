@@ -1,0 +1,1 @@
+ÉXAvendor/symfony/framework-bundle/Tests/Console/ApplicationTest.php 2phpXÈhrAvendor/symfony/framework-bundle/Tests/Console/ApplicationTest.php

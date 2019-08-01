@@ -1,0 +1,1 @@
+·\_vendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/php/translator_fallbacks.php 2phpXhr_vendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/php/translator_fallbacks.php

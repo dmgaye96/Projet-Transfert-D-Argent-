@@ -1,0 +1,1 @@
+èjivendor/api-platform/core/tests/Fixtures/TestBundle/DataProvider/DummyDtoNoInputCollectionDataProvider.php 2phpX<hrivendor/api-platform/core/tests/Fixtures/TestBundle/DataProvider/DummyDtoNoInputCollectionDataProvider.php

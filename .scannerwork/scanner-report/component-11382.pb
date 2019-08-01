@@ -1,0 +1,1 @@
+öXkvendor/symfony/framework-bundle/Tests/Fixtures/TestBundle/Fabpot/FooBundle/Controller/DefaultController.php 2phpXhrkvendor/symfony/framework-bundle/Tests/Fixtures/TestBundle/Fabpot/FooBundle/Controller/DefaultController.php

@@ -1,0 +1,1 @@
+Å`5vendor/symfony/config/Tests/Resource/ResourceStub.php 2phpX#hr5vendor/symfony/config/Tests/Resource/ResourceStub.php

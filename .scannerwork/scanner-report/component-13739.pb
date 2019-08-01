@@ -1,0 +1,1 @@
+«k:vendor/api-platform/core/tests/Mock/FosUser/MailerMock.php 2phpX&hr:vendor/api-platform/core/tests/Mock/FosUser/MailerMock.php

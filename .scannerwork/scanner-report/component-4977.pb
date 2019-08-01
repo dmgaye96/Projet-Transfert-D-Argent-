@@ -1,0 +1,1 @@
+ñ&8vendor/symfony/maker-bundle/src/Resources/skeleton/event :ð&r8vendor/symfony/maker-bundle/src/Resources/skeleton/event

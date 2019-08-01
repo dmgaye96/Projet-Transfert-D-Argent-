@@ -1,0 +1,1 @@
+Œl<vendor/api-platform/core/tests/Bridge/Symfony/Bundle/Command :‹lr<vendor/api-platform/core/tests/Bridge/Symfony/Bundle/Command

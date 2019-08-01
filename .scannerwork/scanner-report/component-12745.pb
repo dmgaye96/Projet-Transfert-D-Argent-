@@ -1,0 +1,1 @@
+Écavendor/api-platform/core/src/Metadata/Property/Factory/PropertyNameCollectionFactoryInterface.php 2phpX!hravendor/api-platform/core/src/Metadata/Property/Factory/PropertyNameCollectionFactoryInterface.php

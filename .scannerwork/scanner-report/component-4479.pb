@@ -1,0 +1,1 @@
+ÿ"3vendor/symfony/var-exporter/Tests/Fixtures/bool.php 2phpXhr3vendor/symfony/var-exporter/Tests/Fixtures/bool.php

@@ -1,0 +1,1 @@
+ËZEvendor/symfony/framework-bundle/Tests/Functional/PropertyInfoTest.php 2phpX#hrEvendor/symfony/framework-bundle/Tests/Functional/PropertyInfoTest.php

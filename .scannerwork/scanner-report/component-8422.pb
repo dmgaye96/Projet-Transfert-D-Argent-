@@ -1,0 +1,1 @@
+ÊABvendor/symfony/security-bundle/Tests/Functional/app/SecurityHelper :ÂArBvendor/symfony/security-bundle/Tests/Functional/app/SecurityHelper

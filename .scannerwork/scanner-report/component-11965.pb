@@ -1,0 +1,1 @@
+½]fvendor/symfony/framework-bundle/Tests/DependencyInjection/Compiler/DataCollectorTranslatorPassTest.php 2phpXshrfvendor/symfony/framework-bundle/Tests/DependencyInjection/Compiler/DataCollectorTranslatorPassTest.php

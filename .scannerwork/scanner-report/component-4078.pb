@@ -1,0 +1,1 @@
+îKvendor/friendsofsymfony/rest-bundle/Routing/Loader/DirectoryRouteLoader.php 2phpXNhrKvendor/friendsofsymfony/rest-bundle/Routing/Loader/DirectoryRouteLoader.php

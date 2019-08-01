@@ -1,0 +1,1 @@
+ ekvendor/api-platform/core/src/Bridge/Symfony/Bundle/DependencyInjection/Compiler/ElasticsearchClientPass.php 2phpX:hrkvendor/api-platform/core/src/Bridge/Symfony/Bundle/DependencyInjection/Compiler/ElasticsearchClientPass.php

@@ -1,0 +1,1 @@
+ïLvendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/Entity/Foo.php 2phpXhrLvendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/Entity/Foo.php

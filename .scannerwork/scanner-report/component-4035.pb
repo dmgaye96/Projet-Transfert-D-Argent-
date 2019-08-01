@@ -1,0 +1,1 @@
+ÃLvendor/friendsofsymfony/rest-bundle/Tests/Functional/app/Version/bundles.php 2phpXhrLvendor/friendsofsymfony/rest-bundle/Tests/Functional/app/Version/bundles.php

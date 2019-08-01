@@ -1,0 +1,1 @@
+ãRvendor/friendsofsymfony/rest-bundle/Tests/Fixtures/Routes/invalid_route_parent.xml 2xmlXhrRvendor/friendsofsymfony/rest-bundle/Tests/Fixtures/Routes/invalid_route_parent.xml

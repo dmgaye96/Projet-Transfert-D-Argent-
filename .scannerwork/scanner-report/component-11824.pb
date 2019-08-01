@@ -1,0 +1,1 @@
+°\avendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/php/template_and_fragments.php 2phpXhravendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/php/template_and_fragments.php

@@ -1,0 +1,1 @@
+›lZvendor/api-platform/core/tests/Bridge/Symfony/Bundle/Twig/ApiPlatformProfilerPanelTest.php 2phpXýhrZvendor/api-platform/core/tests/Bridge/Symfony/Bundle/Twig/ApiPlatformProfilerPanelTest.php

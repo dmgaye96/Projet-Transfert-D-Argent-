@@ -1,0 +1,1 @@
+Ö&@vendor/symfony/maker-bundle/src/Resources/skeleton/authenticator :Õ&×&Ø&Ù&r@vendor/symfony/maker-bundle/src/Resources/skeleton/authenticator

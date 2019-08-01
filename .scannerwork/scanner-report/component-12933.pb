@@ -1,0 +1,1 @@
+…eVvendor/api-platform/core/src/Bridge/Symfony/Bundle/Resources/config/routing/jsonld.xml 2xmlXhrVvendor/api-platform/core/src/Bridge/Symfony/Bundle/Resources/config/routing/jsonld.xml

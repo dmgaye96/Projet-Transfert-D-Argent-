@@ -1,0 +1,1 @@
+“cRvendor/api-platform/core/src/DataProvider/SerializerAwareDataProviderInterface.php 2phpXhrRvendor/api-platform/core/src/DataProvider/SerializerAwareDataProviderInterface.php

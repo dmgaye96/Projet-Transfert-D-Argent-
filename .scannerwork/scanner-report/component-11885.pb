@@ -1,0 +1,1 @@
+í\jvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/xml/validation_strict_email_enabled.xml 2xmlXhrjvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/xml/validation_strict_email_enabled.xml

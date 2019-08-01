@@ -1,0 +1,1 @@
+ù%avendor/symfony/serializer/Mapping/Loader/schema/dic/serializer-mapping/serializer-mapping-1.0.xsd 2xmlXThravendor/symfony/serializer/Mapping/Loader/schema/dic/serializer-mapping/serializer-mapping-1.0.xsd

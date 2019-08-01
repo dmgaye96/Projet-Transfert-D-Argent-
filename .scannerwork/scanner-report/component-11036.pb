@@ -1,0 +1,1 @@
+œVOvendor/symfony/dependency-injection/Loader/schema/dic/services/services-1.0.xsd 2xmlXŸhrOvendor/symfony/dependency-injection/Loader/schema/dic/services/services-1.0.xsd

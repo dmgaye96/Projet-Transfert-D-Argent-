@@ -1,0 +1,1 @@
+ëkLvendor/api-platform/core/tests/Bridge/Elasticsearch/Serializer/NameConverter :êkrLvendor/api-platform/core/tests/Bridge/Elasticsearch/Serializer/NameConverter

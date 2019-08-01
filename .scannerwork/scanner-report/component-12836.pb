@@ -1,0 +1,1 @@
+¤dqvendor/api-platform/core/src/Bridge/Elasticsearch/Metadata/Document/Factory/ConfiguredDocumentMetadataFactory.php 2phpXHhrqvendor/api-platform/core/src/Bridge/Elasticsearch/Metadata/Document/Factory/ConfiguredDocumentMetadataFactory.php

@@ -1,0 +1,1 @@
+ñ??vendor/symfony/twig-bundle/Resources/config/schema/twig-1.0.xsd 2xmlX<hr?vendor/symfony/twig-bundle/Resources/config/schema/twig-1.0.xsd

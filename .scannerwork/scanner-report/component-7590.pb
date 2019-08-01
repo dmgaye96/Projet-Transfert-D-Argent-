@@ -1,0 +1,1 @@
+¦;Hvendor/symfony/property-access/Tests/Fixtures/TraversableArrayObject.php 2phpXQhrHvendor/symfony/property-access/Tests/Fixtures/TraversableArrayObject.php

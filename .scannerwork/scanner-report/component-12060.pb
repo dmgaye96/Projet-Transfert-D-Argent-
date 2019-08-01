@@ -1,0 +1,1 @@
+œ^>vendor/symfony/framework-bundle/Resources/config/form_csrf.xml 2xmlXhr>vendor/symfony/framework-bundle/Resources/config/form_csrf.xml

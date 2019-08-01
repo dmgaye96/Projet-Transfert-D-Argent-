@@ -1,0 +1,1 @@
+Õ bvendor/friendsofsymfony/rest-bundle/DependencyInjection/Compiler/HandlerRegistryDecorationPass.php 2phpX7hrbvendor/friendsofsymfony/rest-bundle/DependencyInjection/Compiler/HandlerRegistryDecorationPass.php

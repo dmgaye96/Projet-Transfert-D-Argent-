@@ -1,0 +1,1 @@
+š(Bvendor/symfony/http-kernel/Tests/Fixtures/KernelWithoutBundles.php 2phpX'hrBvendor/symfony/http-kernel/Tests/Fixtures/KernelWithoutBundles.php

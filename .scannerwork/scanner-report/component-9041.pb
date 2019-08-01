@@ -1,0 +1,1 @@
+ÑF0vendor/symfony/console/Tests/ApplicationTest.php 2phpX­hr0vendor/symfony/console/Tests/ApplicationTest.php

@@ -1,0 +1,1 @@
+—'2vendor/symfony/maker-bundle/src/MakerInterface.php 2phpXChr2vendor/symfony/maker-bundle/src/MakerInterface.php

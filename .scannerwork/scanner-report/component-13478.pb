@@ -1,0 +1,1 @@
+¦iEvendor/api-platform/core/tests/Fixtures/TestBundle/Entity/Product.php 2phpX\hrEvendor/api-platform/core/tests/Fixtures/TestBundle/Entity/Product.php

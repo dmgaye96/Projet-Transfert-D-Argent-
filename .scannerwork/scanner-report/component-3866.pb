@@ -1,0 +1,1 @@
+šMvendor/friendsofsymfony/rest-bundle/View/ConfigurableViewHandlerInterface.php 2phpX*hrMvendor/friendsofsymfony/rest-bundle/View/ConfigurableViewHandlerInterface.php

@@ -1,0 +1,1 @@
+¦hCvendor/api-platform/core/tests/Fixtures/Metadata/schema/invalid.xml 2xmlXhrCvendor/api-platform/core/tests/Fixtures/Metadata/schema/invalid.xml

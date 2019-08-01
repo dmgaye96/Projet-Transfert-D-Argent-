@@ -1,0 +1,1 @@
+°jMvendor/api-platform/core/tests/Fixtures/TestBundle/Controller/DummyDtoNoInput :¯j±jrMvendor/api-platform/core/tests/Fixtures/TestBundle/Controller/DummyDtoNoInput

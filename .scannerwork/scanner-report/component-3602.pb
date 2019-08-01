@@ -1,0 +1,1 @@
+’\vendor/sensio/framework-extra-bundle/Tests/Templating/Fixture/FooBundle/Action/FooAction.php 2phpXhr\vendor/sensio/framework-extra-bundle/Tests/Templating/Fixture/FooBundle/Action/FooAction.php

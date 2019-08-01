@@ -1,0 +1,1 @@
+Â@vendor/friendsofsymfony/rest-bundle/Tests/Functional/app/Version :Ãr@vendor/friendsofsymfony/rest-bundle/Tests/Functional/app/Version

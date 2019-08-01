@@ -1,0 +1,1 @@
+¹&>vendor/symfony/maker-bundle/src/Maker/MakeRegistrationForm.php 2phpXØhr>vendor/symfony/maker-bundle/src/Maker/MakeRegistrationForm.php

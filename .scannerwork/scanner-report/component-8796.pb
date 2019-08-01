@@ -1,0 +1,1 @@
+ÜD<vendor/symfony/console/Tests/Fixtures/input_definition_4.xml 2xmlXhr<vendor/symfony/console/Tests/Fixtures/input_definition_4.xml

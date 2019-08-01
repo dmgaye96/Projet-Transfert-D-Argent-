@@ -1,0 +1,1 @@
+¤URvendor/symfony/dependency-injection/Tests/Fixtures/includes/autowiring_classes.php 2phpX­hrRvendor/symfony/dependency-injection/Tests/Fixtures/includes/autowiring_classes.php

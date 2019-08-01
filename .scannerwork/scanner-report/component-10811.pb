@@ -1,0 +1,1 @@
+»TSvendor/symfony/dependency-injection/Tests/Fixtures/php/services_inline_self_ref.php 2phpXEhrSvendor/symfony/dependency-injection/Tests/Fixtures/php/services_inline_self_ref.php

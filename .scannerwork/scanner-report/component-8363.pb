@@ -1,0 +1,1 @@
+«ARvendor/symfony/security-bundle/Tests/Functional/SecurityRoutingIntegrationTest.php 2phpX‡hrRvendor/symfony/security-bundle/Tests/Functional/SecurityRoutingIntegrationTest.php

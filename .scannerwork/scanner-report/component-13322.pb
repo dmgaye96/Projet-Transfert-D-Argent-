@@ -1,0 +1,1 @@
+ŠhPvendor/api-platform/core/tests/Fixtures/FileConfigurations/resourcesoptional.xml 2xmlXhrPvendor/api-platform/core/tests/Fixtures/FileConfigurations/resourcesoptional.xml

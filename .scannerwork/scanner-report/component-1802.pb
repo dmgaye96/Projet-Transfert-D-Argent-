@@ -1,0 +1,1 @@
+Š@vendor/twig/twig/src/Sandbox/SecurityNotAllowedFunctionError.php 2phpX/hr@vendor/twig/twig/src/Sandbox/SecurityNotAllowedFunctionError.php

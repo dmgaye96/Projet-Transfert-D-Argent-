@@ -1,0 +1,1 @@
+Ö\dvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/CustomPathBundle/Resources/config :×\rdvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/CustomPathBundle/Resources/config

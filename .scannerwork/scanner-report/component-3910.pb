@@ -1,0 +1,1 @@
+ÆWvendor/friendsofsymfony/rest-bundle/Tests/Fixtures/Controller/InformationController.php 2phpXhrWvendor/friendsofsymfony/rest-bundle/Tests/Fixtures/Controller/InformationController.php

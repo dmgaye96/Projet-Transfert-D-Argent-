@@ -1,0 +1,1 @@
+›k=vendor/api-platform/core/tests/Bridge/Elasticsearch/Exception :‹kﬁkr=vendor/api-platform/core/tests/Bridge/Elasticsearch/Exception

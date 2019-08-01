@@ -1,0 +1,1 @@
+ƒ#:vendor/symfony/var-exporter/Tests/Fixtures/final-error.php 2phpXhr:vendor/symfony/var-exporter/Tests/Fixtures/final-error.php

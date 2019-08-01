@@ -1,0 +1,1 @@
+>Pvendor/symfony/routing/Tests/Fixtures/AnnotationFixtures/GlobalDefaultsClass.php 2phpX#hrPvendor/symfony/routing/Tests/Fixtures/AnnotationFixtures/GlobalDefaultsClass.php

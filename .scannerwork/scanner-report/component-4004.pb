@@ -1,0 +1,1 @@
+¤8vendor/friendsofsymfony/rest-bundle/Tests/Functional/app :£r8vendor/friendsofsymfony/rest-bundle/Tests/Functional/app

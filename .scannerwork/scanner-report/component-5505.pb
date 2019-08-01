@@ -1,0 +1,1 @@
++>vendor/symfony/security-core/Tests/Role/SwitchUserRoleTest.php 2phpX$hr>vendor/symfony/security-core/Tests/Role/SwitchUserRoleTest.php

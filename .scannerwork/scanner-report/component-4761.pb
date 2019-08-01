@@ -1,0 +1,1 @@
+™%Gvendor/symfony/serializer/Tests/Normalizer/Features/CallbacksObject.php 2phpXhrGvendor/symfony/serializer/Tests/Normalizer/Features/CallbacksObject.php

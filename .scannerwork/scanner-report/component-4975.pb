@@ -1,0 +1,1 @@
+ï&:vendor/symfony/maker-bundle/src/Resources/skeleton/command :î&r:vendor/symfony/maker-bundle/src/Resources/skeleton/command

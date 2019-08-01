@@ -1,0 +1,1 @@
+Ó->vendor/symfony/form/Tests/Extension/Core/Type/TextTypeTest.php 2phpX>hr>vendor/symfony/form/Tests/Extension/Core/Type/TextTypeTest.php

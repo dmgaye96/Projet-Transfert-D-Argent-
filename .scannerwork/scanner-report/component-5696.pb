@@ -1,0 +1,1 @@
+À,"vendor/symfony/form/Tests/Fixtures :2Â,Á,Ä,Ã,Ç,Ë,Ê,Í,Î,Ï,Ğ,Ñ,Ò,Ô,Õ,Ö,×,Ø,Ú,Û,ï,ğ,ñ,-É,r"vendor/symfony/form/Tests/Fixtures

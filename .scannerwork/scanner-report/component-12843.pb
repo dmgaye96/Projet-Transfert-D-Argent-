@@ -1,0 +1,1 @@
+«d<vendor/api-platform/core/src/Bridge/Elasticsearch/Serializer :ªdr<vendor/api-platform/core/src/Bridge/Elasticsearch/Serializer

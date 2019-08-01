@@ -1,0 +1,1 @@
+û,<vendor/symfony/form/Tests/Resources/TranslationFilesTest.php 2phpX1hr<vendor/symfony/form/Tests/Resources/TranslationFilesTest.php

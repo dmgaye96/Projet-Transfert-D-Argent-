@@ -1,0 +1,1 @@
+Ê#5vendor/symfony/debug/Tests/Fixtures/InternalClass.php 2phpXhr5vendor/symfony/debug/Tests/Fixtures/InternalClass.php

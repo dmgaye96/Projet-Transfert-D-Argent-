@@ -1,0 +1,1 @@
+Ã	Nvendor/doctrine/migrations/lib/Doctrine/Migrations/Generator/DiffGenerator.php 2phpX–hrNvendor/doctrine/migrations/lib/Doctrine/Migrations/Generator/DiffGenerator.php

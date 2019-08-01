@@ -1,0 +1,1 @@
+‚D7vendor/symfony/console/Tests/Fixtures/BarBucCommand.php 2phpXhr7vendor/symfony/console/Tests/Fixtures/BarBucCommand.php

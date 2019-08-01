@@ -1,0 +1,1 @@
+¦n.vendor/lexik/jwt-authentication-bundle/Command :¤n¨nr.vendor/lexik/jwt-authentication-bundle/Command

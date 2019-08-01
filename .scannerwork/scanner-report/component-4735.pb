@@ -1,0 +1,1 @@
+ÿ$Cvendor/symfony/serializer/Tests/Fixtures/CircularReferenceDummy.php 2phpXhrCvendor/symfony/serializer/Tests/Fixtures/CircularReferenceDummy.php

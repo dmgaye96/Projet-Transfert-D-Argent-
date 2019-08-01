@@ -1,0 +1,1 @@
+¢E4vendor/symfony/console/Tests/Fixtures/FooCommand.php 2phpX"hr4vendor/symfony/console/Tests/Fixtures/FooCommand.php

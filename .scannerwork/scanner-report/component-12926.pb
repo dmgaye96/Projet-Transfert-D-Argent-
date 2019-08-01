@@ -1,0 +1,1 @@
+þdXvendor/api-platform/core/src/Bridge/Symfony/Bundle/Resources/config/metadata/php_doc.xml 2xmlXhrXvendor/api-platform/core/src/Bridge/Symfony/Bundle/Resources/config/metadata/php_doc.xml

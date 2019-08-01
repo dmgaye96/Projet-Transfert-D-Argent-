@@ -1,0 +1,1 @@
+›%Cvendor/symfony/serializer/Tests/Normalizer/Features/ObjectOuter.php 2phpXFhrCvendor/symfony/serializer/Tests/Normalizer/Features/ObjectOuter.php

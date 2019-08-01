@@ -1,0 +1,1 @@
+•>vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Encapsed.php 2phpX hr>vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/Encapsed.php

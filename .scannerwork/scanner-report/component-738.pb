@@ -1,0 +1,1 @@
+â<vendor/doctrine/dbal/lib/Doctrine/DBAL/Tools/Console/Command :àáär<vendor/doctrine/dbal/lib/Doctrine/DBAL/Tools/Console/Command

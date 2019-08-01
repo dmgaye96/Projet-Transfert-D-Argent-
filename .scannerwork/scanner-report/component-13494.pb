@@ -1,0 +1,1 @@
+¶iRvendor/api-platform/core/tests/Fixtures/TestBundle/Entity/SerializableResource.php 2phpX-hrRvendor/api-platform/core/tests/Fixtures/TestBundle/Entity/SerializableResource.php

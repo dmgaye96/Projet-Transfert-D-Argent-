@@ -1,0 +1,1 @@
+úFvendor/friendsofsymfony/rest-bundle/Routing/ClassResourceInterface.php 2phpXhrFvendor/friendsofsymfony/rest-bundle/Routing/ClassResourceInterface.php

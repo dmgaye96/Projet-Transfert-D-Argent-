@@ -1,0 +1,1 @@
+Â1Gvendor/symfony/twig-bridge/Tests/Extension/TranslationExtensionTest.php 2phpX¥hrGvendor/symfony/twig-bridge/Tests/Extension/TranslationExtensionTest.php

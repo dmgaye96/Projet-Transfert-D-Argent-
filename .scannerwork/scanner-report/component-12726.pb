@@ -1,0 +1,1 @@
+¶cTvendor/api-platform/core/src/Metadata/Resource/ToggleableOperationAttributeTrait.php 2phpX'hrTvendor/api-platform/core/src/Metadata/Resource/ToggleableOperationAttributeTrait.php

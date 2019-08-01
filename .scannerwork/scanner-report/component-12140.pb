@@ -1,0 +1,1 @@
+ì^Cvendor/symfony/framework-bundle/Command/TranslationDebugCommand.php 2phpXŠhrCvendor/symfony/framework-bundle/Command/TranslationDebugCommand.php

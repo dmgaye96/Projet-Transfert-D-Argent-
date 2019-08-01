@@ -1,0 +1,1 @@
+–>bvendor/symfony/routing/Tests/Fixtures/AnnotationFixtures/LocalizedPrefixWithRouteWithoutLocale.php 2phpXhrbvendor/symfony/routing/Tests/Fixtures/AnnotationFixtures/LocalizedPrefixWithRouteWithoutLocale.php

@@ -1,0 +1,1 @@
+þLvendor/nikic/php-parser/lib/PhpParser/Internal/PrintableNewAnonClassNode.php 2phpX:hrLvendor/nikic/php-parser/lib/PhpParser/Internal/PrintableNewAnonClassNode.php

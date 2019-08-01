@@ -1,0 +1,1 @@
+¢ Cvendor/friendsofsymfony/rest-bundle/Resources/config/serializer.xml 2xmlXhrCvendor/friendsofsymfony/rest-bundle/Resources/config/serializer.xml

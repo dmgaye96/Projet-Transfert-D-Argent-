@@ -1,0 +1,1 @@
+¥	^vendor/doctrine/migrations/lib/Doctrine/Migrations/Configuration/AbstractFileConfiguration.php 2phpX™hr^vendor/doctrine/migrations/lib/Doctrine/Migrations/Configuration/AbstractFileConfiguration.php

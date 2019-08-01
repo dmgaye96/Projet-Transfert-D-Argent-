@@ -1,0 +1,1 @@
+™/vendor/jdorn/sql-formatter/lib/SqlFormatter.php 2phpX¹hr/vendor/jdorn/sql-formatter/lib/SqlFormatter.php

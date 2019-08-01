@@ -1,0 +1,1 @@
+’=Uvendor/symfony/routing/Tests/Fixtures/OtherAnnotatedClasses/AnonymousClassInTrait.php 2phpXhrUvendor/symfony/routing/Tests/Fixtures/OtherAnnotatedClasses/AnonymousClassInTrait.php

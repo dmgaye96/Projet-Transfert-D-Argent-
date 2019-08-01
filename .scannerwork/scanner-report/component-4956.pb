@@ -1,0 +1,1 @@
+Ü&7vendor/symfony/maker-bundle/src/Resources/skeleton/test :Û&Ú&r7vendor/symfony/maker-bundle/src/Resources/skeleton/test

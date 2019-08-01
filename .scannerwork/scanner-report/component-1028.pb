@@ -1,0 +1,1 @@
+„^vendor/doctrine/doctrine-migrations-bundle/Resources/config/schema/doctrine_migrations-1.0.xsd 2xmlXhr^vendor/doctrine/doctrine-migrations-bundle/Resources/config/schema/doctrine_migrations-1.0.xsd

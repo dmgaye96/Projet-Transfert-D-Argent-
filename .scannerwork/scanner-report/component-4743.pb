@@ -1,0 +1,1 @@
+‡%8vendor/symfony/serializer/Tests/Fixtures/ScalarDummy.php 2phpX&hr8vendor/symfony/serializer/Tests/Fixtures/ScalarDummy.php

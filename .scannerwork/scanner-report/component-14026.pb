@@ -1,0 +1,1 @@
+ÊmIvendor/lexik/jwt-authentication-bundle/Tests/Functional/app/AppKernel.php 2phpXihrIvendor/lexik/jwt-authentication-bundle/Tests/Functional/app/AppKernel.php

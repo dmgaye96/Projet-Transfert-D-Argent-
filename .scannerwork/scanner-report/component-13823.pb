@@ -1,0 +1,1 @@
+ÿkIvendor/api-platform/core/tests/Bridge/Symfony/Validator/Metadata/Property :þkrIvendor/api-platform/core/tests/Bridge/Symfony/Validator/Metadata/Property

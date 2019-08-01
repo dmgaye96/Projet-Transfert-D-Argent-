@@ -1,0 +1,1 @@
+–f7vendor/api-platform/core/src/Serializer/JsonEncoder.php 2phpXWhr7vendor/api-platform/core/src/Serializer/JsonEncoder.php

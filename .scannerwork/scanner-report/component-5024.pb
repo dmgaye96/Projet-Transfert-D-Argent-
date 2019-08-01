@@ -1,0 +1,1 @@
+ '`vendor/symfony/maker-bundle/src/DependencyInjection/CompilerPass/MakeCommandRegistrationPass.php 2phpX-hr`vendor/symfony/maker-bundle/src/DependencyInjection/CompilerPass/MakeCommandRegistrationPass.php

@@ -1,0 +1,1 @@
+©Ayvendor/symfony/security-bundle/Tests/Functional/Bundle/JsonLoginBundle/Security/Http/JsonAuthenticationSuccessHandler.php 2phpXhryvendor/symfony/security-bundle/Tests/Functional/Bundle/JsonLoginBundle/Security/Http/JsonAuthenticationSuccessHandler.php

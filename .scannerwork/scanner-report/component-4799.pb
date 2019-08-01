@@ -1,0 +1,1 @@
+¿%*vendor/symfony/serializer/Tests/Annotation :½%¾%À%Á%r*vendor/symfony/serializer/Tests/Annotation

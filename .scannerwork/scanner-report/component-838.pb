@@ -1,0 +1,1 @@
+ÆDvendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/MySqlSchemaManager.php 2phpXÌhrDvendor/doctrine/dbal/lib/Doctrine/DBAL/Schema/MySqlSchemaManager.php

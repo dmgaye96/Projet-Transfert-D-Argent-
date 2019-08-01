@@ -1,0 +1,1 @@
+ýdYvendor/api-platform/core/src/Bridge/Symfony/Bundle/Resources/config/metadata/metadata.xml 2xmlX_hrYvendor/api-platform/core/src/Bridge/Symfony/Bundle/Resources/config/metadata/metadata.xml

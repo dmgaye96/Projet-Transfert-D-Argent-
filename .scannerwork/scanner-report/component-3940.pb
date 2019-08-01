@@ -1,0 +1,1 @@
+äDvendor/friendsofsymfony/rest-bundle/Tests/Fixtures/Routes/routes.xml 2xmlXhrDvendor/friendsofsymfony/rest-bundle/Tests/Fixtures/Routes/routes.xml

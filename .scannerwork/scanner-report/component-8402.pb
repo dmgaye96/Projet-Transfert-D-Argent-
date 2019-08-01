@@ -1,0 +1,1 @@
+ÒAEvendor/symfony/security-bundle/Tests/Functional/app/StandardFormLogin :ÔArEvendor/symfony/security-bundle/Tests/Functional/app/StandardFormLogin

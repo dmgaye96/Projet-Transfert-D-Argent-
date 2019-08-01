@@ -1,0 +1,1 @@
+ÀEvendor/willdurand/negotiation/src/Negotiation/Exception/Exception.php 2phpXhrEvendor/willdurand/negotiation/src/Negotiation/Exception/Exception.php

@@ -1,0 +1,1 @@
+Í	@vendor/doctrine/migrations/lib/Doctrine/Migrations/Tools/Console :Ì	á	r@vendor/doctrine/migrations/lib/Doctrine/Migrations/Tools/Console

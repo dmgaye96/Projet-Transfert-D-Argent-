@@ -1,0 +1,1 @@
+ºOvendor/friendsofsymfony/rest-bundle/Tests/Functional/app/Templating/bundles.php 2phpXhrOvendor/friendsofsymfony/rest-bundle/Tests/Functional/app/Templating/bundles.php

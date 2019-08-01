@@ -1,0 +1,1 @@
+ÒENvendor/symfony/console/Tests/Fixtures/Style/SymfonyStyle/command/command_0.php 2phpXhrNvendor/symfony/console/Tests/Fixtures/Style/SymfonyStyle/command/command_0.php

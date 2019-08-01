@@ -1,0 +1,1 @@
+‹d>vendor/api-platform/core/src/Bridge/Elasticsearch/DataProvider :Šdšdœdr>vendor/api-platform/core/src/Bridge/Elasticsearch/DataProvider

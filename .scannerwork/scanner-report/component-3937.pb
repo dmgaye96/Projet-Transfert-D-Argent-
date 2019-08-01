@@ -1,0 +1,1 @@
+áIvendor/friendsofsymfony/rest-bundle/Tests/Fixtures/Routes/invalid_tag.xml 2xmlXhrIvendor/friendsofsymfony/rest-bundle/Tests/Fixtures/Routes/invalid_tag.xml

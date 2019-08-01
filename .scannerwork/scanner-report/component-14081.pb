@@ -1,0 +1,1 @@
+ÅnGvendor/lexik/jwt-authentication-bundle/Resources/config/jwt_manager.xml 2xmlXhrGvendor/lexik/jwt-authentication-bundle/Resources/config/jwt_manager.xml

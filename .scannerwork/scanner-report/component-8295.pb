@@ -1,0 +1,1 @@
+ç@Svendor/symfony/flex/tests/Configurator/CopyDirectoryFromPackageConfiguratorTest.php 2phpX‹hrSvendor/symfony/flex/tests/Configurator/CopyDirectoryFromPackageConfiguratorTest.php

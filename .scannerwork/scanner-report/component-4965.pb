@@ -1,0 +1,1 @@
+å&7vendor/symfony/maker-bundle/src/Resources/skeleton/twig :ã&r7vendor/symfony/maker-bundle/src/Resources/skeleton/twig

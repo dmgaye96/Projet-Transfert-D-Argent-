@@ -1,0 +1,1 @@
+ˆ`Cvendor/symfony/config/Tests/Resource/ClassExistenceResourceTest.php 2phpXehrCvendor/symfony/config/Tests/Resource/ClassExistenceResourceTest.php

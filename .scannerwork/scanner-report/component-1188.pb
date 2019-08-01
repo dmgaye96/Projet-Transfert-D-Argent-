@@ -1,0 +1,1 @@
+¤	@vendor/doctrine/migrations/lib/Doctrine/Migrations/Configuration :¢	£	¥	´	µ	¶	r@vendor/doctrine/migrations/lib/Doctrine/Migrations/Configuration

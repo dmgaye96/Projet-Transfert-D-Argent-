@@ -1,0 +1,1 @@
+²dvendor/sensio/framework-extra-bundle/Tests/DependencyInjection/SensioFrameworkExtraExtensionTest.php 2phpXQhrdvendor/sensio/framework-extra-bundle/Tests/DependencyInjection/SensioFrameworkExtraExtensionTest.php

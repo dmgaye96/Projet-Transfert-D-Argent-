@@ -1,0 +1,1 @@
+…TBvendor/symfony/dependency-injection/Tests/Fixtures/BarTagClass.php 2phpXhrBvendor/symfony/dependency-injection/Tests/Fixtures/BarTagClass.php

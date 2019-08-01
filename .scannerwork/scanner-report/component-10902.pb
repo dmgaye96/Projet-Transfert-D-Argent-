@@ -1,0 +1,1 @@
+–UBvendor/symfony/dependency-injection/Tests/Fixtures/FooTagClass.php 2phpXhrBvendor/symfony/dependency-injection/Tests/Fixtures/FooTagClass.php

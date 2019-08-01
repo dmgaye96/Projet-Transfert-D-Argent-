@@ -1,0 +1,1 @@
+•7=vendor/symfony/validator/Tests/Mapping/Loader/withdoctype.xml 2xmlXhr=vendor/symfony/validator/Tests/Mapping/Loader/withdoctype.xml

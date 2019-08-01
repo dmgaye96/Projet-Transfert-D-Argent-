@@ -1,0 +1,1 @@
+ü`vendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/Controller/IsGrantedController.php 2phpX>hr`vendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/Controller/IsGrantedController.php

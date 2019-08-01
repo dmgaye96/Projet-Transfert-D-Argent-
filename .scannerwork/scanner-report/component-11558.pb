@@ -1,0 +1,1 @@
+¦ZHvendor/symfony/framework-bundle/Tests/Templating/GlobalVariablesTest.php 2phpXnhrHvendor/symfony/framework-bundle/Tests/Templating/GlobalVariablesTest.php

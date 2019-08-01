@@ -1,0 +1,1 @@
+ÌX@vendor/symfony/framework-bundle/Tests/Fixtures/DeclaredClass.php 2phpXhr@vendor/symfony/framework-bundle/Tests/Fixtures/DeclaredClass.php

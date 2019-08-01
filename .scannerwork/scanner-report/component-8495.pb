@@ -1,0 +1,1 @@
+¯B`vendor/symfony/security-bundle/Tests/DependencyInjection/Fixtures/xml/no_custom_user_checker.xml 2xmlXhr`vendor/symfony/security-bundle/Tests/DependencyInjection/Fixtures/xml/no_custom_user_checker.xml

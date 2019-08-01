@@ -1,0 +1,1 @@
+Í&Bvendor/symfony/maker-bundle/src/Resources/skeleton/crud/controller :Ì&rBvendor/symfony/maker-bundle/src/Resources/skeleton/crud/controller

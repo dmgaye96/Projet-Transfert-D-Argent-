@@ -1,0 +1,1 @@
+ÂD@vendor/symfony/console/Tests/Fixtures/FooWithoutAliasCommand.php 2phpXhr@vendor/symfony/console/Tests/Fixtures/FooWithoutAliasCommand.php

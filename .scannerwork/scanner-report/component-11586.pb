@@ -1,0 +1,1 @@
+ÂZ?vendor/symfony/framework-bundle/Tests/Command/CacheClearCommand :ÁZr?vendor/symfony/framework-bundle/Tests/Command/CacheClearCommand

@@ -1,0 +1,1 @@
+ÄZYvendor/symfony/framework-bundle/Tests/Command/CacheClearCommand/Fixture/TestAppKernel.php 2phpX,hrYvendor/symfony/framework-bundle/Tests/Command/CacheClearCommand/Fixture/TestAppKernel.php

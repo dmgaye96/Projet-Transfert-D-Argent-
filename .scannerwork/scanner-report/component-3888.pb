@@ -1,0 +1,1 @@
+°2vendor/friendsofsymfony/rest-bundle/Tests/Fixtures :®r2vendor/friendsofsymfony/rest-bundle/Tests/Fixtures

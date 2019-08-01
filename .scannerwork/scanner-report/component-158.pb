@@ -1,0 +1,1 @@
+û7vendor/doctrine/doctrine-bundle/Resources/config/schema :ùr7vendor/doctrine/doctrine-bundle/Resources/config/schema

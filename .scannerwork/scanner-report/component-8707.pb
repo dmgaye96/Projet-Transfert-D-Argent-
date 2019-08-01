@@ -1,0 +1,1 @@
+ÉDEvendor/symfony/css-selector/Tests/Parser/Shortcut/ClassParserTest.php 2phpX.hrEvendor/symfony/css-selector/Tests/Parser/Shortcut/ClassParserTest.php

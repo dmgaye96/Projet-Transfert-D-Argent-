@@ -1,0 +1,1 @@
+÷dKvendor/api-platform/core/src/Bridge/Symfony/Bundle/Resources/config/hal.xml 2xmlX:hrKvendor/api-platform/core/src/Bridge/Symfony/Bundle/Resources/config/hal.xml

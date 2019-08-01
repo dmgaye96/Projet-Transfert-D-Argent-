@@ -1,0 +1,1 @@
+Çcavendor/api-platform/core/src/Metadata/Property/Factory/InheritedPropertyNameCollectionFactory.php 2phpX@hravendor/api-platform/core/src/Metadata/Property/Factory/InheritedPropertyNameCollectionFactory.php

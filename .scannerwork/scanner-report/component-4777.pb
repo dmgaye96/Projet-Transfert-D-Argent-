@@ -1,0 +1,1 @@
+©%=vendor/symfony/serializer/Tests/Normalizer/TestNormalizer.php 2phpX&hr=vendor/symfony/serializer/Tests/Normalizer/TestNormalizer.php

@@ -1,0 +1,1 @@
+Å#9vendor/symfony/debug/Tests/Fixtures/FinalMethod2Trait.php 2phpXhr9vendor/symfony/debug/Tests/Fixtures/FinalMethod2Trait.php

@@ -1,0 +1,1 @@
+™F4vendor/symfony/console/Tests/Command/CommandTest.php 2phpXµhr4vendor/symfony/console/Tests/Command/CommandTest.php

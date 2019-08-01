@@ -1,0 +1,1 @@
+·Gvendor/sensio/framework-extra-bundle/Tests/DependencyInjection/Compiler :µ¶rGvendor/sensio/framework-extra-bundle/Tests/DependencyInjection/Compiler

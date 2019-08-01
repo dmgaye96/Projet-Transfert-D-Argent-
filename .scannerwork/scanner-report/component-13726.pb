@@ -1,0 +1,1 @@
+žkevendor/api-platform/core/tests/Metadata/Property/Factory/FileConfigurationMetadataFactoryProvider.php 2phpXOhrevendor/api-platform/core/tests/Metadata/Property/Factory/FileConfigurationMetadataFactoryProvider.php

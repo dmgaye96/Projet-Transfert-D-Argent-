@@ -1,0 +1,1 @@
+©j_vendor/api-platform/core/tests/Fixtures/TestBundle/Serializer/NameConverter/CustomConverter.php 2phpX"hr_vendor/api-platform/core/tests/Fixtures/TestBundle/Serializer/NameConverter/CustomConverter.php

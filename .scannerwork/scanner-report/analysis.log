@@ -1,0 +1,32 @@
+SonarQube plugins:
+  - SonarPython 1.10.0.2131 (python)
+  - SonarCSS 1.0.3.724 (cssfamily)
+  - JaCoCo 1.0.1.143 (jacoco)
+  - SonarGo 1.1.0.1612 (go)
+  - SonarKotlin 1.4.0.155 (kotlin)
+  - Svn 1.9.0.1295 (scmsvn)
+  - SonarJS 5.0.0.6962 (javascript)
+  - SonarRuby 1.4.0.155 (ruby)
+  - SonarScala 1.4.0.155 (sonarscala)
+  - SonarC# 7.9.1.7622 (csharp)
+  - SonarJava 5.9.2.16552 (java)
+  - LDAP 2.2.0.608 (ldap)
+  - Git 1.6.0.1349 (scmgit)
+  - SonarFlex 2.4.0.1222 (flex)
+  - SonarXML 1.5.1.1452 (xml)
+  - SonarPHP 2.15.0.4060 (php)
+  - SonarTS 1.8.0.3332 (typescript)
+  - SonarVB 7.9.1.7622 (vbnet)
+Global properties:
+  - sonar.core.id=BF41A1F2-AWv7nn6ccKo3Bl_X1xWA
+  - sonar.core.startTime=2019-07-29T00:33:02+0000
+Settings for module: kgt
+  - sonar.host.url=http://localhost:9000
+  - sonar.login=******
+  - sonar.projectBaseDir=/home/dmg/Documents/Sonatel Academy/KGtranfert
+  - sonar.projectKey=kgt
+  - sonar.scanner.app=ScannerCli
+  - sonar.scanner.appVersion=3.2.0.1227
+  - sonar.sourceEncoding=UTF-8
+  - sonar.sources=.
+  - sonar.working.directory=/home/dmg/Documents/Sonatel Academy/KGtranfert/.scannerwork

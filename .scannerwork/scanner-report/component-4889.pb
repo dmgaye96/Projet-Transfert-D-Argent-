@@ -1,0 +1,1 @@
+™&1vendor/symfony/serializer/SerializerInterface.php 2phpX,hr1vendor/symfony/serializer/SerializerInterface.php

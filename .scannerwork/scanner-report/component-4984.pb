@@ -1,0 +1,1 @@
+ø&?vendor/symfony/maker-bundle/src/Resources/skeleton/registration :÷&ù&r?vendor/symfony/maker-bundle/src/Resources/skeleton/registration

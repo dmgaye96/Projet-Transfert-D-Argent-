@@ -1,0 +1,1 @@
+¢ervendor/api-platform/core/src/Bridge/Symfony/Bundle/DependencyInjection/Compiler/MetadataAwareNameConverterPass.php 2phpX8hrrvendor/api-platform/core/src/Bridge/Symfony/Bundle/DependencyInjection/Compiler/MetadataAwareNameConverterPass.php

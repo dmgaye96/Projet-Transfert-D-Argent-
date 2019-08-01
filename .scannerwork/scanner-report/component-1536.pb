@@ -1,0 +1,1 @@
+€Xvendor/ocramius/proxy-manager/src/ProxyManager/Signature/SignatureGeneratorInterface.php 2phpXhrXvendor/ocramius/proxy-manager/src/ProxyManager/Signature/SignatureGeneratorInterface.php

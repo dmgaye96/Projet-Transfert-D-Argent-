@@ -1,0 +1,1 @@
+Š(tvendor/symfony/http-kernel/Tests/Fixtures/ExtensionNotValidBundle/DependencyInjection/ExtensionNotValidExtension.php 2phpXhrtvendor/symfony/http-kernel/Tests/Fixtures/ExtensionNotValidBundle/DependencyInjection/ExtensionNotValidExtension.php

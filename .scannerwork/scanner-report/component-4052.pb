@@ -1,0 +1,1 @@
+ÔFvendor/friendsofsymfony/rest-bundle/Tests/DependencyInjection/Compiler :ÓØÚrFvendor/friendsofsymfony/rest-bundle/Tests/DependencyInjection/Compiler

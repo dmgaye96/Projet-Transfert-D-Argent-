@@ -1,0 +1,1 @@
+ßdTvendor/api-platform/core/src/Bridge/Symfony/Bundle/Resources/public/init-redoc-ui.js 2jsXhrTvendor/api-platform/core/src/Bridge/Symfony/Bundle/Resources/public/init-redoc-ui.js

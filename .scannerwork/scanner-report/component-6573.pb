@@ -1,0 +1,1 @@
+­3!vendor/symfony/cache/Tests/Simple :.ª3«3®3¯3°3³3²3´3±3¶3¸3·3¹3¬3µ3º3»3¼3½3¾3¿3À3Â3r!vendor/symfony/cache/Tests/Simple

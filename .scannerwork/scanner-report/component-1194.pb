@@ -1,0 +1,1 @@
+ª	hvendor/doctrine/migrations/lib/Doctrine/Migrations/Configuration/Exception/UnknownConfigurationValue.php 2phpXhrhvendor/doctrine/migrations/lib/Doctrine/Migrations/Configuration/Exception/UnknownConfigurationValue.php

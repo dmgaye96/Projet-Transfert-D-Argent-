@@ -1,0 +1,1 @@
+æ&Mvendor/symfony/maker-bundle/src/Resources/skeleton/serializer/Encoder.tpl.php 2phpX"hrMvendor/symfony/maker-bundle/src/Resources/skeleton/serializer/Encoder.tpl.php

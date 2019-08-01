@@ -1,0 +1,1 @@
+Â]`vendor/symfony/framework-bundle/Tests/DependencyInjection/Compiler/LoggingTranslatorPassTest.php 2phpXRhr`vendor/symfony/framework-bundle/Tests/DependencyInjection/Compiler/LoggingTranslatorPassTest.php

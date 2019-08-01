@@ -1,0 +1,1 @@
+’k@vendor/api-platform/core/tests/Bridge/Elasticsearch/DataProvider :“k‘k÷kr@vendor/api-platform/core/tests/Bridge/Elasticsearch/DataProvider

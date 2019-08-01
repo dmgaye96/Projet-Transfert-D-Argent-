@@ -1,0 +1,1 @@
+þ\mvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/xml/templating_php_translator_disabled.xml 2xmlXhrmvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/xml/templating_php_translator_disabled.xml

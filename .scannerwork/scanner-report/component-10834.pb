@@ -1,0 +1,1 @@
+ÒTCvendor/symfony/dependency-injection/Tests/Fixtures/xml/nonvalid.xml 2xmlXhrCvendor/symfony/dependency-injection/Tests/Fixtures/xml/nonvalid.xml

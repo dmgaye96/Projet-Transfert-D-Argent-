@@ -1,0 +1,1 @@
+Þ-Bvendor/symfony/form/Tests/Extension/Core/Type/CheckboxTypeTest.php 2phpXâhrBvendor/symfony/form/Tests/Extension/Core/Type/CheckboxTypeTest.php

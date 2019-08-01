@@ -1,0 +1,1 @@
+›;;vendor/symfony/property-access/Tests/Fixtures/TestClass.php 2phpXÈhr;vendor/symfony/property-access/Tests/Fixtures/TestClass.php

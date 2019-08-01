@@ -1,0 +1,1 @@
+’ePvendor/api-platform/core/src/Bridge/Symfony/Bundle/Resources/config/security.xml 2xmlXhrPvendor/api-platform/core/src/Bridge/Symfony/Bundle/Resources/config/security.xml

@@ -1,0 +1,1 @@
+Í@vendor/twig/twig/test/Twig/Tests/Node/Expression/GetAttrTest.php 2phpX;hr@vendor/twig/twig/test/Twig/Tests/Node/Expression/GetAttrTest.php

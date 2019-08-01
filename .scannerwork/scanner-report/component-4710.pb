@@ -1,0 +1,1 @@
+æ$Ivendor/symfony/serializer/Tests/Fixtures/NormalizableTraversableDummy.php 2phpX%hrIvendor/symfony/serializer/Tests/Fixtures/NormalizableTraversableDummy.php

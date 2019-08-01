@@ -1,0 +1,1 @@
+Ø&`vendor/symfony/maker-bundle/src/Resources/skeleton/authenticator/EmptySecurityController.tpl.php 2phpXhr`vendor/symfony/maker-bundle/src/Resources/skeleton/authenticator/EmptySecurityController.tpl.php

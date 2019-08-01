@@ -1,0 +1,1 @@
+Ñ]vendor/friendsofsymfony/rest-bundle/Tests/Fixtures/Controller/AnnotatedPrefixedController.php 2phpXhr]vendor/friendsofsymfony/rest-bundle/Tests/Fixtures/Controller/AnnotatedPrefixedController.php

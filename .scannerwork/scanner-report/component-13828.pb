@@ -1,0 +1,1 @@
+„lBvendor/api-platform/core/tests/Bridge/Symfony/Bundle/DataCollector :ƒlrBvendor/api-platform/core/tests/Bridge/Symfony/Bundle/DataCollector

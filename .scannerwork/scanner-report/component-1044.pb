@@ -1,0 +1,1 @@
+”Vvendor/doctrine/doctrine-migrations-bundle/Command/MigrationsLatestDoctrineCommand.php 2phpX5hrVvendor/doctrine/doctrine-migrations-bundle/Command/MigrationsLatestDoctrineCommand.php

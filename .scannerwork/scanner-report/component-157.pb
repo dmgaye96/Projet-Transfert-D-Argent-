@@ -1,0 +1,1 @@
+ùHvendor/doctrine/doctrine-bundle/Resources/config/schema/doctrine-1.0.xsd 2xmlXôhrHvendor/doctrine/doctrine-bundle/Resources/config/schema/doctrine-1.0.xsd

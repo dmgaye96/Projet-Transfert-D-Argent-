@@ -1,0 +1,1 @@
+ç\]vendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/xml/validation_mapping.xml 2xmlXhr]vendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/xml/validation_mapping.xml

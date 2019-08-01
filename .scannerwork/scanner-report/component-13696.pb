@@ -1,0 +1,1 @@
+€k@vendor/api-platform/core/tests/Metadata/schema/XmlSchemaTest.php 2phpX'hr@vendor/api-platform/core/tests/Metadata/schema/XmlSchemaTest.php

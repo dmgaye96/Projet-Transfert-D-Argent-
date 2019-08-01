@@ -1,0 +1,1 @@
+ø;;vendor/symfony/mime/Tests/FileBinaryMimeTypeGuesserTest.php 2phpXhr;vendor/symfony/mime/Tests/FileBinaryMimeTypeGuesserTest.php

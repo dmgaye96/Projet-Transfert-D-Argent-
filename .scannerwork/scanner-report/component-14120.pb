@@ -1,0 +1,1 @@
+¨nGvendor/lexik/jwt-authentication-bundle/Command/GenerateTokenCommand.php 2phpXZhrGvendor/lexik/jwt-authentication-bundle/Command/GenerateTokenCommand.php

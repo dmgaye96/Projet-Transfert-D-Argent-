@@ -1,0 +1,1 @@
+°Lvendor/friendsofsymfony/rest-bundle/Tests/Functional/app/Routing/bundles.php 2phpXhrLvendor/friendsofsymfony/rest-bundle/Tests/Functional/app/Routing/bundles.php

@@ -1,0 +1,1 @@
+¦Dvendor/nikic/php-parser/lib/PhpParser/Node/Stmt/PropertyProperty.php 2phpX#hrDvendor/nikic/php-parser/lib/PhpParser/Node/Stmt/PropertyProperty.php

@@ -1,0 +1,1 @@
+UBvendor/symfony/dependency-injection/Tests/Fixtures/includes/schema :UrBvendor/symfony/dependency-injection/Tests/Fixtures/includes/schema

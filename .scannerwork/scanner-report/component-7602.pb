@@ -1,0 +1,1 @@
+²;vendor/symfony/property-access :°;µ;·;¹;Å;Â;Ç;È;Ë;rvendor/symfony/property-access

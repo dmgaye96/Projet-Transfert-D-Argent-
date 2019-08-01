@@ -1,0 +1,1 @@
+â\mvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/xml/assets_version_strategy_as_service.xml 2xmlXhrmvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/xml/assets_version_strategy_as_service.xml

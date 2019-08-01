@@ -1,0 +1,1 @@
+ªjKvendor/api-platform/core/tests/Fixtures/TestBundle/Serializer/NameConverter :©jrKvendor/api-platform/core/tests/Fixtures/TestBundle/Serializer/NameConverter

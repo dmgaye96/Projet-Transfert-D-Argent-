@@ -1,0 +1,1 @@
+ülDvendor/api-platform/core/tests/Hal/Serializer/ItemNormalizerTest.php 2phpXöhrDvendor/api-platform/core/tests/Hal/Serializer/ItemNormalizerTest.php

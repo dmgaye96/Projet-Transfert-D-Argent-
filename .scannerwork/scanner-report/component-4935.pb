@@ -1,0 +1,1 @@
+Ç&8vendor/symfony/maker-bundle/src/Maker/MakeSubscriber.php 2phpXlhr8vendor/symfony/maker-bundle/src/Maker/MakeSubscriber.php

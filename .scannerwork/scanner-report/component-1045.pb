@@ -1,0 +1,1 @@
+•9vendor/doctrine/doctrine-migrations-bundle/Command/Helper :“r9vendor/doctrine/doctrine-migrations-bundle/Command/Helper

@@ -1,0 +1,1 @@
+•=Mvendor/symfony/routing/Tests/Fixtures/OtherAnnotatedClasses/VariadicClass.php 2phpXhrMvendor/symfony/routing/Tests/Fixtures/OtherAnnotatedClasses/VariadicClass.php

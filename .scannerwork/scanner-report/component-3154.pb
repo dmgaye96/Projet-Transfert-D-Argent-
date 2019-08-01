@@ -1,0 +1,1 @@
+Ò>vendor/nikic/php-parser/lib/PhpParser/Node/Expr/StaticCall.php 2phpX)hr>vendor/nikic/php-parser/lib/PhpParser/Node/Expr/StaticCall.php

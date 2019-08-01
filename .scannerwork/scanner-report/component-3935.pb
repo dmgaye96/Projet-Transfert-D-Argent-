@@ -1,0 +1,1 @@
+ßkvendor/friendsofsymfony/rest-bundle/Tests/Fixtures/Routes/routes_with_options_requirements_and_defaults.xml 2xmlXhrkvendor/friendsofsymfony/rest-bundle/Tests/Fixtures/Routes/routes_with_options_requirements_and_defaults.xml

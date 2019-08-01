@@ -1,0 +1,1 @@
+”=6vendor/symfony/routing/Tests/Fixtures/validpattern.php 2phpXhr6vendor/symfony/routing/Tests/Fixtures/validpattern.php

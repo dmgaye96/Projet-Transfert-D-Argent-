@@ -1,0 +1,1 @@
+È<vendor/nikic/php-parser/lib/PhpParser/Builder/Namespace_.php 2phpX.hr<vendor/nikic/php-parser/lib/PhpParser/Builder/Namespace_.php

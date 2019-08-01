@@ -1,0 +1,1 @@
+°/8vendor/symfony/form/Extension/Core/Type/CheckboxType.php 2phpXLhr8vendor/symfony/form/Extension/Core/Type/CheckboxType.php

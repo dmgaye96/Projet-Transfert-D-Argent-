@@ -1,0 +1,1 @@
+²BNvendor/symfony/security-bundle/Tests/DependencyInjection/Fixtures/UserProvider :°BrNvendor/symfony/security-bundle/Tests/DependencyInjection/Fixtures/UserProvider

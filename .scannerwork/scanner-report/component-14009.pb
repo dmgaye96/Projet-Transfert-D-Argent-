@@ -1,0 +1,1 @@
+¹mZvendor/lexik/jwt-authentication-bundle/Tests/Functional/Command/CheckConfigCommandTest.php 2phpXhrZvendor/lexik/jwt-authentication-bundle/Tests/Functional/Command/CheckConfigCommandTest.php

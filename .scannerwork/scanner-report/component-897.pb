@@ -1,0 +1,1 @@
+Å:vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/FloatType.php 2phpX!hr:vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/FloatType.php

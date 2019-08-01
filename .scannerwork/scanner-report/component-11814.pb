@@ -1,0 +1,1 @@
+¦\uvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/php/workflow_with_support_and_support_strategy.php 2phpXhruvendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/php/workflow_with_support_and_support_strategy.php

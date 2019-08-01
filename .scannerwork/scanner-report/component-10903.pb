@@ -1,0 +1,1 @@
+—UHvendor/symfony/dependency-injection/Tests/Fixtures/StdClassDecorator.php 2phpXhrHvendor/symfony/dependency-injection/Tests/Fixtures/StdClassDecorator.php

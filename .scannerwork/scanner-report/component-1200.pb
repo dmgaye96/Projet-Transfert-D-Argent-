@@ -1,0 +1,1 @@
+°	Zvendor/doctrine/migrations/lib/Doctrine/Migrations/Configuration/Exception/XmlNotValid.php 2phpXhrZvendor/doctrine/migrations/lib/Doctrine/Migrations/Configuration/Exception/XmlNotValid.php

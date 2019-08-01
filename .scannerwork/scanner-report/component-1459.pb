@@ -1,0 +1,1 @@
+³@vendor/willdurand/negotiation/src/Negotiation/AcceptEncoding.php 2phpXhr@vendor/willdurand/negotiation/src/Negotiation/AcceptEncoding.php

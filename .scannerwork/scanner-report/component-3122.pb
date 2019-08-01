@@ -1,0 +1,1 @@
+²:vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Catch_.php 2phpX*hr:vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Catch_.php

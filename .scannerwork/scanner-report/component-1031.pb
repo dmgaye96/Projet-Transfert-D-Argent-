@@ -1,0 +1,1 @@
+‡Bvendor/doctrine/doctrine-migrations-bundle/Resources/config/schema :„rBvendor/doctrine/doctrine-migrations-bundle/Resources/config/schema

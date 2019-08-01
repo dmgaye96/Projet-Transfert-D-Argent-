@@ -1,0 +1,1 @@
+˜eMvendor/api-platform/core/src/Bridge/Symfony/Bundle/Command/SwaggerCommand.php 2phpX_hrMvendor/api-platform/core/src/Bridge/Symfony/Bundle/Command/SwaggerCommand.php

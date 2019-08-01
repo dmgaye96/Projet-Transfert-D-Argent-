@@ -1,0 +1,1 @@
+à&=vendor/symfony/maker-bundle/src/Resources/skeleton/controller :ß&ä&r=vendor/symfony/maker-bundle/src/Resources/skeleton/controller

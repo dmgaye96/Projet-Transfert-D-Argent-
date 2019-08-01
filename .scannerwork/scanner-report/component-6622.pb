@@ -1,0 +1,1 @@
+Þ38vendor/symfony/cache/Tests/Adapter/PredisAdapterTest.php 2phpX0hr8vendor/symfony/cache/Tests/Adapter/PredisAdapterTest.php

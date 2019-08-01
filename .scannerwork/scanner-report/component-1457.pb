@@ -1,0 +1,1 @@
+±Ivendor/willdurand/negotiation/src/Negotiation/Exception/InvalidHeader.php 2phpXhrIvendor/willdurand/negotiation/src/Negotiation/Exception/InvalidHeader.php

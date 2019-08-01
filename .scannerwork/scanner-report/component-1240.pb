@@ -1,0 +1,1 @@
+Ø	dvendor/doctrine/migrations/lib/Doctrine/Migrations/Tools/Console/Exception/DirectoryDoesNotExist.php 2phpXhrdvendor/doctrine/migrations/lib/Doctrine/Migrations/Tools/Console/Exception/DirectoryDoesNotExist.php

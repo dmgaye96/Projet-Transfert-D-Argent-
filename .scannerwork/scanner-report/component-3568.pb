@@ -1,0 +1,1 @@
+ðDvendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/Entity :ïrDvendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/Entity

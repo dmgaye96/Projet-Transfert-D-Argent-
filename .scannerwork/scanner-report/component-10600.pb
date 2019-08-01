@@ -1,0 +1,1 @@
+ËRHvendor/symfony/dependency-injection/Tests/Fixtures/Prototype/Sub/Bar.php 2phpXhrHvendor/symfony/dependency-injection/Tests/Fixtures/Prototype/Sub/Bar.php

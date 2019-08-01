@@ -1,0 +1,1 @@
+ÆATvendor/symfony/security-bundle/Tests/Functional/app/LogoutWithoutSessionInvalidation :ÅArTvendor/symfony/security-bundle/Tests/Functional/app/LogoutWithoutSessionInvalidation

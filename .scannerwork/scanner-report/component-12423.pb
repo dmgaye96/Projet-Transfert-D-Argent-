@@ -1,0 +1,1 @@
+‡aJvendor/symfony/doctrine-bridge/Tests/Fixtures/EmbeddedIdentifierEntity.php 2phpXhrJvendor/symfony/doctrine-bridge/Tests/Fixtures/EmbeddedIdentifierEntity.php

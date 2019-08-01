@@ -1,0 +1,1 @@
+“hUvendor/api-platform/core/tests/Fixtures/FileConfigurations/nocollectionoperations.xml 2xmlXhrUvendor/api-platform/core/tests/Fixtures/FileConfigurations/nocollectionoperations.xml

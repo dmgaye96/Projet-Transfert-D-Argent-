@@ -1,0 +1,1 @@
+¦	Vvendor/doctrine/migrations/lib/Doctrine/Migrations/Configuration/XML/configuration.xsd 2xmlX.hrVvendor/doctrine/migrations/lib/Doctrine/Migrations/Configuration/XML/configuration.xsd

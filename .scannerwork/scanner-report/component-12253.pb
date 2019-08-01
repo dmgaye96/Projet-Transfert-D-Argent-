@@ -1,0 +1,1 @@
+Ý_<vendor/symfony/config/Tests/Fixtures/Util/invalid_schema.xml 2xmlXhr<vendor/symfony/config/Tests/Fixtures/Util/invalid_schema.xml

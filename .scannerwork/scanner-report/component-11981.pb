@@ -1,0 +1,1 @@
+Í]Kvendor/symfony/framework-bundle/Tests/Controller/RedirectControllerTest.php 2phpX¶hrKvendor/symfony/framework-bundle/Tests/Controller/RedirectControllerTest.php

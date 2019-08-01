@@ -1,0 +1,1 @@
+ˆnCvendor/lexik/jwt-authentication-bundle/Resources/config/console.xml 2xmlXhrCvendor/lexik/jwt-authentication-bundle/Resources/config/console.xml

@@ -1,0 +1,1 @@
+Î_,vendor/symfony/config/Tests/Fixtures/foo.xml 2xmlXhr,vendor/symfony/config/Tests/Fixtures/foo.xml

@@ -1,0 +1,1 @@
+üUvendor/doctrine/orm/lib/Doctrine/ORM/Tools/Console/Command/MappingDescribeCommand.php 2phpX™hrUvendor/doctrine/orm/lib/Doctrine/ORM/Tools/Console/Command/MappingDescribeCommand.php

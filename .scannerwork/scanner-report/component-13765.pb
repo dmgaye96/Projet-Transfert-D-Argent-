@@ -1,0 +1,1 @@
+ÅkGvendor/api-platform/core/tests/Hydra/Serializer/ErrorNormalizerTest.php 2phpXohrGvendor/api-platform/core/tests/Hydra/Serializer/ErrorNormalizerTest.php

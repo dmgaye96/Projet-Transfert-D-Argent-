@@ -1,0 +1,1 @@
+†>vendor/twig/twig/src/Sandbox/SecurityNotAllowedMethodError.php 2phpX6hr>vendor/twig/twig/src/Sandbox/SecurityNotAllowedMethodError.php

@@ -1,0 +1,1 @@
+Ø=-vendor/symfony/routing/Tests/Fixtures/bar.xml 2xmlXhr-vendor/symfony/routing/Tests/Fixtures/bar.xml

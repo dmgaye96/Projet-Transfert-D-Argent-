@@ -1,0 +1,1 @@
+‚ :vendor/friendsofsymfony/rest-bundle/Resources/doc/examples :ƒ r:vendor/friendsofsymfony/rest-bundle/Resources/doc/examples

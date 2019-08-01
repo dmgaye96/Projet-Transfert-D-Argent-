@@ -1,0 +1,1 @@
+÷lGvendor/api-platform/core/tests/Serializer/Filter/PropertyFilterTest.php 2phpXhrGvendor/api-platform/core/tests/Serializer/Filter/PropertyFilterTest.php

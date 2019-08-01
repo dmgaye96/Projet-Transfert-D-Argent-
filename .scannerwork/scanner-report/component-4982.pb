@@ -1,0 +1,1 @@
+ö&2vendor/symfony/maker-bundle/src/Resources/skeleton :õ&r2vendor/symfony/maker-bundle/src/Resources/skeleton

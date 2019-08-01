@@ -1,0 +1,1 @@
+¶m]vendor/lexik/jwt-authentication-bundle/Tests/Functional/SubscribedTokenAuthenticationTest.php 2phpXahr]vendor/lexik/jwt-authentication-bundle/Tests/Functional/SubscribedTokenAuthenticationTest.php

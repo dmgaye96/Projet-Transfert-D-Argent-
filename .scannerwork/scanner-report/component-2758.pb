@@ -1,0 +1,1 @@
+Æ:vendor/nikic/php-parser/test/PhpParser/NameContextTest.php 2phpXBhr:vendor/nikic/php-parser/test/PhpParser/NameContextTest.php

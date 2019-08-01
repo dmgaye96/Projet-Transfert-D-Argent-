@@ -1,0 +1,1 @@
+Å[,vendor/symfony/framework-bundle/Tests/Kernel :Ä[Ç[r,vendor/symfony/framework-bundle/Tests/Kernel

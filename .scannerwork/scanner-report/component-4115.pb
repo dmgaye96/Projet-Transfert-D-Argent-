@@ -1,0 +1,1 @@
+“ Fvendor/friendsofsymfony/rest-bundle/Resources/config/body_listener.xml 2xmlX hrFvendor/friendsofsymfony/rest-bundle/Resources/config/body_listener.xml

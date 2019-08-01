@@ -1,0 +1,1 @@
+¯	fvendor/doctrine/migrations/lib/Doctrine/Migrations/Configuration/Exception/InvalidConfigurationKey.php 2phpXhrfvendor/doctrine/migrations/lib/Doctrine/Migrations/Configuration/Exception/InvalidConfigurationKey.php

@@ -1,0 +1,1 @@
+“]]vendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/xml/serializer_mapping.xml 2xmlXhr]vendor/symfony/framework-bundle/Tests/DependencyInjection/Fixtures/xml/serializer_mapping.xml

@@ -1,0 +1,1 @@
+§(Hvendor/symfony/http-kernel/Tests/Fixtures/ExtensionPresentBundle/Command :¦(¨(rHvendor/symfony/http-kernel/Tests/Fixtures/ExtensionPresentBundle/Command
