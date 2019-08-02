@@ -2,7 +2,11 @@
 
 namespace App\Controller;
 
+use App\Entity\Compte;
+use App\Form\CompteType;
+use App\Entity\Partenaire;
 use App\Entity\Utilisateur;
+use App\Form\PartenaireType;
 use App\Form\UtilisateurType;
 use Doctrine\ORM\EntityManagerInterface;
 use App\Repository\UtilisateurRepository;
@@ -27,7 +31,7 @@ class UtilisateurController extends AbstractController
      */
     public function index(UtilisateurRepository $utilisateurRepository): Response
     {
-        return $this->render('utilisateur/index.html.twig', [
+        return $this->render('/api/user', [
             'utilisateurs' => $utilisateurRepository->findAll(),
         ]);
     }
@@ -37,21 +41,37 @@ class UtilisateurController extends AbstractController
      */
     public function new(Request $request, EntityManagerInterface $entityManager, UserPasswordEncoderInterface $encoder): Response
     {
+        $partenaire = new Partenaire();
+        $form = $this->createForm(PartenaireType::class, $partenaire);
+        $data = json_decode($request->getContent(), true);
+        $form->submit($data);
+        $entityManager->persist($partenaire);
+        $entityManager->flush();
+          //recuperation de l id du partenaire//
+        $repository= $this->getDoctrine()->getRepository(Partenaire::class);
+        $part = $repository->find($partenaire->getId());
+
+        $compte = new Compte();
+        $form = $this->createForm(CompteType::class, $compte);
+        $data = json_decode($request->getContent(), true);
+        $form->submit($data);
+        $compte->setPartenaire($part);
+        $entityManager = $this->getDoctrine()->getManager();
+
         $utilisateur = new Utilisateur();
         $form = $this->createForm(UtilisateurType::class, $utilisateur);
-        $data = json_decode($request->getContent(), true);
         $form->handleRequest($request);
         $form->submit($data);
         $utilisateur->setRoles(["ROLE_ADMINP"]);
+        $utilisateur->setPartenaire($part);
         $hash = $encoder->encodePassword($utilisateur, $utilisateur->getPassword());
         $utilisateur->setPassword($hash);
         $entityManager = $this->getDoctrine()->getManager();
+        $entityManager->persist($compte);
         $entityManager->persist($utilisateur);
         $entityManager->flush();
         return new Response('Administra ajouter', Response::HTTP_CREATED);
     }
-
-
 
     /**
      * @Route("/newuser", name="utilisateur_new", methods={"POST"})

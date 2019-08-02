@@ -35,13 +35,13 @@ class DepotController extends AbstractController
     public function new(Request $request,SerializerInterface $serializer,EntityManagerInterface $entityManager ): Response
     {
         $depot = new Depot();
-      
         $form = $this->createForm(DepotType::class,$depot);
         $data=json_decode($request->getContent(), true);
         $depot->setDate(new \Datetime());
        
         $form->submit($data);
-        if($form->isSubmitted()){
+        if($form->isSubmitted())
+        {
             $compte= $depot->getCompte();
             $compte->setSolde($compte->getSolde()+$depot->getMontant());
             $entityManager = $this->getDoctrine()->getManager();

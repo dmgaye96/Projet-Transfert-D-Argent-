@@ -11,7 +11,7 @@ use Doctrine\ORM\Mapping as ORM;
  * @ApiResource()
  * @ORM\Entity(repositoryClass="App\Repository\PartenaireRepository")
  */
-class Partenaire
+class Partenaire 
 {
     /**
      * @ORM\Id()
@@ -51,7 +51,7 @@ class Partenaire
         $this->no = new ArrayCollection();
     }
 
-    public function getId(): ?int
+    public function getId(): ?int 
     {
         return $this->id;
     }

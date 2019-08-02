@@ -21,6 +21,7 @@ class UtilisateurType extends AbstractType
             ->add('email')
             ->add('telephone')
             ->add('statut')
+            ->add('photo')
             ->add('Partenaire',EntityType::class,[
                 'class'=> Partenaire::class,
                 'choice_label' =>'partenaire_id'
