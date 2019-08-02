@@ -19,7 +19,7 @@ class Depot
     private $id;
 
     /**
-     * @ORM\Column(type="integer")
+     * @ORM\Column(type="decimal", precision=9)
      */
     private $montant;
 

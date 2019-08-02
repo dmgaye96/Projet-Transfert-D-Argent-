@@ -47,14 +47,19 @@ class UtilisateurController extends AbstractController
         $form->submit($data);
         $entityManager->persist($partenaire);
         $entityManager->flush();
-          //recuperation de l id du partenaire//
-        $repository= $this->getDoctrine()->getRepository(Partenaire::class);
+        //recuperation de l id du partenaire//
+        $repository = $this->getDoctrine()->getRepository(Partenaire::class);
         $part = $repository->find($partenaire->getId());
 
         $compte = new Compte();
         $form = $this->createForm(CompteType::class, $compte);
         $data = json_decode($request->getContent(), true);
         $form->submit($data);
+        $compte->setSolde(1);
+        $num = rand(1000000000, 9999999999);
+        $sn="SN";
+        $number=$sn.$num;
+        $compte->setNumerocompte($number);
         $compte->setPartenaire($part);
         $entityManager = $this->getDoctrine()->getManager();
 
@@ -64,6 +69,7 @@ class UtilisateurController extends AbstractController
         $form->submit($data);
         $utilisateur->setRoles(["ROLE_ADMINP"]);
         $utilisateur->setPartenaire($part);
+        $utilisateur->setStatut("Actif");
         $hash = $encoder->encodePassword($utilisateur, $utilisateur->getPassword());
         $utilisateur->setPassword($hash);
         $entityManager = $this->getDoctrine()->getManager();
@@ -87,6 +93,7 @@ class UtilisateurController extends AbstractController
         $utilisateur->setRoles(["ROLE_USER"]);
         $hash = $encoder->encodePassword($utilisateur, $utilisateur->getPassword());
         $utilisateur->setPassword($hash);
+        $utilisateur->setStatut("Actif");
         $entityManager = $this->getDoctrine()->getManager();
         $entityManager->persist($utilisateur);
         $entityManager->flush();
