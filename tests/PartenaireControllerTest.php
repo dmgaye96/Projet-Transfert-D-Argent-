@@ -10,7 +10,7 @@ class PartenaireControllerTest extends WebTestCase
      public function testAjoutPartenaire()
     {
         $client = static::createClient([],[
-            'PHP_AUTH_USER'=>'mak',
+            'PHP_AUTH_USER'=>'dmg',
             'PHP_AUTH_PW'=>'123'
         ]
 
@@ -31,7 +31,7 @@ class PartenaireControllerTest extends WebTestCase
     public function testAjoutCompte()
     {
         $client = static::createClient([],[
-            'PHP_AUTH_USER'=>'mak',
+            'PHP_AUTH_USER'=>'dmg',
             'PHP_AUTH_PW'=>'123'
         ]
 
@@ -41,8 +41,8 @@ class PartenaireControllerTest extends WebTestCase
 
             {
                     "numerocompte":1148,
-                    "solde":0,
-                    "partenaire":5
+                    "solde":12,
+                    "partenaire":29
                     
             }');
         $rep=$client->getResponse();
@@ -54,7 +54,7 @@ class PartenaireControllerTest extends WebTestCase
     public function testAjoutDepot()
     {
         $client = static::createClient([],[
-            'PHP_AUTH_USER'=>'mak',
+            'PHP_AUTH_USER'=>'dmg',
             'PHP_AUTH_PW'=>'123'
         ]
 
@@ -63,8 +63,8 @@ class PartenaireControllerTest extends WebTestCase
         ['CONTENT_TYPE'=>"application/json"],'
 
             {
-                "montant":30000,
-                "compte":1
+                "montant":7501000,
+                "compte":3
                     
             }');
         $rep=$client->getResponse();

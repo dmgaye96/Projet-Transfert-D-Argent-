@@ -20,7 +20,7 @@
         <server name="SYMFONY_PHPUNIT_VERSION" value="6.5" />
         <server name="KERNEL_CLASS" value="App\Kernel" />
         <server name="SYMFONY_DEPRECATIONS_HELPER" value="weak" />
-        <server name="DATABASE_URL" value="mysql://root:passer@127.0.0.1:3306/KGTransfert" />
+        <server name="DATABASE_URL" value="mysql://root:dmg@127.0.0.1:3306/SenTransfert" />
         <server name="CORS_ALLOW_ORIGIN" value="*" />
     </php>
 

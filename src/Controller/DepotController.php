@@ -38,18 +38,23 @@ class DepotController extends AbstractController
         $form = $this->createForm(DepotType::class,$depot);
         $data=json_decode($request->getContent(), true);
         $depot->setDate(new \Datetime());
+        $depot->getMontant();
        
         $form->submit($data);
-        if($form->isSubmitted())
-        {
-            $compte= $depot->getCompte();
-            $compte->setSolde($compte->getSolde()+$depot->getMontant());
-            $entityManager = $this->getDoctrine()->getManager();
-            $entityManager->persist($compte);
-            $entityManager->persist($depot);
-            $entityManager->flush();
-                  
-        return new Response('Le dépôt a été effectué',Response::HTTP_CREATED);
+        if($form->isSubmitted()){  
+             $depot->getMontant();
+            
+            if ($depot->getMontant()>=75000) {
+                $compte= $depot->getCompte();
+                $compte->setSolde($compte->getSolde()+$depot->getMontant());
+                $entityManager = $this->getDoctrine()->getManager();
+                $entityManager->persist($compte);
+                $entityManager->persist($depot);
+                $entityManager->flush();
+            return new Response('Le dépôt a été effectué',Response::HTTP_CREATED);
+            }
+            return new Response('Le montant du depot doit etre superieur ou egal a 75 000',Response::HTTP_CREATED);
+         
         }
 
         $data = [

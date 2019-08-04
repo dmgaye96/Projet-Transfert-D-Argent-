@@ -9,6 +9,7 @@ use Symfony\Component\OptionsResolver\OptionsResolver;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Entity;
 use Symfony\Bridge\Doctrine\Form\Type\EntityType;
 use App\Entity\Partenaire;
+use Vich\UploaderBundle\Form\Type\VichImageType;
 
 class UtilisateurType extends AbstractType
 {
@@ -21,7 +22,7 @@ class UtilisateurType extends AbstractType
             ->add('email')
             ->add('telephone')
             ->add('statut')
-            ->add('photo')
+            ->add('imageFile',VichImageType::class)
             ->add('Partenaire',EntityType::class,[
                 'class'=> Partenaire::class,
                 'choice_label' =>'partenaire_id'
@@ -32,6 +33,7 @@ class UtilisateurType extends AbstractType
     {
         $resolver->setDefaults([
             'data_class' => Utilisateur::class,
+            'csrf_protection'=>false
         ]);
     }
 }

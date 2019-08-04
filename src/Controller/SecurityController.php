@@ -38,8 +38,9 @@ class SecurityController extends AbstractController
         $login->setLogin($values->login);
         $login->setEmail($values->email);
         $login->setTelephone($values->telephone);
-        $login->setStatut($values->statut);
         $login->setRoles(["ROLE_SUPERADMIN"]);
+        $login->setStatut("Actif");
+        $login->setPhoto("$values->photo");
         $login->setPassword($passwordEncoder->encodePassword($login,$values->password));
         $entityManager->persist($login);
         $entityManager->flush();
@@ -58,7 +59,6 @@ class SecurityController extends AbstractController
     return new JsonResponse($data, 500);
 
     }
-
      
 
    /**
