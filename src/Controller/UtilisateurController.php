@@ -80,27 +80,23 @@ class UtilisateurController extends AbstractController
     {
 
         $utilisateur = new Utilisateur();
+        $file=$request->files->all()['imageName'];
         $form = $this->createForm(UtilisateurType::class, $utilisateur);
-        $data = json_decode($request->getContent(), true);
+        $data=$request->request->all();
         $form->handleRequest($request);
         $form->submit($data);
         $utilisateur->setRoles(["ROLE_USER"]);
         $hash = $encoder->encodePassword($utilisateur, $utilisateur->getPassword());
         $utilisateur->setPassword($hash);
+        $utilisateur->setImageFile($file);
+        $utilisateur->setUpdatedAt(new \DateTime);
         $utilisateur->setStatut("Actif");
         $entityManager = $this->getDoctrine()->getManager();
         $entityManager->persist($utilisateur);
         $entityManager->flush();
         return new Response('Utilisateur ajouter', Response::HTTP_CREATED);
     }
-
-
     
-
-
-
-
-
     /**
      * @Route("/{id}", name="utilisateur_show", methods={"GET"})
      */
