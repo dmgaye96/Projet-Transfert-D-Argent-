@@ -37,7 +37,7 @@ security:
         - { path: ^/api/register ,            roles: ROLE_SUPERADMIN }   
         - { path: ^/api/partenaire,           roles: ROLE_SUPERADMIN }
         - { path: ^/api/compte,               roles: ROLE_SUPERADMIN }
-        - { path: ^/api/depot,                roles: ROLE_SUPERADMIN }
+        #- { path: ^/api/depot,                roles: ROLE_SUPERADMIN }
         - { path: ^/api/user/newadmin,        roles: ROLE_SUPERADMIN }
         - { path: ^/api/user,                 roles: ROLE_ADMINP }
         - { path: ^/api/user/newuser,         roles: ROLE_ADMINP }

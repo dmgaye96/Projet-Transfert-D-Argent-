@@ -3,6 +3,7 @@
 namespace App\Controller;
 
 use App\Entity\Compte;
+use App\Entity\Profile;
 use App\Form\CompteType;
 use App\Entity\Partenaire;
 use App\Entity\Utilisateur;
@@ -23,7 +24,7 @@ use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
  */
 class UtilisateurController extends AbstractController
 {
-   
+
 
     /**
      * @Route("/newadmin", name="admin_utilisateur_new", methods={"GET","POST"})
@@ -32,7 +33,7 @@ class UtilisateurController extends AbstractController
     {
         $partenaire = new Partenaire();
         $form = $this->createForm(PartenaireType::class, $partenaire);
-         $data=$request->request->all();
+        $data = $request->request->all();
         $form->submit($data);
         $entityManager->persist($partenaire);
         $entityManager->flush();
@@ -41,7 +42,7 @@ class UtilisateurController extends AbstractController
         $part = $repository->find($partenaire->getId());
         $compte = new Compte();
         $form = $this->createForm(CompteType::class, $compte);
-        $data=$request->request->all();
+        $data = $request->request->all();
         $form->submit($data);
         $compte->setSolde(1);
         $num = rand(1000000000, 9999999999);
@@ -51,14 +52,14 @@ class UtilisateurController extends AbstractController
         $compte->setPartenaire($part);
         $entityManager = $this->getDoctrine()->getManager();
         $entityManager->persist($compte);
-        $entityManager->flush(); 
+        $entityManager->flush();
 
 
         $utilisateur = new Utilisateur();
         $form = $this->createForm(UtilisateurType::class, $utilisateur);
         $form->handleRequest($request);
         $form->submit($data);
-        $file=$request->files->all()['imageName'];
+        $file = $request->files->all()['imageName'];
         $utilisateur->setRoles(["ROLE_ADMINP"]);
         $utilisateur->setPartenaire($part);
         $utilisateur->setImageFile($file);
@@ -80,12 +81,23 @@ class UtilisateurController extends AbstractController
     {
 
         $utilisateur = new Utilisateur();
-        $file=$request->files->all()['imageName'];
+        $file = $request->files->all()['imageName'];
         $form = $this->createForm(UtilisateurType::class, $utilisateur);
-        $data=$request->request->all();
+        $data = $request->request->all();
         $form->handleRequest($request);
         $form->submit($data);
-        $utilisateur->setRoles(["ROLE_USER"]);
+        
+        $profile = new Profile();
+        $repository = $this->getDoctrine()->getRepository(Profile::class);
+        $a = $repository->findAll($profile->getLibelle());
+        if ($utilisateur->getProfile() === $a[3]) {
+            $role = ["ROLE_ADMINP"];
+        } else if ($utilisateur->getProfile() === $a[4]) {
+            $role = ["ROLE_USER"];
+        } else {
+            $role = "";
+        }
+        $utilisateur->setRoles($role);
         $hash = $encoder->encodePassword($utilisateur, $utilisateur->getPassword());
         $utilisateur->setPassword($hash);
         $utilisateur->setImageFile($file);
@@ -96,7 +108,7 @@ class UtilisateurController extends AbstractController
         $entityManager->flush();
         return new Response('Utilisateur ajouter', Response::HTTP_CREATED);
     }
-    
+
     /**
      * @Route("/{id}", name="utilisateur_show", methods={"GET"})
      */
@@ -119,6 +131,4 @@ class UtilisateurController extends AbstractController
         $this->getDoctrine()->getManager()->flush();
         return new Response('Modification effectif ', Response::HTTP_CREATED);
     }
-
-   
 }

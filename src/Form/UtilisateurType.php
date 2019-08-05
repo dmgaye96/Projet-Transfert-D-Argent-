@@ -9,7 +9,9 @@ use Symfony\Component\OptionsResolver\OptionsResolver;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Entity;
 use Symfony\Bridge\Doctrine\Form\Type\EntityType;
 use App\Entity\Partenaire;
+
 use Vich\UploaderBundle\Form\Type\VichImageType;
+use App\Entity\Profile;
 
 class UtilisateurType extends AbstractType
 {
@@ -26,7 +28,12 @@ class UtilisateurType extends AbstractType
             ->add('Partenaire',EntityType::class,[
                 'class'=> Partenaire::class,
                 'choice_label' =>'partenaire_id'
-            ]);
+            ])
+            ->add('Profile',EntityType::class,[
+                'class'=> Profile::class,
+                'choice_label' =>'profile_id'
+            ])
+            ;
     }
 
     public function configureOptions(OptionsResolver $resolver)

@@ -94,6 +94,12 @@ class Utilisateur implements UserInterface
     private $updatedAt;
 
     /**
+     * @ORM\ManyToOne(targetEntity="App\Entity\Profile")
+     * @ORM\JoinColumn(nullable=true)
+     */
+    private $profile;
+
+    /**
      * If manually uploading a file (i.e. not using Symfony Form) ensure an instance
      * of 'UploadedFile' is injected into this setter to trigger the update. If this
      * bundle's configuration parameter 'inject_on_load' is set to 'true' this setter
@@ -292,6 +298,18 @@ class Utilisateur implements UserInterface
     public function setUpdatedAt(\DateTimeInterface $updatedAt)
     {
         $this->updatedAt = $updatedAt;
+
+        return $this;
+    }
+
+    public function getProfile(): ?Profile
+    {
+        return $this->profile;
+    }
+
+    public function setProfile(?Profile $profile): self
+    {
+        $this->profile = $profile;
 
         return $this;
     }

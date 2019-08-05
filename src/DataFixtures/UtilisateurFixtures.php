@@ -31,6 +31,7 @@ class UtilisateurFixtures extends Fixture
         $login->setUpdatedAt( new \DateTime());
         $login->setPassword($pass);
         $login->setImageName("https://pbs.twimg.com/media/DzuvaRsWwAIxSko.jpg");
+    
 
         $manager->persist($login);
         $manager->flush();
@@ -44,6 +45,8 @@ class UtilisateurFixtures extends Fixture
         $login1->setRoles(["ROLE_CAISSIER"]);
         $pass = $this->encoder->encodePassword($login1, $mdp);
         $login1->setPassword($pass);
+        
+
         $login1->setUpdatedAt( new \DateTime());
         $login1->setImageName("https://pbs.twimg.com/media/DzuvaRsWwAIxSko.jpg");
         $manager->persist($login1);
