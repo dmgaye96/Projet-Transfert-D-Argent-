@@ -20,15 +20,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
  */
 class CompteController extends AbstractController
 {
-    /**
-     * @Route("/", name="compte_index", methods={"GET"})
-     */
-    public function index(CompteRepository $compteRepository): Response
-    {
-        return $this->render('compte/index.html.twig', [
-            'comptes' => $compteRepository->findAll(),
-        ]);
-    }
+   
 
     /**
      * @Route("/new", name="comptenew", methods={"GET","POST"})
@@ -41,6 +33,11 @@ class CompteController extends AbstractController
         $data=json_decode($request->getContent(), true);
         
         $form->submit($data);
+        $compte->setSolde(1);
+        $num = rand(1000000000, 9999999999);
+        $sn = "SN";
+        $number = $sn . $num;
+        $compte->setNumerocompte($number);
         if($form->isSubmitted()){
             $entityManager = $this->getDoctrine()->getManager();
             $entityManager->persist($compte);

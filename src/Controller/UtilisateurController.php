@@ -9,14 +9,10 @@ use App\Entity\Utilisateur;
 use App\Form\PartenaireType;
 use App\Form\UtilisateurType;
 use Doctrine\ORM\EntityManagerInterface;
-use App\Repository\UtilisateurRepository;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
-use Symfony\Component\Serializer\SerializerInterface;
-use Sensio\Bundle\FrameworkExtraBundle\Configuration\IsGranted;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
-use Sensio\Bundle\FrameworkExtraBundle\Configuration\ParamConverter;
 use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
 
 
@@ -62,7 +58,6 @@ class UtilisateurController extends AbstractController
         $form = $this->createForm(UtilisateurType::class, $utilisateur);
         $form->handleRequest($request);
         $form->submit($data);
-       // $data=$request->request->all();
         $file=$request->files->all()['imageName'];
         $utilisateur->setRoles(["ROLE_ADMINP"]);
         $utilisateur->setPartenaire($part);
@@ -75,7 +70,7 @@ class UtilisateurController extends AbstractController
         $entityManager->persist($compte);
         $entityManager->persist($utilisateur);
         $entityManager->flush();
-        return new Response('Administra ajouter', Response::HTTP_CREATED);
+        return new Response('Le  Partenaire son Administrateur et compte a ete ajouter avec succes', Response::HTTP_CREATED);
     }
 
     /**

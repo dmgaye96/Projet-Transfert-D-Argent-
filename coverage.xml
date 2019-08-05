@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Project Test Suite" tests="8" assertions="7" errors="1" failures="1" skipped="0" time="28.148528">
-    <testsuite name="App\Tests\PartenaireControllerTest" file="/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/PartenaireControllerTest.php" tests="3" assertions="2" errors="1" failures="1" skipped="0" time="25.210771">
-      <testcase name="testAjoutPartenaire" class="App\Tests\PartenaireControllerTest" classname="App.Tests.PartenaireControllerTest" file="/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/PartenaireControllerTest.php" line="10" assertions="1" time="22.313553"/>
-      <testcase name="testAjoutCompte" class="App\Tests\PartenaireControllerTest" classname="App.Tests.PartenaireControllerTest" file="/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/PartenaireControllerTest.php" line="31" assertions="1" time="2.309213">
+  <testsuite name="Project Test Suite" tests="8" assertions="8" errors="0" failures="5" skipped="0" time="13.012033">
+    <testsuite name="App\Tests\PartenaireControllerTest" file="/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/PartenaireControllerTest.php" tests="3" assertions="3" errors="0" failures="2" skipped="0" time="4.826184">
+      <testcase name="testAjoutPartenaire" class="App\Tests\PartenaireControllerTest" classname="App.Tests.PartenaireControllerTest" file="/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/PartenaireControllerTest.php" line="10" assertions="1" time="1.296475"/>
+      <testcase name="testAjoutCompte" class="App\Tests\PartenaireControllerTest" classname="App.Tests.PartenaireControllerTest" file="/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/PartenaireControllerTest.php" line="31" assertions="1" time="2.179398">
         <failure type="PHPUnit\Framework\ExpectationFailedException">App\Tests\PartenaireControllerTest::testAjoutCompte
 Failed asserting that 500 is identical to 201.
 
-/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/PartenaireControllerTest.php:50
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/PartenaireControllerTest.php:49
 </failure>
-        <system-out>/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/PartenaireControllerTest.php:49:
-class Symfony\Component\HttpFoundation\Response#2370 (6) {
+        <system-out>/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/PartenaireControllerTest.php:48:
+class Symfony\Component\HttpFoundation\Response#3638 (6) {
   public $headers =&gt;
-  class Symfony\Component\HttpFoundation\ResponseHeaderBag#6603 (5) {
+  class Symfony\Component\HttpFoundation\ResponseHeaderBag#3639 (5) {
     protected $computedCacheControl =&gt;
     array(2) {
       'no-cache' =&gt;
@@ -64,15 +64,15 @@ class Symfony\Component\HttpFoundation\Response#2370 (6) {
     }
   }
   protected $content =&gt;
-  string(211925) "&lt;!DOCTYPE html&gt;
+  string(559280) "&lt;!DOCTYPE html&gt;
 &lt;html&gt;
     &lt;head&gt;
         &lt;meta charset="UTF-8" /&gt;
         &lt;meta name="robots" content="noindex,nofollow" /&gt;
         &lt;meta name="viewport" content="width=device-width,initial-scale=1" /&gt;
-        &lt;title&gt;    The token storage contains no authentication token. One possible reason may be that there is no firewall configured for this URL. (500 Internal Server Error)
-&lt;/title&gt;
-        &lt;link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAgCAYAAAABtRhCAAADVUlEQ"...
+        &lt;title&gt;    An exception occurred while executing &amp;#039;INSERT INTO compte (numerocompte, solde, partenaire_id) VALUES (?, ?, ?)&amp;#039; with params [&amp;quot;SN6836954650&amp;quot;, 1, 30]:
+
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry &amp;#039;30&amp;#039; for key &amp;#039;UNIQ_CFF6526098DE13A"...
   protected $version =&gt;
   string(3) "1.1"
   protected $statusCode =&gt;
@@ -84,27 +84,99 @@ class Symfony\Component\HttpFoundation\Response#2370 (6) {
 }
 </system-out>
       </testcase>
-      <testcase name="testAjoutDepot" class="App\Tests\PartenaireControllerTest" classname="App.Tests.PartenaireControllerTest" file="/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/PartenaireControllerTest.php" line="54" assertions="0" time="0.588005">
-        <error type="Error">App\Tests\PartenaireControllerTest::testAjoutDepot
-Error: Call to a member function setSolde() on null
+      <testcase name="testAjoutDepot" class="App\Tests\PartenaireControllerTest" classname="App.Tests.PartenaireControllerTest" file="/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/PartenaireControllerTest.php" line="53" assertions="1" time="1.350311">
+        <failure type="PHPUnit\Framework\ExpectationFailedException">App\Tests\PartenaireControllerTest::testAjoutDepot
+Failed asserting that 403 is identical to 201.
 
-/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/src/Controller/DepotController.php:49
-/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/http-kernel/HttpKernel.php:151
-/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/http-kernel/HttpKernel.php:68
-/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/http-kernel/Kernel.php:198
-/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/http-kernel/Client.php:65
-/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/framework-bundle/Client.php:131
-/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/vendor/symfony/browser-kit/Client.php:407
-/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/PartenaireControllerTest.php:63
-</error>
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/PartenaireControllerTest.php:71
+</failure>
+        <system-out>/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/PartenaireControllerTest.php:70:
+class Symfony\Component\HttpFoundation\Response#4064 (6) {
+  public $headers =&gt;
+  class Symfony\Component\HttpFoundation\ResponseHeaderBag#4058 (5) {
+    protected $computedCacheControl =&gt;
+    array(2) {
+      'no-cache' =&gt;
+      bool(true)
+      'private' =&gt;
+      bool(true)
+    }
+    protected $cookies =&gt;
+    array(0) {
+    }
+    protected $headerNames =&gt;
+    array(5) {
+      'content-type' =&gt;
+      string(12) "Content-Type"
+      'cache-control' =&gt;
+      string(13) "Cache-Control"
+      'date' =&gt;
+      string(4) "Date"
+      'x-robots-tag' =&gt;
+      string(12) "X-Robots-Tag"
+      'link' =&gt;
+      string(4) "Link"
+    }
+    protected $headers =&gt;
+    array(5) {
+      'content-type' =&gt;
+      array(1) {
+        ...
+      }
+      'cache-control' =&gt;
+      array(1) {
+        ...
+      }
+      'date' =&gt;
+      array(1) {
+        ...
+      }
+      'x-robots-tag' =&gt;
+      array(1) {
+        ...
+      }
+      'link' =&gt;
+      array(1) {
+        ...
+      }
+    }
+    protected $cacheControl =&gt;
+    array(0) {
+    }
+  }
+  protected $content =&gt;
+  string(387045) "&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;meta charset="UTF-8" /&gt;
+        &lt;meta name="robots" content="noindex,nofollow" /&gt;
+        &lt;meta name="viewport" content="width=device-width,initial-scale=1" /&gt;
+        &lt;title&gt;    Access Denied. (403 Forbidden)
+&lt;/title&gt;
+        &lt;link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAgCAYAAAABtRhCAAADVUlEQVRIx82XX0jTURTHLYPyqZdefQx66CEo80+aYpoIkqzUikz6Z5klQoWUWYRIJYEUGpQ+lIr9U5dOTLdCtkmWZis3rbnC5fw/neYW002307mX/cZvP3/7o1PwwOdh95x7"...
+  protected $version =&gt;
+  string(3) "1.1"
+  protected $statusCode =&gt;
+  int(403)
+  protected $statusText =&gt;
+  string(9) "Forbidden"
+  protected $charset =&gt;
+  string(5) "UTF-8"
+}
+</system-out>
       </testcase>
     </testsuite>
-    <testsuite name="App\Tests\UtilisateurControllerTest" file="/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/UtilisateurControllerTest.php" tests="5" assertions="5" errors="0" failures="0" skipped="0" time="2.937757">
-      <testcase name="testNew" class="App\Tests\UtilisateurControllerTest" classname="App.Tests.UtilisateurControllerTest" file="/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/UtilisateurControllerTest.php" line="10" assertions="1" time="0.912045">
+    <testsuite name="App\Tests\UtilisateurControllerTest" file="/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/UtilisateurControllerTest.php" tests="5" assertions="5" errors="0" failures="3" skipped="0" time="8.185849">
+      <testcase name="testNew" class="App\Tests\UtilisateurControllerTest" classname="App.Tests.UtilisateurControllerTest" file="/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/UtilisateurControllerTest.php" line="10" assertions="1" time="2.656591">
+        <failure type="PHPUnit\Framework\ExpectationFailedException">App\Tests\UtilisateurControllerTest::testNew
+Failed asserting that 500 is identical to 201.
+
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/UtilisateurControllerTest.php:35
+</failure>
         <system-out>/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/UtilisateurControllerTest.php:34:
-class Symfony\Component\HttpFoundation\Response#7922 (6) {
+class Symfony\Component\HttpFoundation\Response#4653 (6) {
   public $headers =&gt;
-  class Symfony\Component\HttpFoundation\ResponseHeaderBag#9778 (5) {
+  class Symfony\Component\HttpFoundation\ResponseHeaderBag#4654 (5) {
     protected $computedCacheControl =&gt;
     array(2) {
       'no-cache' =&gt;
@@ -117,19 +189,23 @@ class Symfony\Component\HttpFoundation\Response#7922 (6) {
     }
     protected $headerNames =&gt;
     array(5) {
+      'content-type' =&gt;
+      string(12) "Content-Type"
       'cache-control' =&gt;
       string(13) "Cache-Control"
       'date' =&gt;
       string(4) "Date"
-      'content-type' =&gt;
-      string(12) "Content-Type"
-      'link' =&gt;
-      string(4) "Link"
       'x-robots-tag' =&gt;
       string(12) "X-Robots-Tag"
+      'link' =&gt;
+      string(4) "Link"
     }
     protected $headers =&gt;
     array(5) {
+      'content-type' =&gt;
+      array(1) {
+        ...
+      }
       'cache-control' =&gt;
       array(1) {
         ...
@@ -138,15 +214,11 @@ class Symfony\Component\HttpFoundation\Response#7922 (6) {
       array(1) {
         ...
       }
-      'content-type' =&gt;
+      'x-robots-tag' =&gt;
       array(1) {
         ...
       }
       'link' =&gt;
-      array(1) {
-        ...
-      }
-      'x-robots-tag' =&gt;
       array(1) {
         ...
       }
@@ -156,23 +228,36 @@ class Symfony\Component\HttpFoundation\Response#7922 (6) {
     }
   }
   protected $content =&gt;
-  string(18) "Administra ajouter"
+  string(195698) "&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;meta charset="UTF-8" /&gt;
+        &lt;meta name="robots" content="noindex,nofollow" /&gt;
+        &lt;meta name="viewport" content="width=device-width,initial-scale=1" /&gt;
+        &lt;title&gt;    Undefined index: imageName (500 Internal Server Error)
+&lt;/title&gt;
+        &lt;link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAgCAYAAAABtRhCAAADVUlEQVRIx82XX0jTURTHLYPyqZdefQx66CEo80+aYpoIkqzUikz6Z5klQoWUWYRIJYEUGpQ+lIr9U5dOTLdCtkmWZis3rbnC5fw/neYW0023"...
   protected $version =&gt;
   string(3) "1.1"
   protected $statusCode =&gt;
-  int(201)
+  int(500)
   protected $statusText =&gt;
-  string(7) "Created"
+  string(21) "Internal Server Error"
   protected $charset =&gt;
   string(5) "UTF-8"
 }
 </system-out>
       </testcase>
-      <testcase name="testNewadmin" class="App\Tests\UtilisateurControllerTest" classname="App.Tests.UtilisateurControllerTest" file="/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/UtilisateurControllerTest.php" line="38" assertions="1" time="0.716616">
+      <testcase name="testNewadmin" class="App\Tests\UtilisateurControllerTest" classname="App.Tests.UtilisateurControllerTest" file="/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/UtilisateurControllerTest.php" line="38" assertions="1" time="2.567109">
+        <failure type="PHPUnit\Framework\ExpectationFailedException">App\Tests\UtilisateurControllerTest::testNewadmin
+Failed asserting that 500 is identical to 201.
+
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/UtilisateurControllerTest.php:61
+</failure>
         <system-out>/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/UtilisateurControllerTest.php:60:
-class Symfony\Component\HttpFoundation\Response#5406 (6) {
+class Symfony\Component\HttpFoundation\Response#4405 (6) {
   public $headers =&gt;
-  class Symfony\Component\HttpFoundation\ResponseHeaderBag#6338 (5) {
+  class Symfony\Component\HttpFoundation\ResponseHeaderBag#1383 (5) {
     protected $computedCacheControl =&gt;
     array(2) {
       'no-cache' =&gt;
@@ -185,19 +270,23 @@ class Symfony\Component\HttpFoundation\Response#5406 (6) {
     }
     protected $headerNames =&gt;
     array(5) {
+      'content-type' =&gt;
+      string(12) "Content-Type"
       'cache-control' =&gt;
       string(13) "Cache-Control"
       'date' =&gt;
       string(4) "Date"
-      'content-type' =&gt;
-      string(12) "Content-Type"
-      'link' =&gt;
-      string(4) "Link"
       'x-robots-tag' =&gt;
       string(12) "X-Robots-Tag"
+      'link' =&gt;
+      string(4) "Link"
     }
     protected $headers =&gt;
     array(5) {
+      'content-type' =&gt;
+      array(1) {
+        ...
+      }
       'cache-control' =&gt;
       array(1) {
         ...
@@ -206,15 +295,11 @@ class Symfony\Component\HttpFoundation\Response#5406 (6) {
       array(1) {
         ...
       }
-      'content-type' =&gt;
+      'x-robots-tag' =&gt;
       array(1) {
         ...
       }
       'link' =&gt;
-      array(1) {
-        ...
-      }
-      'x-robots-tag' =&gt;
       array(1) {
         ...
       }
@@ -224,29 +309,35 @@ class Symfony\Component\HttpFoundation\Response#5406 (6) {
     }
   }
   protected $content =&gt;
-  string(19) "Utilisateur ajouter"
+  string(561200) "&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;meta charset="UTF-8" /&gt;
+        &lt;meta name="robots" content="noindex,nofollow" /&gt;
+        &lt;meta name="viewport" content="width=device-width,initial-scale=1" /&gt;
+        &lt;title&gt;    An exception occurred while executing &amp;#039;INSERT INTO utilisateur (login, roles, password, nom, email, telephone, statut, image_name, updated_at, partenaire_id) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)&amp;#039; with params [&amp;quot;ad57ggg1t&amp;quot;, &amp;quot;[\&amp;quot;ROLE_USER\&amp;quot;]&amp;quot;, &amp;quot;$a"...
   protected $version =&gt;
   string(3) "1.1"
   protected $statusCode =&gt;
-  int(201)
+  int(500)
   protected $statusText =&gt;
-  string(7) "Created"
+  string(21) "Internal Server Error"
   protected $charset =&gt;
   string(5) "UTF-8"
 }
 </system-out>
       </testcase>
-      <testcase name="testLogin" class="App\Tests\UtilisateurControllerTest" classname="App.Tests.UtilisateurControllerTest" file="/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/UtilisateurControllerTest.php" line="64" assertions="1" time="0.581713">
+      <testcase name="testLogin" class="App\Tests\UtilisateurControllerTest" classname="App.Tests.UtilisateurControllerTest" file="/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/UtilisateurControllerTest.php" line="64" assertions="1" time="0.548152">
         <system-out>/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/UtilisateurControllerTest.php:81:
-class Lexik\Bundle\JWTAuthenticationBundle\Response\JWTAuthenticationSuccessResponse#1074 (9) {
+class Lexik\Bundle\JWTAuthenticationBundle\Response\JWTAuthenticationSuccessResponse#1795 (9) {
   protected $data =&gt;
-  string(857) "{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NjQ3OTI2NjYsImV4cCI6MTU2NDc5NjI2Niwicm9sZXMiOlsiUk9MRV9TVVBFUkFETUlOIiwiUk9MRV9BRE1JTiJdLCJ1c2VybmFtZSI6ImRtZyJ9.lvcdrFIpyevCezFaDfUn4dHcFgvaOh_F3xlnAuEtLsDglp-IXNTCd2RAeTgAqyDjeUmaXo65vsPb2J9sS2at9aX_QEM244608--ngL295z_VVzx6qiikZHzcOKWBZx8Ne8OYN65C6B8ySPQSLOMEHD52BK_u1zCk4TQ2VMkMvQOrtNT2TG7uMTyNwXutSsdstiweD6R9FPAEKTTqORUQImvyrzZZr1v2VapRL7pcLg-sJ6rKalPPVuyy66gL9U281s1kLt4nJYmycHCQnLYds5gbmpkK_jAyNWbdIQ_b6N-ROa2tFN8bwjapiX3Y5IbhwRXkhvnO1lfVgqSLlwkR"...
+  string(857) "{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NjQ5NzA3MTMsImV4cCI6MTU2NDk3NDMxMywicm9sZXMiOlsiUk9MRV9TVVBFUkFETUlOIiwiUk9MRV9BRE1JTiJdLCJ1c2VybmFtZSI6ImRtZyJ9.lKyZ25Im25ni5fiK7i8gRTYlmaP8yF-JdjM4L4E3PXMx7dSfuamIt04xgD1-cZkD7HoaVAW3fOv_BhIDV0zgxhwpCSq8RPUIDmYaiyg2JCnr4TN0CbXNmtsmIIMCNzlSp5O0jbXtHE8Da-LnnGUFIgJgXbm4hYHUiz5MHxgBk4WQK9vcCNYBHXhrZgp0XBBYE-IM5J91iSYNoftOnmsJFbDYjB4ruMlA1tvPWFgLfdw7ZtybsaGke9mNJO8EMqYigfKYUqfrjG9sHR-jKcKJtQXwc0DIC3A0TKOZb9KRip_guikscASGSsLieyw8yyDoJF3ynkxPaIpynwhTp_YA"...
   protected $callback =&gt;
   NULL
   protected $encodingOptions =&gt;
   int(15)
   public $headers =&gt;
-  class Symfony\Component\HttpFoundation\ResponseHeaderBag#3630 (5) {
+  class Symfony\Component\HttpFoundation\ResponseHeaderBag#1487 (5) {
     protected $computedCacheControl =&gt;
     array(2) {
       'no-cache' =&gt;
@@ -298,7 +389,7 @@ class Lexik\Bundle\JWTAuthenticationBundle\Response\JWTAuthenticationSuccessResp
     }
   }
   protected $content =&gt;
-  string(857) "{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NjQ3OTI2NjYsImV4cCI6MTU2NDc5NjI2Niwicm9sZXMiOlsiUk9MRV9TVVBFUkFETUlOIiwiUk9MRV9BRE1JTiJdLCJ1c2VybmFtZSI6ImRtZyJ9.lvcdrFIpyevCezFaDfUn4dHcFgvaOh_F3xlnAuEtLsDglp-IXNTCd2RAeTgAqyDjeUmaXo65vsPb2J9sS2at9aX_QEM244608--ngL295z_VVzx6qiikZHzcOKWBZx8Ne8OYN65C6B8ySPQSLOMEHD52BK_u1zCk4TQ2VMkMvQOrtNT2TG7uMTyNwXutSsdstiweD6R9FPAEKTTqORUQImvyrzZZr1v2VapRL7pcLg-sJ6rKalPPVuyy66gL9U281s1kLt4nJYmycHCQnLYds5gbmpkK_jAyNWbdIQ_b6N-ROa2tFN8bwjapiX3Y5IbhwRXkhvnO1lfVgqSLlwkR"...
+  string(857) "{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NjQ5NzA3MTMsImV4cCI6MTU2NDk3NDMxMywicm9sZXMiOlsiUk9MRV9TVVBFUkFETUlOIiwiUk9MRV9BRE1JTiJdLCJ1c2VybmFtZSI6ImRtZyJ9.lKyZ25Im25ni5fiK7i8gRTYlmaP8yF-JdjM4L4E3PXMx7dSfuamIt04xgD1-cZkD7HoaVAW3fOv_BhIDV0zgxhwpCSq8RPUIDmYaiyg2JCnr4TN0CbXNmtsmIIMCNzlSp5O0jbXtHE8Da-LnnGUFIgJgXbm4hYHUiz5MHxgBk4WQK9vcCNYBHXhrZgp0XBBYE-IM5J91iSYNoftOnmsJFbDYjB4ruMlA1tvPWFgLfdw7ZtybsaGke9mNJO8EMqYigfKYUqfrjG9sHR-jKcKJtQXwc0DIC3A0TKOZb9KRip_guikscASGSsLieyw8yyDoJF3ynkxPaIpynwhTp_YA"...
   protected $version =&gt;
   string(3) "1.1"
   protected $statusCode =&gt;
@@ -310,9 +401,9 @@ class Lexik\Bundle\JWTAuthenticationBundle\Response\JWTAuthenticationSuccessResp
 }
 </system-out>
       </testcase>
-      <testcase name="testLoginKO" class="App\Tests\UtilisateurControllerTest" classname="App.Tests.UtilisateurControllerTest" file="/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/UtilisateurControllerTest.php" line="84" assertions="1" time="0.163601">
-        <system-out>/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/UtilisateurControllerTest.php:101:
-class Lexik\Bundle\JWTAuthenticationBundle\Response\JWTAuthenticationFailureResponse#6653 (10) {
+      <testcase name="testLoginKO" class="App\Tests\UtilisateurControllerTest" classname="App.Tests.UtilisateurControllerTest" file="/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/UtilisateurControllerTest.php" line="85" assertions="1" time="0.212213">
+        <system-out>/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/UtilisateurControllerTest.php:102:
+class Lexik\Bundle\JWTAuthenticationBundle\Response\JWTAuthenticationFailureResponse#984 (10) {
   private $message =&gt;
   string(15) "Bad credentials"
   protected $data =&gt;
@@ -322,7 +413,7 @@ class Lexik\Bundle\JWTAuthenticationBundle\Response\JWTAuthenticationFailureResp
   protected $encodingOptions =&gt;
   int(15)
   public $headers =&gt;
-  class Symfony\Component\HttpFoundation\ResponseHeaderBag#7332 (5) {
+  class Symfony\Component\HttpFoundation\ResponseHeaderBag#4576 (5) {
     protected $computedCacheControl =&gt;
     array(2) {
       'no-cache' =&gt;
@@ -392,17 +483,16 @@ class Lexik\Bundle\JWTAuthenticationBundle\Response\JWTAuthenticationFailureResp
 }
 </system-out>
       </testcase>
-      <testcase name="testRegister" class="App\Tests\UtilisateurControllerTest" classname="App.Tests.UtilisateurControllerTest" file="/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/UtilisateurControllerTest.php" line="105" assertions="1" time="0.563782">
+      <testcase name="testRegister" class="App\Tests\UtilisateurControllerTest" classname="App.Tests.UtilisateurControllerTest" file="/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/UtilisateurControllerTest.php" line="106" assertions="1" time="2.201784">
+        <failure type="PHPUnit\Framework\ExpectationFailedException">App\Tests\UtilisateurControllerTest::testRegister
+Failed asserting that 500 is identical to 201.
+
+/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/UtilisateurControllerTest.php:128
+</failure>
         <system-out>/home/dmg/Documents/Sonatel Academy/Projet Transfert DMG/tests/UtilisateurControllerTest.php:127:
-class Symfony\Component\HttpFoundation\JsonResponse#6142 (9) {
-  protected $data =&gt;
-  string(76) "{"status":201,"message":"L\u0027utilisateur a \u00e9t\u00e9 cr\u00e9\u00e9"}"
-  protected $callback =&gt;
-  NULL
-  protected $encodingOptions =&gt;
-  int(15)
+class Symfony\Component\HttpFoundation\Response#633 (6) {
   public $headers =&gt;
-  class Symfony\Component\HttpFoundation\ResponseHeaderBag#140 (5) {
+  class Symfony\Component\HttpFoundation\ResponseHeaderBag#632 (5) {
     protected $computedCacheControl =&gt;
     array(2) {
       'no-cache' =&gt;
@@ -415,19 +505,23 @@ class Symfony\Component\HttpFoundation\JsonResponse#6142 (9) {
     }
     protected $headerNames =&gt;
     array(5) {
+      'content-type' =&gt;
+      string(12) "Content-Type"
       'cache-control' =&gt;
       string(13) "Cache-Control"
       'date' =&gt;
       string(4) "Date"
-      'content-type' =&gt;
-      string(12) "Content-Type"
-      'link' =&gt;
-      string(4) "Link"
       'x-robots-tag' =&gt;
       string(12) "X-Robots-Tag"
+      'link' =&gt;
+      string(4) "Link"
     }
     protected $headers =&gt;
     array(5) {
+      'content-type' =&gt;
+      array(1) {
+        ...
+      }
       'cache-control' =&gt;
       array(1) {
         ...
@@ -436,15 +530,11 @@ class Symfony\Component\HttpFoundation\JsonResponse#6142 (9) {
       array(1) {
         ...
       }
-      'content-type' =&gt;
+      'x-robots-tag' =&gt;
       array(1) {
         ...
       }
       'link' =&gt;
-      array(1) {
-        ...
-      }
-      'x-robots-tag' =&gt;
       array(1) {
         ...
       }
@@ -454,13 +544,19 @@ class Symfony\Component\HttpFoundation\JsonResponse#6142 (9) {
     }
   }
   protected $content =&gt;
-  string(76) "{"status":201,"message":"L\u0027utilisateur a \u00e9t\u00e9 cr\u00e9\u00e9"}"
+  string(563625) "&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;meta charset="UTF-8" /&gt;
+        &lt;meta name="robots" content="noindex,nofollow" /&gt;
+        &lt;meta name="viewport" content="width=device-width,initial-scale=1" /&gt;
+        &lt;title&gt;    An exception occurred while executing &amp;#039;INSERT INTO utilisateur (login, roles, password, nom, email, telephone, statut, image_name, updated_at, partenaire_id) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)&amp;#039; with params [&amp;quot;ad88P77766t&amp;quot;, &amp;quot;[\&amp;quot;ROLE_SUPERADMIN\&amp;quot;]&amp;quot;, "...
   protected $version =&gt;
   string(3) "1.1"
   protected $statusCode =&gt;
-  int(201)
+  int(500)
   protected $statusText =&gt;
-  string(7) "Created"
+  string(21) "Internal Server Error"
   protected $charset =&gt;
   string(5) "UTF-8"
 }

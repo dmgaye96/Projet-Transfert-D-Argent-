@@ -40,7 +40,8 @@ class SecurityController extends AbstractController
         $login->setTelephone($values->telephone);
         $login->setRoles(["ROLE_SUPERADMIN"]);
         $login->setStatut("Actif");
-        $login->setPhoto("$values->photo");
+        $login->setImageName("$values->image_name");
+        $login->setUpdatedAt(new \DateTime);
         $login->setPassword($passwordEncoder->encodePassword($login,$values->password));
         $entityManager->persist($login);
         $entityManager->flush();

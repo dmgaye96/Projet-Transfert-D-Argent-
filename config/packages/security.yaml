@@ -41,6 +41,8 @@ security:
         - { path: ^/api/user/newadmin,        roles: ROLE_SUPERADMIN }
         - { path: ^/api/user,                 roles: ROLE_ADMINP }
         - { path: ^/api/user/newuser,         roles: ROLE_ADMINP }
+        - { path: ^/api/depot/new,            roles: ROLE_CAISSIER }
+
 
         #- { path: ^/api/user/,                roles: ROLE_ADMINP }  
         #- { path: ^/api,                      roles: ROLE_ADMIN}
