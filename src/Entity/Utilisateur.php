@@ -1,20 +1,24 @@
 <?php
 
 namespace App\Entity;
-use Doctrine\ORM\Mapping as ORM;
+use DateTimeInterface;
 
+use Doctrine\ORM\Mapping as ORM;
 use ApiPlatform\Core\Annotation\ApiResource;
 use Symfony\Component\HttpFoundation\File\File;
+use Symfony\Component\Validator\Constraints\Regex;
 use Vich\UploaderBundle\Mapping\Annotation as Vich;
+use Symfony\Component\Validator\Constraints\NotBlank;
+use Symfony\Component\Validator\Constraints as Assert;
 use Symfony\Component\Security\Core\User\UserInterface;
-use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 use Symfony\Component\HttpFoundation\File\UploadedFile ;
-use DateTimeInterface;
+use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 /**
  * @ORM\Entity(repositoryClass="App\Repository\UtilisateurRepository")
  * @Vich\Uploadable
  * @ApiResource()
  * @UniqueEntity(fields={"login"}, message="Cet utilisateur existe déjà")
+ * @UniqueEntity(fields={"password"}, message="ce mot de passe existe deja existe déjà")
  */
 class Utilisateur implements UserInterface
 {
@@ -37,12 +41,13 @@ class Utilisateur implements UserInterface
 
     /**
      * @var string The hashed password
-     * @ORM\Column(type="string")
+     * @ORM\Column(type="string",unique=true)
+     * 
      */
     private $password;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(type="string", length=255 )
      */
     private $nom;
 
@@ -52,7 +57,12 @@ class Utilisateur implements UserInterface
     private $email;
 
     /**
-     * @ORM\Column(type="integer")
+     * @ORM\Column(name="telephone",type="string", length=255, unique=true)
+     * @Assert\NotBlank(message="Vous devez renseigner le  champs")
+     * @Assert\Regex(
+     *     pattern="/^(\+[1-9][0-9]*(\([0-9]*\)|-[0-9]*-))?[0]?[1-9][0-9\-]*$/",
+     *     match=true,
+     *     message="Votre numero ne doit pas contenir de lettre")
      */
     private $telephone;
 
@@ -71,7 +81,14 @@ class Utilisateur implements UserInterface
      /**
      * NOTE: This is not a mapped field of entity metadata, just a simple property.
      * 
+     * @Assert\NotBlank(message="Vous devez renseigner le  champs")
+     * 
+     * 
      * @Vich\UploadableField(mapping="utilisateur_image" ,fileNameProperty="imageName")
+     * @Assert\Image(
+     * mimeTypes={"image/jpeg","image/png", "image/jpg"},
+     * mimeTypesMessage="formats autorisés : png, jpeg, jpg"
+     * )
      * 
      * @var File
      */

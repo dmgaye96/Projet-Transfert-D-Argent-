@@ -15,20 +15,13 @@ use Symfony\Component\Serializer\SerializerInterface;
 use Doctrine\ORM\EntityManagerInterface;
 
 
+
 /**
  * @Route("/api/partenaire")
  */
 class PartenaireController extends AbstractController
 {
-    /**
-     * @Route("/", name="partenaire_index", methods={"GET"})
-     */
-    public function index(PartenaireRepository $partenaireRepository): Response
-    {
-        return $this->render('partenaire/index.html.twig', [
-            'partenaires' => $partenaireRepository->findAll(),
-        ]);
-    }
+    
 
     /**
      * @Route("/new", name="partenaire_new", methods={"GET","POST"})

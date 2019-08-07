@@ -13,6 +13,7 @@ use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\Serializer\SerializerInterface;
 use Doctrine\ORM\EntityManagerInterface;
 use Doctrine\ORM\QueryBuilder;
+use App\Entity\Utilisateur;
 
 /**
  * @Route("/api/depot")
@@ -32,12 +33,15 @@ class DepotController extends AbstractController
     /**
      * @Route("/new", name="depot_new", methods={"GET","POST"})
      */
-    public function new(Request $request,SerializerInterface $serializer,EntityManagerInterface $entityManager ): Response
-    {
+    public function new(Request $request,EntityManagerInterface $entityManager ): Response
+    { 
         $depot = new Depot();
+    
+        $user=$this->getUser();
         $form = $this->createForm(DepotType::class,$depot);
         $data=json_decode($request->getContent(), true);
         $depot->setDate(new \Datetime());
+        $depot->setCaissier($user);
         $depot->getMontant();
        
         $form->submit($data);
@@ -48,6 +52,7 @@ class DepotController extends AbstractController
                 $compte= $depot->getCompte();
                 $compte->setSolde($compte->getSolde()+$depot->getMontant());
                 $entityManager = $this->getDoctrine()->getManager();
+                
                 $entityManager->persist($compte);
                 $entityManager->persist($depot);
                 $entityManager->flush();

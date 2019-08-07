@@ -9,7 +9,6 @@ use Symfony\Component\OptionsResolver\OptionsResolver;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Entity;
 use Symfony\Bridge\Doctrine\Form\Type\EntityType;
 use App\Entity\Partenaire;
-
 use Vich\UploaderBundle\Form\Type\VichImageType;
 use App\Entity\Profile;
 
