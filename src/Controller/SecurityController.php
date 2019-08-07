@@ -24,6 +24,9 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Security\Core\Exception\AuthenticationException;
 use Symfony\Component\Security\Core\Authentication\Token\TokenInterface;
 use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
+use App\Repository\UtilisateurRepository;
+use App\Repository\CompteRepository;
+use App\Repository\DepotRepository;
 
 /**
  * @Route("/api")
@@ -98,9 +101,9 @@ class SecurityController extends AbstractController
 
 
     /**
-     * @Route("/contrat/new", name="contrat")
+     * @Route("/liste/partenaire", name="liste_partenaire" ,methods={"GET"})
      */
-    public function contrat(PartenaireRepository $partenaireRepository, SerializerInterface $serializer)
+    public function listerpartenaire(PartenaireRepository $partenaireRepository, SerializerInterface $serializer)
     {
         $partenaire = $partenaireRepository->findAll();
         $data = $serializer->serialize($partenaire, 'json');
@@ -111,15 +114,44 @@ class SecurityController extends AbstractController
 
 
     /**
-     *@Route("/listepartenaire", name="listedespartenaire", methods={"GET"})
+     *@Route("/liste/utilisateur", name="listedesutilisateurs", methods={"GET"})
      */
-    /*    
-    public function listedespartenaire(PartenaireRepository $partenaireRepository)
+        
+    public function listeuser(UtilisateurRepository $utilisateurRepository,SerializerInterface $serializer)
     {  
-       $partenaire= new Partenaire();
-       
-        return $this->$partenaireRepository->findAll($partenaire);
+       $user = $utilisateurRepository->findAll();
+       $data = $serializer->serialize($user, 'json');
+        return new Response($data, 200, [
+            'Content-Type' => 'application/json'
+        ]);
 
     }
+ 
+/**
+ *@Route("/liste/compte",name="listecompte", methods ={"GET"})
  */
+ 
+ public function listercompte(CompteRepository $compteRepository, SerializerInterface $serializer) {
+
+    $compte= $compteRepository->findAll();
+    $data =$serializer->serialize( $compte , 'json');
+    return new Response($data, 200, [
+        'Content-Type' => 'application/json'
+    ]);
+
+ }
+
+ /**
+  *@Route("/liste/depot" ,name="listedepot",methods={"GET"})
+  */
+
+  public function listedepot(DepotRepository $depotRepository,SerializerInterface $serializer)
+  {
+      $depot=$depotRepository->findAll();
+      $data=$serializer->serialize($depot,'json');
+      return new Response($data,200,[
+          'Content-Type' =>'application/json'
+      ]);
+  }
+
 }
