@@ -2,31 +2,36 @@
 
 namespace App\Controller;
 
+use App\Entity\Compte;
 use App\Entity\Profile;
 use App\Entity\Partenaire;
 use App\Entity\Utilisateur;
 use App\Form\UtilisateurType;
+use App\Repository\DepotRepository;
+use App\Repository\CompteRepository;
 use App\Repository\PartenaireRepository;
 use Doctrine\ORM\EntityManagerInterface;
+use App\Repository\UtilisateurRepository;
 use Symfony\Bundle\MakerBundle\Validator;
-
 use Vich\UploaderBundle\Naming\UniqidNamer;
-use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\Serializer\SerializerInterface;
 use Symfony\Component\Security\Core\User\UserInterface;
+use Lexik\Bundle\JWTAuthenticationBundle\Tests\Stubs\User;
 use Symfony\Component\Validator\Validator\ValidatorInterface;
 use Symfony\Component\Security\Core\User\UserProviderInterface;
 use Symfony\Component\Security\Guard\AbstractGuardAuthenticator;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Lexik\Bundle\JWTAuthenticationBundle\Encoder\JWTEncoderInterface;
 use Symfony\Component\Security\Core\Exception\AuthenticationException;
+use Symfony\Component\Security\Core\Exception\BadCredentialsException;
 use Symfony\Component\Security\Core\Authentication\Token\TokenInterface;
 use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
-use App\Repository\UtilisateurRepository;
-use App\Repository\CompteRepository;
-use App\Repository\DepotRepository;
+use Lexik\Bundle\JWTAuthenticationBundle\Exception\JWTEncodeFailureException;
+
 
 /**
  * @Route("/api")
@@ -34,6 +39,8 @@ use App\Repository\DepotRepository;
 
 class SecurityController extends AbstractController
 {
+
+
     /**
      *@Route("/register", name="register", methods={"POST"})
      */
@@ -58,8 +65,6 @@ class SecurityController extends AbstractController
         } else {
             $utilisateur->setRoles([]);
         }
-
-        /* $utilisateur->setRoles($role); */
         $utilisateur->setImageFile($file);
         $utilisateur->setUpdatedAt(new \DateTime);
         $utilisateur->setStatut("Actif");
@@ -78,80 +83,138 @@ class SecurityController extends AbstractController
     }
 
 
-    /**
-     * @Route("/login_check", name="login", methods={"POST"})
-     * @return JsonResponse
-     */
 
-    public function login(Request $request, EntityManagerInterface $entityManager)
 
+
+    private $encoder;
+
+    public function __construct(UserPasswordEncoderInterface $encoder)
     {
+      $this->encoder = $encoder;
+    }
+    
 
-        $utilisateur = new Utilisateur();
-        $repository = $this->getDoctrine()->getRepository(Utilisateur::class);
-        $a = $repository->findAll($utilisateur->getStatut());
-        var_dump($a);
-        $login = $this->getUser();
+    /**
+     * @Route("/login", name="login", methods={"POST"})
+     * @param JWTEncoderInterface $JWTEncoder
+     * @throws \Lexik\Bundle\JWTAuthenticationBundle\Exception\JWTEncodeFailureException
+     */
+    public function login(Request $request,JWTEncoderInterface $JWTEncoder)
+    {
+        $values = json_decode($request->getContent());        
 
+        $repo = $this->getDoctrine()->getRepository(Utilisateur::class);
+        $user = $repo-> findOneBy(['login' => $values->username]);
+       
+        
+
+        // if(!$user ){
+        //     $data = [
+        //         'status2' => 400,
+        //         'message2' => 'Username incorrect'
+        //     ];
+        //     return new JsonResponse($data);
+        // }
+
+        // $pass = $this->encoder->isPasswordValid($user, $values->password);
+        // if(!$pass){
+        //      $data = [
+        //     'status2' => 400,
+        //     'message2' => 'Mot de Pass incorrect'
+        // ];
+        // return new JsonResponse($data);
+        // }
+
+        if($user->getStatut()!=null && $user->getStatut()=="bloquer"){
+            return $this->json([
+                'message1' => 'Ce compte est bloqué'
+            ]);
+        }
+
+
+        if($user->getStatut()!=null && $user->getPartenaire()!=null && $user->getPartenaire()->getStatut()=="bloquer"){
+            return $this->json([
+                'message1' => 'Le partenaire de cet utilisateur est bloqué'
+            ]);
+        }
+
+
+        $token = $JWTEncoder->encode([
+            'username' => $user->getUsername(),
+            'exp' => time() + 86400 // 1 day expiration
+        ]);
         return $this->json([
-            'login' => $login->getUsername(),
-            'roles' => $login->getRoles()
+            'token' => $token
         ]);
     }
 
+    /**
+     *@Route("/liste/compte",name="listecompte", methods ={"GET"})
+     */
+
+    public function listercompte(CompteRepository $compteRepository, SerializerInterface $serializer)
+    {
+
+        $compte = $compteRepository->findAll();
+        $data = $serializer->serialize($compte, 'json');
+        return new Response($data, 200, [
+            'Content-Type' => 'application/json'
+        ]);
+    }
 
     /**
-     * @Route("/liste/partenaire", name="liste_partenaire" ,methods={"GET"})
+     *@Route("/liste/depot" ,name="listedepot",methods={"GET"})
      */
-    public function listerpartenaire(PartenaireRepository $partenaireRepository, SerializerInterface $serializer)
+
+    public function listedepot(DepotRepository $depotRepository, SerializerInterface $serializer)
     {
-        $partenaire = $partenaireRepository->findAll();
+        $depot = $depotRepository->findAll();
+        $data = $serializer->serialize($depot, 'json');
+        return new Response($data, 200, [
+            'Content-Type' => 'application/json'
+        ]);
+    }
+
+    /**
+     *@Route("/liste/partenaire/{id}", name="partenaire_detaill" ,methods={"GET"})
+     */
+    public function showpartenaire(PartenaireRepository $partenaireRepository, SerializerInterface $serializer, Partenaire $partenaire)
+    {
+
+        $partenaire = $partenaireRepository->find($partenaire->getId());
         $data = $serializer->serialize($partenaire, 'json');
         return new Response($data, 200, [
             'Content-Type' => 'application/json'
         ]);
     }
 
-
     /**
-     *@Route("/liste/utilisateur", name="listedesutilisateurs", methods={"GET"})
+     *@Route("/liste/utilisateur/{id}", name="utilisateurs_detaille", methods={"GET"})
      */
-        
-    public function listeuser(UtilisateurRepository $utilisateurRepository,SerializerInterface $serializer)
-    {  
-       $user = $utilisateurRepository->findAll();
-       $data = $serializer->serialize($user, 'json');
+
+    public function showeuser(UtilisateurRepository $utilisateurRepository, SerializerInterface $serializer, Utilisateur $utilisateur)
+    {
+        $user = $utilisateurRepository->find($utilisateur->getId());
+        $data = $serializer->serialize($user, 'json');
         return new Response($data, 200, [
             'Content-Type' => 'application/json'
         ]);
-
     }
- 
-/**
- *@Route("/liste/compte",name="listecompte", methods ={"GET"})
- */
- 
- public function listercompte(CompteRepository $compteRepository, SerializerInterface $serializer) {
 
-    $compte= $compteRepository->findAll();
-    $data =$serializer->serialize( $compte , 'json');
-    return new Response($data, 200, [
-        'Content-Type' => 'application/json'
-    ]);
+    /**
+     *@Route("/liste/compte/{id}",name="listecompte", methods ={"GET"})
+     */
 
- }
+    public function showcopte(CompteRepository $compteRepository, SerializerInterface $serializer, Compte $compte)
+    {
 
- /**
-  *@Route("/liste/depot" ,name="listedepot",methods={"GET"})
-  */
-
-  public function listedepot(DepotRepository $depotRepository,SerializerInterface $serializer)
-  {
-      $depot=$depotRepository->findAll();
-      $data=$serializer->serialize($depot,'json');
-      return new Response($data,200,[
-          'Content-Type' =>'application/json'
-      ]);
-  }
-
+        $compte = $compteRepository->find($compte->getId());
+        $data = $serializer->serialize($compte, 'json');
+        return new Response($data, 200, [
+            'Content-Type' => 'application/json'
+        ]);
+    }
 }
+
+
+

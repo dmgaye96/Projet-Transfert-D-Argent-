@@ -116,12 +116,13 @@ class UtilisateurController extends AbstractController
         } else {
             $utilisateur->setRoles([]);
         }
-       
         $hash = $encoder->encodePassword($utilisateur, $utilisateur->getPassword());
         $utilisateur->setPassword($hash);
         $utilisateur->setImageFile($file);
         $utilisateur->setUpdatedAt(new \DateTime);
         $utilisateur->setStatut("Actif");
+        $user=$this->getUser();
+        $utilisateur->getPartenaire($user);
         $entityManager = $this->getDoctrine()->getManager();
         $errors= $validator->validate($utilisateur);
         if (count($errors)) {
