@@ -31,7 +31,7 @@ final class User implements UserInterface, EquatableInterface, AdvancedUserInter
     public function __construct(?string $username, ?string $password, array $roles = [], bool $enabled = true, bool $userNonExpired = true, bool $credentialsNonExpired = true, bool $userNonLocked = true)
     {
         if ('' === $username || null === $username) {
-            throw new \InvalidArgumentException('The username cannot be empty.');
+            throw new \InvalidArgumentException('Le login ne peut pas etre nulle ou vide veuiller renseigner ce champs svp.');
         }
 
         $this->username = $username;

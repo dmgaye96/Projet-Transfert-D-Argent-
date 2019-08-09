@@ -18,6 +18,6 @@ class ExpiredTokenException extends AuthenticationException
      */
     public function getMessageKey()
     {
-        return 'Expired JWT Token';
+        return 'Votre Token est expriré';
     }
 }

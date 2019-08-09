@@ -214,6 +214,33 @@ class SecurityController extends AbstractController
             'Content-Type' => 'application/json'
         ]);
     }
+
+
+/**
+ *@Route("/utilisateur/bloque/{id}", name="bloqueruser", methods ={"PUT"})
+ */
+
+public function bloquer($id)
+
+{
+//$user =new Utilisateur();
+$entityManager = $this->getDoctrine()->getManager();
+$user =$entityManager->getRepository(Utilisateur::class)->find($id);
+$stat =$user->getStatut();
+if ($stat==="actif") {
+ $user->setStatut("bloquer");
+// $entityManager->persist($user);
+$entityManager->flush();
+
+ return new Response('Utilisateur a etait bloquer', Response::HTTP_CREATED);
+}
+
+
+
+
+}
+
+
 }
 
 

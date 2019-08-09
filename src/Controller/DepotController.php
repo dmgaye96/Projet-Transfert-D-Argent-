@@ -14,6 +14,7 @@ use Symfony\Component\Serializer\SerializerInterface;
 use Doctrine\ORM\EntityManagerInterface;
 use Doctrine\ORM\QueryBuilder;
 use App\Entity\Utilisateur;
+use Symfony\Component\Security\Core\User\User;
 
 /**
  * @Route("/api/depot")
@@ -36,7 +37,7 @@ class DepotController extends AbstractController
     public function new(Request $request,EntityManagerInterface $entityManager ): Response
     { 
         $depot = new Depot();
-    
+      //  $user =new User();
         $user=$this->getUser();
         $form = $this->createForm(DepotType::class,$depot);
         $data=json_decode($request->getContent(), true);

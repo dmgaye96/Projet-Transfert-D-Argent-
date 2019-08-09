@@ -16,6 +16,6 @@ class InvalidTokenException extends AuthenticationException
      */
     public function getMessageKey()
     {
-        return 'Invalid JWT Token';
+        return 'le Token est invalide';
     }
 }
