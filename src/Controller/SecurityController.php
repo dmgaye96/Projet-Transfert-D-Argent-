@@ -223,17 +223,30 @@ class SecurityController extends AbstractController
 public function bloquer($id)
 
 {
-//$user =new Utilisateur();
 $entityManager = $this->getDoctrine()->getManager();
 $user =$entityManager->getRepository(Utilisateur::class)->find($id);
 $stat =$user->getStatut();
-if ($stat==="actif") {
+
+if (  $stat === "actif" && $user->getRoles()===["ROLE_SUPERADMIN"] ) {
+    return new Response('Vous ne pouver pas bloquer votre supperieur', Response::HTTP_CREATED);   
+}
+
+else if ($stat==="actif") {
  $user->setStatut("bloquer");
-// $entityManager->persist($user);
+
 $entityManager->flush();
 
  return new Response('Utilisateur a etait bloquer', Response::HTTP_CREATED);
-}
+} 
+else if($stat==="bloquer")
+ {
+
+    $user->setStatut("actif");
+  
+    $entityManager->flush();
+    
+     return new Response('Utilisateur a ete debloquer ', Response::HTTP_CREATED);
+   }
 
 
 
