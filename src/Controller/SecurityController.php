@@ -59,8 +59,7 @@ class SecurityController extends AbstractController
         $a = $repository->findAll($profile->getLibelle());
         if ($utilisateur->getProfile() === $a[0]) {
             $utilisateur->setRoles(["ROLE_SUPERADMIN"]);
-        } else if ($utilisateur->getProfile() === $a[1]) {
-
+        } elseif ($utilisateur->getProfile() === $a[1]) {
             $utilisateur->setRoles(["ROLE_CAISSIER"]);
         } else {
             $utilisateur->setRoles([]);
@@ -73,7 +72,6 @@ class SecurityController extends AbstractController
         $entityManager = $this->getDoctrine()->getManager();
         $errors = $validator->validate($utilisateur);
         if (count($errors)) {
-
             return new Response($errors, 500, ['Content-Type' => 'application/json']);
         }
 
@@ -90,7 +88,7 @@ class SecurityController extends AbstractController
 
     public function __construct(UserPasswordEncoderInterface $encoder)
     {
-      $this->encoder = $encoder;
+        $this->encoder = $encoder;
     }
     
 
@@ -99,42 +97,42 @@ class SecurityController extends AbstractController
      * @param JWTEncoderInterface $JWTEncoder
      * @throws \Lexik\Bundle\JWTAuthenticationBundle\Exception\JWTEncodeFailureException
      */
-    public function login(Request $request,JWTEncoderInterface $JWTEncoder)
+    public function login(Request $request, JWTEncoderInterface $JWTEncoder)
     {
-        $values = json_decode($request->getContent());        
+        $values = json_decode($request->getContent());
 
         $repo = $this->getDoctrine()->getRepository(Utilisateur::class);
         $user = $repo-> findOneBy(['login' => $values->username]);
        
         
 
-        // if(!$user ){
-        //     $data = [
-        //         'status2' => 400,
-        //         'message2' => 'Username incorrect'
-        //     ];
-        //     return new JsonResponse($data);
-        // }
+        if (!$user) {
+            $data = [
+                'status2' => 400,
+                'message2' => 'Username incorrect'
+            ];
+            return new JsonResponse($data);
+        }
 
-        // $pass = $this->encoder->isPasswordValid($user, $values->password);
-        // if(!$pass){
-        //      $data = [
-        //     'status2' => 400,
-        //     'message2' => 'Mot de Pass incorrect'
-        // ];
-        // return new JsonResponse($data);
-        // }
+        $pass = $this->encoder->isPasswordValid($user, $values->password);
+        if (!$pass) {
+            $data = [
+             'status2' => 400,
+            'message2' => 'Mot de Pass incorrect'
+        ];
+            return new JsonResponse($data);
+        }
 
-        if($user->getStatut()!=null && $user->getStatut()=="bloquer"){
+        if ($user->getStatut()!=null && $user->getStatut()=="bloquer") {
             return $this->json([
                 'message1' => 'Ce compte est bloqué'
             ]);
         }
 
 
-        if($user->getStatut()!=null && $user->getPartenaire()!=null && $user->getPartenaire()->getStatut()=="bloquer"){
+        if ($user->getStatut()!=null && $user->getPartenaire()!=null && $user->getPartenaire()->getStatut()=="bloquer") {
             return $this->json([
-                'message1' => 'Le partenaire de cet utilisateur est bloqué'
+                'message1' => 'Le votre partenaire est bloqué'
             ]);
         }
 
@@ -154,7 +152,6 @@ class SecurityController extends AbstractController
 
     public function listercompte(CompteRepository $compteRepository, SerializerInterface $serializer)
     {
-
         $compte = $compteRepository->findAll();
         $data = $serializer->serialize($compte, 'json');
         return new Response($data, 200, [
@@ -180,7 +177,6 @@ class SecurityController extends AbstractController
      */
     public function showpartenaire(PartenaireRepository $partenaireRepository, SerializerInterface $serializer, Partenaire $partenaire)
     {
-
         $partenaire = $partenaireRepository->find($partenaire->getId());
         $data = $serializer->serialize($partenaire, 'json');
         return new Response($data, 200, [
@@ -207,7 +203,6 @@ class SecurityController extends AbstractController
 
     public function showcopte(CompteRepository $compteRepository, SerializerInterface $serializer, Compte $compte)
     {
-
         $compte = $compteRepository->find($compte->getId());
         $data = $serializer->serialize($compte, 'json');
         return new Response($data, 200, [
@@ -216,45 +211,56 @@ class SecurityController extends AbstractController
     }
 
 
-/**
- *@Route("/utilisateur/bloque/{id}", name="bloqueruser", methods ={"PUT"})
- */
+    /**
+     *@Route("/utilisateur/bloque/{id}", name="bloqueruser", methods ={"PUT"})
+     */
 
-public function bloquer($id)
+    public function bloquer($id)
+    {
+        $entityManager = $this->getDoctrine()->getManager();
+        $user =$entityManager->getRepository(Utilisateur::class)->find($id);
+        $stat =$user->getStatut();
 
-{
-$entityManager = $this->getDoctrine()->getManager();
-$user =$entityManager->getRepository(Utilisateur::class)->find($id);
-$stat =$user->getStatut();
+        if ($stat === "actif" && $user->getRoles()===["ROLE_SUPERADMIN"]) {
+            return new Response('Vous ne pouver pas bloquer votre supperieur', Response::HTTP_CREATED);
+        } elseif ($stat==="actif") {
+            $user->setStatut("bloquer");
 
-if (  $stat === "actif" && $user->getRoles()===["ROLE_SUPERADMIN"] ) {
-    return new Response('Vous ne pouver pas bloquer votre supperieur', Response::HTTP_CREATED);   
-}
+            $entityManager->flush();
 
-else if ($stat==="actif") {
- $user->setStatut("bloquer");
-
-$entityManager->flush();
-
- return new Response('Utilisateur a etait bloquer', Response::HTTP_CREATED);
-} 
-else if($stat==="bloquer")
- {
-
-    $user->setStatut("actif");
+            return new Response('Utilisateur a etait bloquer', Response::HTTP_CREATED);
+        } elseif ($stat==="bloquer") {
+            $user->setStatut("actif");
   
-    $entityManager->flush();
+            $entityManager->flush();
     
-     return new Response('Utilisateur a ete debloquer ', Response::HTTP_CREATED);
-   }
+            return new Response('Utilisateur a ete debloquer ', Response::HTTP_CREATED);
+        }
+    }
 
 
+    /**
+     *@Route("partenaires/bloquer/{id}", name = "bloquerpartenaire", methods={"PUT"})
+     */
 
+    public function bloquerpqrtenqire($id)
+    {
+        $entityManager = $this->getDoctrine()->getManager();
+        $partenaire=$entityManager->getRepository(Partenaire::class)->find($id);
+        $statut=$partenaire->getStatut();
+        //var_dump($statut);
+        if ($statut==="actif") {
+            $partenaire->setStatut("bloquer");
+            $entityManager->flush();
 
+            return new Response('Le partenaire '.$partenaire->getRaisonsociale().'  est a  bloquer', Response::HTTP_CREATED);
+        } elseif ($statut==="bloquer") {
+            $partenaire->setStatut("actif");
+            $entityManager->flush();
+    
+            return new Response('Le partenaire '.$partenaire->getRaisonsociale().' a ete debloquer ', Response::HTTP_CREATED);
+        }
+    }
 }
-
-
-}
-
 
 

@@ -36,6 +36,7 @@ class UtilisateurController extends AbstractController
         $form = $this->createForm(PartenaireType::class, $partenaire);
         $data = $request->request->all();
         $form->submit($data);
+        $partenaire->setStatut("actif");
         $errors= $validator->validate($partenaire);
         if (count($errors)) {
     
@@ -75,7 +76,7 @@ class UtilisateurController extends AbstractController
         $utilisateur->setPartenaire($part);
         $utilisateur->setImageFile($file);
         $utilisateur->setUpdatedAt(new \DateTime);
-        $utilisateur->setStatut("Actif");
+        $utilisateur->setStatut("actif");
         $hash = $encoder->encodePassword($utilisateur, $utilisateur->getPassword());
         $utilisateur->setPassword($hash);
         $entityManager = $this->getDoctrine()->getManager();
@@ -120,7 +121,7 @@ class UtilisateurController extends AbstractController
         $utilisateur->setPassword($hash);
         $utilisateur->setImageFile($file);
         $utilisateur->setUpdatedAt(new \DateTime);
-        $utilisateur->setStatut("Actif");
+        $utilisateur->setStatut("actif");
         $user=$this->getUser();
         $utilisateur->getPartenaire($user);
         $entityManager = $this->getDoctrine()->getManager();

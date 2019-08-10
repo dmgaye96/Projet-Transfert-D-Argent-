@@ -17,11 +17,10 @@ class CompteType extends AbstractType
         $builder
             ->add('numerocompte')
             ->add('solde')
-         ->add('partenaire',EntityType::class,[
-                'class'=> Partenaire::class,
-                'choice_label'=> 'partenaire_id'
-            ]) 
-        ;
+            ->add('partenaire', EntityType::class, [
+                'class' => Partenaire::class,
+                'choice_label' => 'partenaire_id'
+            ]);
     }
 
     public function configureOptions(OptionsResolver $resolver)
