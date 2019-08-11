@@ -117,6 +117,16 @@ class Utilisateur implements UserInterface
     private $profile;
 
     /**
+     * @ORM\ManyToOne(targetEntity="App\Entity\Compte")
+     */
+    private $compte;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $ajouterpar;
+
+    /**
      * If manually uploading a file (i.e. not using Symfony Form) ensure an instance
      * of 'UploadedFile' is injected into this setter to trigger the update. If this
      * bundle's configuration parameter 'inject_on_load' is set to 'true' this setter
@@ -327,6 +337,30 @@ class Utilisateur implements UserInterface
     public function setProfile(?Profile $profile): self
     {
         $this->profile = $profile;
+
+        return $this;
+    }
+
+    public function getCompte(): ?Compte
+    {
+        return $this->compte;
+    }
+
+    public function setCompte(?Compte $compte): self
+    {
+        $this->compte = $compte;
+
+        return $this;
+    }
+
+    public function getAjouterpar(): ?int
+    {
+        return $this->ajouterpar;
+    }
+
+    public function setAjouterpar(?int $ajouterpar): self
+    {
+        $this->ajouterpar = $ajouterpar;
 
         return $this;
     }

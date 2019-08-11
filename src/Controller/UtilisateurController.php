@@ -94,7 +94,7 @@ class UtilisateurController extends AbstractController
     /**
      * @Route("/newuser", name="utilisateur_new", methods={"POST"})
      */
-    public function newuser(Request $request,  EntityManagerInterface $entityManager, UserPasswordEncoderInterface $encoder): Response
+    public function newuser(Request $request,  EntityManagerInterface $entityManager, UserPasswordEncoderInterface $encoder ,ValidatorInterface $validator): Response
     {
 
         $utilisateur = new Utilisateur();
@@ -117,14 +117,19 @@ class UtilisateurController extends AbstractController
         } else {
             $utilisateur->setRoles([]);
         }
+       
+     
+       
         $hash = $encoder->encodePassword($utilisateur, $utilisateur->getPassword());
         $utilisateur->setPassword($hash);
         $utilisateur->setImageFile($file);
         $utilisateur->setUpdatedAt(new \DateTime);
         $utilisateur->setStatut("actif");
-        $user=$this->getUser();
-        $utilisateur->getPartenaire($user);
+        
+        $idpartenaire= $this->getUser()->getPartenaire();
+        $utilisateur->setPartenaire($idpartenaire);
         $entityManager = $this->getDoctrine()->getManager();
+
         $errors= $validator->validate($utilisateur);
         if (count($errors)) {
     
