@@ -6,6 +6,8 @@ use App\Entity\Envoi;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
+use Symfony\Bridge\Doctrine\Form\Type\EntityType;
+use App\Entity\Commissions;
 
 class EnvoiType extends AbstractType
 {
@@ -33,7 +35,11 @@ class EnvoiType extends AbstractType
             ->add('piece')
             ->add('paysenvoi')
             ->add('pays')
-            ->add('commitionttc');
+            ->add('commitionttc',EntityType::class ,[
+                'class'=>Commissions::class,
+                'choice_label'=>'commitionttc_id'
+            ])
+            ;
     }
 
     public function configureOptions(OptionsResolver $resolver)

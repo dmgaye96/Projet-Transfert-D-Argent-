@@ -22,6 +22,7 @@ use Symfony\Component\Validator\Constraints\Date;
 use Symfony\Component\Validator\Validator\ValidatorInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
+use App\Entity\Commissions;
 
 /**
  * @Route("/api/user")
@@ -181,10 +182,44 @@ class UtilisateurController extends AbstractController
         $numero = rand(11111111, 99999999);
         $envoi->setCodeenvoi($code . "0");
         $envoi->setNumero($numero . "0");
+        $montant = $envoi->getMontant();
+        $repository = $this->getDoctrine()->getRepository(Commissions::class);
+        $commission = $repository->findAll();
+        foreach ($commission as $commissions) {
+            $commissions->getId();
+            $commissions->getBorninf();
+            $commissions->getBornesup();
+            $commissions->getCommissionttc();
+
+            if ($montant >= $commissions->getBorninf() && $montant <= $commissions->getBornesup()) {
+                $commissionttc = $commissions->getCommissionttc();
+                
+
+            }
+         
+            
+        }
+
+    
+        $system = $commissionttc * 40 / 100; //commision du systeme
+        $etat = $commissionttc * 30 / 100; //commission de l'etat
+        $envoig = $commissionttc * 20 / 100; //commission du guichet d envoi
+        $retait = $commissionttc * 10 / 100; //commission du guiche de retait
         $compt = $this->getUser()->getCompte(); //permet de connaitre le compte  avec le quelle l utilisateur du system travail
-        $compt->setSolde($envoi->getMontant() + $compt->getSolde());
-        $envoi->setTotal($envoi->getMontant() + $envoi->getCommitionttc()->getcommissionttc());
-        $errors = $validator->validate($envoi);
+        if ($envoi->getMontant() >= $compt->getSolde()) {
+            return new Response('le solde de votre compte est insuffisante ', Response::HTTP_CREATED);
+        } else {
+            $envoi->setCommissionguichetenvoie($envoig);
+            $envoi->setCommissionguicheretrait($retait);
+            $envoi->setCommissionsysteme($system);
+            $envoi->setCommissionetat($etat);
+            $compt->setSolde($compt->getSolde() + $system - $envoi->getMontant());  //met a jour le compte du partenaire
+            $envoi->setTotal($envoi->getMontant() + $commissionttc); // calcule le motant totale a payer par le client
+            $envoi->setCommitionttc($commissionttc);
+        }
+            $errors = $validator->validate($envoi);
+    
+
         if (count($errors)) {
             return new Response($errors, 500, ['Content-Type' => 'application/json']);
         }

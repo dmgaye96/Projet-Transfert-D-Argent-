@@ -100,7 +100,7 @@ class Envoi
     private $adresseB;
 
     /**
-     * @ORM\ManyToOne(targetEntity="App\Entity\Commissions")
+     * @ORM\Column(type="bigint", nullable=true)
      */
     private $commitionttc;
 
@@ -341,17 +341,7 @@ class Envoi
         return $this;
     }
 
-    public function getCommitionttc(): ?Commissions
-    {
-        return $this->commitionttc;
-    }
-
-    public function setCommitionttc(?Commissions $commitionttc): self
-    {
-        $this->commitionttc = $commitionttc;
-
-        return $this;
-    }
+   
 
     public function getGuichetier(): ?Utilisateur
     {
@@ -445,6 +435,26 @@ class Envoi
     public function setCommissionguicheretrait($commissionguicheretrait): self
     {
         $this->commissionguicheretrait = $commissionguicheretrait;
+
+        return $this;
+    }
+
+    /**
+     * Get the value of commitionttc
+     */ 
+    public function getCommitionttc()
+    {
+        return $this->commitionttc;
+    }
+
+    /**
+     * Set the value of commitionttc
+     *
+     * @return  self
+     */ 
+    public function setCommitionttc($commitionttc)
+    {
+        $this->commitionttc = $commitionttc;
 
         return $this;
     }
