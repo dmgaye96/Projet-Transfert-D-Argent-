@@ -163,6 +163,13 @@ class UtilisateurController extends AbstractController
         return new Response('Modification effectif ', Response::HTTP_CREATED);
     }
 
+/**
+ * @Route("/envoi",name="envoi",methods={"POST"})
+ */
+public function envoi( )
+{
 
+echo "wellecomme to send a money DMG";
 
+}
 }
