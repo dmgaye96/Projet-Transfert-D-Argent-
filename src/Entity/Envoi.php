@@ -99,6 +99,51 @@ class Envoi
      */
     private $adresseB;
 
+    /**
+     * @ORM\ManyToOne(targetEntity="App\Entity\Commissions")
+     */
+    private $commitionttc;
+
+    /**
+     * @ORM\ManyToOne(targetEntity="App\Entity\Utilisateur")
+     */
+    private $guichetier;
+
+    /**
+     * @ORM\Column(type="bigint")
+     */
+    private $codeenvoi;
+
+    /**
+     * @ORM\Column(type="bigint", nullable=true)
+     */
+    private $numero;
+
+    /**
+     * @ORM\Column(type="decimal", precision=10, scale=0)
+     */
+    private $total;
+
+    /**
+     * @ORM\Column(type="decimal", precision=10, scale=0, nullable=true)
+     */
+    private $commissionetat;
+
+    /**
+     * @ORM\Column(type="decimal", precision=10, scale=0, nullable=true)
+     */
+    private $commissionsysteme;
+
+    /**
+     * @ORM\Column(type="decimal", precision=10, scale=0, nullable=true)
+     */
+    private $commissionguichetenvoie;
+
+    /**
+     * @ORM\Column(type="decimal", precision=10, scale=0, nullable=true)
+     */
+    private $commissionguicheretrait;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -292,6 +337,114 @@ class Envoi
     public function setAdresseB(?string $adresseB): self
     {
         $this->adresseB = $adresseB;
+
+        return $this;
+    }
+
+    public function getCommitionttc(): ?Commissions
+    {
+        return $this->commitionttc;
+    }
+
+    public function setCommitionttc(?Commissions $commitionttc): self
+    {
+        $this->commitionttc = $commitionttc;
+
+        return $this;
+    }
+
+    public function getGuichetier(): ?Utilisateur
+    {
+        return $this->guichetier;
+    }
+
+    public function setGuichetier(?Utilisateur $guichetier): self
+    {
+        $this->guichetier = $guichetier;
+
+        return $this;
+    }
+
+    public function getCodeenvoi(): ?string
+    {
+        return $this->codeenvoi;
+    }
+
+    public function setCodeenvoi(string $codeenvoi): self
+    {
+        $this->codeenvoi = $codeenvoi;
+
+        return $this;
+    }
+
+    public function getNumero(): ?string
+    {
+        return $this->numero;
+    }
+
+    public function setNumero(?string $numero): self
+    {
+        $this->numero = $numero;
+
+        return $this;
+    }
+
+    public function getTotal()
+    {
+        return $this->total;
+    }
+
+    public function setTotal($total): self
+    {
+        $this->total = $total;
+
+        return $this;
+    }
+
+    public function getCommissionetat()
+    {
+        return $this->commissionetat;
+    }
+
+    public function setCommissionetat($commissionetat): self
+    {
+        $this->commissionetat = $commissionetat;
+
+        return $this;
+    }
+
+    public function getCommissionsysteme()
+    {
+        return $this->commissionsysteme;
+    }
+
+    public function setCommissionsysteme($commissionsysteme): self
+    {
+        $this->commissionsysteme = $commissionsysteme;
+
+        return $this;
+    }
+
+    public function getCommissionguichetenvoie()
+    {
+        return $this->commissionguichetenvoie;
+    }
+
+    public function setCommissionguichetenvoie($commissionguichetenvoie): self
+    {
+        $this->commissionguichetenvoie = $commissionguichetenvoie;
+
+        return $this;
+    }
+
+    public function getCommissionguicheretrait()
+    {
+        return $this->commissionguicheretrait;
+    }
+
+    public function setCommissionguicheretrait($commissionguicheretrait): self
+    {
+        $this->commissionguicheretrait = $commissionguicheretrait;
 
         return $this;
     }

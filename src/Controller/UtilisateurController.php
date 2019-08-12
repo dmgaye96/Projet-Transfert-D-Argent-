@@ -2,23 +2,26 @@
 
 namespace App\Controller;
 
+use App\Entity\Envoi;
 use App\Entity\Compte;
 use App\Entity\Profile;
+use App\Form\EnvoiType;
 use App\Form\CompteType;
 use App\Entity\Partenaire;
 use App\Entity\Utilisateur;
 use App\Form\PartenaireType;
+use Webmozart\Assert\Assert;
 use App\Form\UtilisateurType;
 use Doctrine\ORM\EntityManagerInterface;
+use Symfony\Bundle\MakerBundle\Validator;
+use Vich\UploaderBundle\Naming\UniqidNamer;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
+use Symfony\Component\Validator\Constraints\Date;
+use Symfony\Component\Validator\Validator\ValidatorInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
-use Symfony\Bundle\MakerBundle\Validator;
-use Symfony\Component\Validator\Validator\ValidatorInterface;
-use Vich\UploaderBundle\Naming\UniqidNamer;
-use Webmozart\Assert\Assert;
 
 /**
  * @Route("/api/user")
@@ -30,17 +33,17 @@ class UtilisateurController extends AbstractController
     /**
      * @Route("/newadmin", name="admin_utilisateur_new", methods={"GET","POST"})
      */
-    public function new(Request $request, EntityManagerInterface $entityManager, UserPasswordEncoderInterface $encoder,ValidatorInterface $validator): Response
+    public function new(Request $request, EntityManagerInterface $entityManager, UserPasswordEncoderInterface $encoder, ValidatorInterface $validator): Response
     {
         $partenaire = new Partenaire();
         $form = $this->createForm(PartenaireType::class, $partenaire);
         $data = $request->request->all();
         $form->submit($data);
         $partenaire->setStatut("actif");
-        $errors= $validator->validate($partenaire);
+        $errors = $validator->validate($partenaire);
         if (count($errors)) {
-    
-           return new Response($errors ,500 ,['Content-Type' =>'application/json']);
+
+            return new Response($errors, 500, ['Content-Type' => 'application/json']);
         }
         $entityManager->persist($partenaire);
         $entityManager->flush();
@@ -58,10 +61,10 @@ class UtilisateurController extends AbstractController
         $compte->setNumerocompte($number);
         $compte->setPartenaire($part);
         $entityManager = $this->getDoctrine()->getManager();
-        $errors= $validator->validate($compte);
+        $errors = $validator->validate($compte);
         if (count($errors)) {
-    
-           return new Response($errors ,500 ,['Content-Type' =>'application/json']);
+
+            return new Response($errors, 500, ['Content-Type' => 'application/json']);
         }
         $entityManager->persist($compte);
         $entityManager->flush();
@@ -80,10 +83,10 @@ class UtilisateurController extends AbstractController
         $hash = $encoder->encodePassword($utilisateur, $utilisateur->getPassword());
         $utilisateur->setPassword($hash);
         $entityManager = $this->getDoctrine()->getManager();
-        $errors= $validator->validate($utilisateur);
+        $errors = $validator->validate($utilisateur);
         if (count($errors)) {
-    
-           return new Response($errors ,500 ,['Content-Type' =>'application/json']);
+
+            return new Response($errors, 500, ['Content-Type' => 'application/json']);
         }
         $entityManager->persist($compte);
         $entityManager->persist($utilisateur);
@@ -94,7 +97,7 @@ class UtilisateurController extends AbstractController
     /**
      * @Route("/newuser", name="utilisateur_new", methods={"POST"})
      */
-    public function newuser(Request $request,  EntityManagerInterface $entityManager, UserPasswordEncoderInterface $encoder ,ValidatorInterface $validator): Response
+    public function newuser(Request $request,  EntityManagerInterface $entityManager, UserPasswordEncoderInterface $encoder, ValidatorInterface $validator): Response
     {
 
         $utilisateur = new Utilisateur();
@@ -108,32 +111,30 @@ class UtilisateurController extends AbstractController
         $repository = $this->getDoctrine()->getRepository(Profile::class);
         $a = $repository->findAll($profile->getId());
 
-        if ($utilisateur->getProfile() == $a[2]) 
-        {
+        if ($utilisateur->getProfile() == $a[2]) {
             $utilisateur->setRoles(["ROLE_ADMINP"]);
-
         } else if ($utilisateur->getProfile() == $a[3]) {
             $utilisateur->setRoles(["ROLE_USER"]);
         } else {
             $utilisateur->setRoles([]);
         }
-       
-     
-       
+
+
+
         $hash = $encoder->encodePassword($utilisateur, $utilisateur->getPassword());
         $utilisateur->setPassword($hash);
         $utilisateur->setImageFile($file);
         $utilisateur->setUpdatedAt(new \DateTime);
         $utilisateur->setStatut("actif");
-        
-        $idpartenaire= $this->getUser()->getPartenaire();
+
+        $idpartenaire = $this->getUser()->getPartenaire();
         $utilisateur->setPartenaire($idpartenaire);
         $entityManager = $this->getDoctrine()->getManager();
 
-        $errors= $validator->validate($utilisateur);
+        $errors = $validator->validate($utilisateur);
         if (count($errors)) {
-    
-           return new Response($errors ,500 ,['Content-Type' =>'application/json']);
+
+            return new Response($errors, 500, ['Content-Type' => 'application/json']);
         }
         $entityManager->persist($utilisateur);
         $entityManager->flush();
@@ -163,13 +164,32 @@ class UtilisateurController extends AbstractController
         return new Response('Modification effectif ', Response::HTTP_CREATED);
     }
 
-/**
- * @Route("/envoi",name="envoi",methods={"POST"})
- */
-public function envoi( )
-{
-
-echo "wellecomme to send a money DMG";
-
-}
+    /**
+     * @Route("/envoi",name="envoi",methods={"POST"})
+     */
+    public function envoi(Request $request,  EntityManagerInterface $entityManager, ValidatorInterface $validator): Response
+    {
+        $envoi = new Envoi();
+        $form = $this->createForm(EnvoiType::class, $envoi);
+        $data = $request->request->all();
+        $form->handleRequest($request);
+        $form->submit($data);
+        $envoi->setDateenvoi(new \DateTime());
+        $user = $this->getUser(); //permet de recuperer l'id de l utilisateur qui est connecte
+        $envoi->setGuichetier($user);
+        $code = rand(11111111, 99999999);
+        $numero = rand(11111111, 99999999);
+        $envoi->setCodeenvoi($code . "0");
+        $envoi->setNumero($numero . "0");
+        $compt = $this->getUser()->getCompte(); //permet de connaitre le compte  avec le quelle l utilisateur du system travail
+        $compt->setSolde($envoi->getMontant() + $compt->getSolde());
+        $envoi->setTotal($envoi->getMontant() + $envoi->getCommitionttc()->getcommissionttc());
+        $errors = $validator->validate($envoi);
+        if (count($errors)) {
+            return new Response($errors, 500, ['Content-Type' => 'application/json']);
+        }
+        $entityManager->persist($envoi);
+        $entityManager->flush();
+        return new Response('envoi effectif ', Response::HTTP_CREATED);
+    }
 }
