@@ -52,6 +52,7 @@ security:
         - { path: ^/api/user/newuser,         roles: ROLE_ADMINP }
         - { path: ^/api/depot/new,            roles: ROLE_CAISSIER }
         - { path: ^/api/user/envoi,            roles: ROLE_USER }
+        - { path: ^/api/user/retrait,            roles: ROLE_USER }
 
 
 

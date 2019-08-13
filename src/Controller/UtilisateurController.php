@@ -5,9 +5,12 @@ namespace App\Controller;
 use App\Entity\Envoi;
 use App\Entity\Compte;
 use App\Entity\Profile;
+use App\Entity\Retrait;
 use App\Form\EnvoiType;
 use App\Form\CompteType;
+use App\Form\RetraiType;
 use App\Entity\Partenaire;
+use App\Entity\Commissions;
 use App\Entity\Utilisateur;
 use App\Form\PartenaireType;
 use Webmozart\Assert\Assert;
@@ -22,7 +25,7 @@ use Symfony\Component\Validator\Constraints\Date;
 use Symfony\Component\Validator\Validator\ValidatorInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
-use App\Entity\Commissions;
+use App\Repository\EnvoiRepository;
 
 /**
  * @Route("/api/user")
@@ -43,7 +46,6 @@ class UtilisateurController extends AbstractController
         $partenaire->setStatut("actif");
         $errors = $validator->validate($partenaire);
         if (count($errors)) {
-
             return new Response($errors, 500, ['Content-Type' => 'application/json']);
         }
         $entityManager->persist($partenaire);
@@ -64,7 +66,6 @@ class UtilisateurController extends AbstractController
         $entityManager = $this->getDoctrine()->getManager();
         $errors = $validator->validate($compte);
         if (count($errors)) {
-
             return new Response($errors, 500, ['Content-Type' => 'application/json']);
         }
         $entityManager->persist($compte);
@@ -86,7 +87,6 @@ class UtilisateurController extends AbstractController
         $entityManager = $this->getDoctrine()->getManager();
         $errors = $validator->validate($utilisateur);
         if (count($errors)) {
-
             return new Response($errors, 500, ['Content-Type' => 'application/json']);
         }
         $entityManager->persist($compte);
@@ -98,9 +98,8 @@ class UtilisateurController extends AbstractController
     /**
      * @Route("/newuser", name="utilisateur_new", methods={"POST"})
      */
-    public function newuser(Request $request,  EntityManagerInterface $entityManager, UserPasswordEncoderInterface $encoder, ValidatorInterface $validator): Response
+    public function newuser(Request $request, EntityManagerInterface $entityManager, UserPasswordEncoderInterface $encoder, ValidatorInterface $validator): Response
     {
-
         $utilisateur = new Utilisateur();
         $profile = new Profile();
         $file = $request->files->all()['imageName'];
@@ -114,7 +113,7 @@ class UtilisateurController extends AbstractController
 
         if ($utilisateur->getProfile() == $a[2]) {
             $utilisateur->setRoles(["ROLE_ADMINP"]);
-        } else if ($utilisateur->getProfile() == $a[3]) {
+        } elseif ($utilisateur->getProfile() == $a[3]) {
             $utilisateur->setRoles(["ROLE_USER"]);
         } else {
             $utilisateur->setRoles([]);
@@ -134,7 +133,6 @@ class UtilisateurController extends AbstractController
 
         $errors = $validator->validate($utilisateur);
         if (count($errors)) {
-
             return new Response($errors, 500, ['Content-Type' => 'application/json']);
         }
         $entityManager->persist($utilisateur);
@@ -168,7 +166,7 @@ class UtilisateurController extends AbstractController
     /**
      * @Route("/envoi",name="envoi",methods={"POST"})
      */
-    public function envoi(Request $request,  EntityManagerInterface $entityManager, ValidatorInterface $validator): Response
+    public function envoi(Request $request, EntityManagerInterface $entityManager, ValidatorInterface $validator): Response
     {
         $envoi = new Envoi();
         $form = $this->createForm(EnvoiType::class, $envoi);
@@ -190,17 +188,10 @@ class UtilisateurController extends AbstractController
             $commissions->getBorninf();
             $commissions->getBornesup();
             $commissions->getCommissionttc();
-
             if ($montant >= $commissions->getBorninf() && $montant <= $commissions->getBornesup()) {
                 $commissionttc = $commissions->getCommissionttc();
-                
-
             }
-         
-            
         }
-
-    
         $system = $commissionttc * 40 / 100; //commision du systeme
         $etat = $commissionttc * 30 / 100; //commission de l'etat
         $envoig = $commissionttc * 20 / 100; //commission du guichet d envoi
@@ -217,14 +208,46 @@ class UtilisateurController extends AbstractController
             $envoi->setTotal($envoi->getMontant() + $commissionttc); // calcule le motant totale a payer par le client
             $envoi->setCommitionttc($commissionttc);
         }
-            $errors = $validator->validate($envoi);
-    
-
+        $errors = $validator->validate($envoi);
         if (count($errors)) {
             return new Response($errors, 500, ['Content-Type' => 'application/json']);
         }
         $entityManager->persist($envoi);
         $entityManager->flush();
         return new Response('envoi effectif ', Response::HTTP_CREATED);
+    }
+
+    /**
+     * @Route("/retrait",name="retrait",methods={"POST"})
+     */
+
+    public function retait(Request $request, EntityManagerInterface $entityManager, ValidatorInterface $validator): Response
+    {
+        $retrait = new Retrait();
+
+        $form = $this->createForm(RetraiType::class, $retrait);
+        $data = $request->request->all();
+        $form->handleRequest($request);
+        $form->submit($data);
+        $codeR = $retrait->getCode();
+        $repository = $this->getDoctrine()->getRepository(Envoi::class);
+        $envoi = $repository->findByCodeenvoi($codeR);
+        foreach ($envoi as $envois) {
+            $codE= $envois->getCodeenvoi();
+            if ($codeR != $codE) {
+                return new Response('le code est invalidz ou deja retirer', Response::HTTP_CREATED);
+            } else {
+                $retrait->setDate(new \DateTime);
+                $user = $this->getUser();
+                $retrait->setGuichetier($user);
+                $errors = $validator->validate($envoi);
+                if (count($errors)) {
+                    return new Response($errors, 500, ['Content-Type' => 'application/json']);
+                    $entityManager->persist($retrait);
+                    $entityManager->flush();
+                    return new Response('retrait  effectif ', Response::HTTP_CREATED);
+                }
+            }
+        }
     }
 }
