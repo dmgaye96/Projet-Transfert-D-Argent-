@@ -46,6 +46,7 @@ class UtilisateurController extends AbstractController
         $partenaire->setStatut("actif");
         $errors = $validator->validate($partenaire);
         if (count($errors)) {
+
             return new Response($errors, 500, ['Content-Type' => 'application/json']);
         }
         $entityManager->persist($partenaire);
@@ -66,6 +67,7 @@ class UtilisateurController extends AbstractController
         $entityManager = $this->getDoctrine()->getManager();
         $errors = $validator->validate($compte);
         if (count($errors)) {
+
             return new Response($errors, 500, ['Content-Type' => 'application/json']);
         }
         $entityManager->persist($compte);
@@ -87,6 +89,7 @@ class UtilisateurController extends AbstractController
         $entityManager = $this->getDoctrine()->getManager();
         $errors = $validator->validate($utilisateur);
         if (count($errors)) {
+
             return new Response($errors, 500, ['Content-Type' => 'application/json']);
         }
         $entityManager->persist($compte);
@@ -98,8 +101,9 @@ class UtilisateurController extends AbstractController
     /**
      * @Route("/newuser", name="utilisateur_new", methods={"POST"})
      */
-    public function newuser(Request $request, EntityManagerInterface $entityManager, UserPasswordEncoderInterface $encoder, ValidatorInterface $validator): Response
+    public function newuser(Request $request,  EntityManagerInterface $entityManager, UserPasswordEncoderInterface $encoder, ValidatorInterface $validator): Response
     {
+
         $utilisateur = new Utilisateur();
         $profile = new Profile();
         $file = $request->files->all()['imageName'];
@@ -113,7 +117,7 @@ class UtilisateurController extends AbstractController
 
         if ($utilisateur->getProfile() == $a[2]) {
             $utilisateur->setRoles(["ROLE_ADMINP"]);
-        } elseif ($utilisateur->getProfile() == $a[3]) {
+        } else if ($utilisateur->getProfile() == $a[3]) {
             $utilisateur->setRoles(["ROLE_USER"]);
         } else {
             $utilisateur->setRoles([]);
@@ -133,6 +137,7 @@ class UtilisateurController extends AbstractController
 
         $errors = $validator->validate($utilisateur);
         if (count($errors)) {
+
             return new Response($errors, 500, ['Content-Type' => 'application/json']);
         }
         $entityManager->persist($utilisateur);
@@ -166,7 +171,7 @@ class UtilisateurController extends AbstractController
     /**
      * @Route("/envoi",name="envoi",methods={"POST"})
      */
-    public function envoi(Request $request, EntityManagerInterface $entityManager, ValidatorInterface $validator): Response
+    public function envoi(Request $request,  EntityManagerInterface $entityManager, ValidatorInterface $validator): Response
     {
         $envoi = new Envoi();
         $form = $this->createForm(EnvoiType::class, $envoi);
@@ -175,7 +180,7 @@ class UtilisateurController extends AbstractController
         $form->submit($data);
         $envoi->setDateenvoi(new \DateTime());
         $user = $this->getUser(); //permet de recuperer l'id de l utilisateur qui est connecte
-        $envoi->setGuichetier($user);
+        $envoi->setGuichetier($user);  //insert  dans la table envoi l ID de l utlisateur qui est entrains d effectuer l operation
         $code = rand(11111111, 99999999);
         $numero = rand(11111111, 99999999);
         $envoi->setCodeenvoi($code . "0");
@@ -184,8 +189,8 @@ class UtilisateurController extends AbstractController
         $repository = $this->getDoctrine()->getRepository(Commissions::class);
         $commission = $repository->findAll();
         foreach ($commission as $commissions) {
-            $commissions->getId();
-            $commissions->getBorninf();
+            $commissions->getId(); //recuper tout les ID de la colonne
+            $commissions->getBorninf(); 
             $commissions->getBornesup();
             $commissions->getCommissionttc();
             if ($montant >= $commissions->getBorninf() && $montant <= $commissions->getBornesup()) {
@@ -221,33 +226,39 @@ class UtilisateurController extends AbstractController
      * @Route("/retrait",name="retrait",methods={"POST"})
      */
 
-    public function retait(Request $request, EntityManagerInterface $entityManager, ValidatorInterface $validator): Response
+    public function retait(Request $request,  EntityManagerInterface $entityManager, ValidatorInterface $validator): Response
     {
-        $retrait = new Retrait();
 
+        $retrait = new Retrait();
         $form = $this->createForm(RetraiType::class, $retrait);
         $data = $request->request->all();
         $form->handleRequest($request);
         $form->submit($data);
-        $codeR = $retrait->getCode();
+        $codeR = $retrait->getCode(); // recupere le code saisie par le guichetier
         $repository = $this->getDoctrine()->getRepository(Envoi::class);
-        $envoi = $repository->findByCodeenvoi($codeR);
-        foreach ($envoi as $envois) {
-            $codE= $envois->getCodeenvoi();
-            if ($codeR != $codE) {
-                return new Response('le code est invalidz ou deja retirer', Response::HTTP_CREATED);
+        $envoi = $repository->findByCodeenvoi($codeR); //recher dans la table envoi le code saisie par l utilisateur
+        if ($envoi != null) {
+            $repository = $this->getDoctrine()->getRepository(Retrait::class);
+            $coderetait = $repository->findByCode($codeR); //recherche  dans la table des retrait est ce que ce n est pas encore retirer 
+            if ($coderetait != null) {
+                return new Response('le code est deja retirer', Response::HTTP_CREATED);
             } else {
-                $retrait->setDate(new \DateTime);
-                $user = $this->getUser();
-                $retrait->setGuichetier($user);
-                $errors = $validator->validate($envoi);
-                if (count($errors)) {
-                    return new Response($errors, 500, ['Content-Type' => 'application/json']);
+                foreach ($envoi as $envois) {
+                   $comR=$envois->getCommissionguicheretrait();
+                   $montanR=$envois->getMontant();
+                   $total=$comR+ $montanR;  // calcul le totale a mise a jour a niveaux du compte
+                   $compt = $this->getUser()->getCompte(); // permet de recuper le compt au quelle le guichethier est connecté
+                   $compt->setSolde($compt->getSolde()+$total); //met a jour le compte de l utilisateur connecte a l instant T
+                    $retrait->setDate(new \DateTime);
+                    $user = $this->getUser(); //recuper l ID de l utilisateur connecter
+                    $retrait->setGuichetier($user);
                     $entityManager->persist($retrait);
                     $entityManager->flush();
-                    return new Response('retrait  effectif ', Response::HTTP_CREATED);
                 }
+                return new Response('retrait  effectif ', Response::HTTP_CREATED);
             }
+        } else {
+            return new Response('le code  est invalide  veuiller  reassayer', Response::HTTP_CREATED);
         }
     }
 }

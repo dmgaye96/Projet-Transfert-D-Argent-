@@ -39,7 +39,7 @@ class Retrait
     private $numeropiece;
 
     /**
-     * @ORM\Column(type="bigint", nullable=true)
+     * @ORM\Column(type="string", nullable=true)
      */
     private $code;
 
