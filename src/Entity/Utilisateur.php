@@ -122,9 +122,11 @@ class Utilisateur implements UserInterface
     private $compte;
 
     /**
-     * @ORM\Column(type="integer", nullable=true)
+     * @ORM\ManyToOne(targetEntity="App\Entity\Utilisateur")
      */
     private $ajouterpar;
+
+   
 
     /**
      * If manually uploading a file (i.e. not using Symfony Form) ensure an instance
@@ -353,15 +355,17 @@ class Utilisateur implements UserInterface
         return $this;
     }
 
-    public function getAjouterpar(): ?int
+    public function getAjouterpar(): ?self
     {
         return $this->ajouterpar;
     }
 
-    public function setAjouterpar(?int $ajouterpar): self
+    public function setAjouterpar(?self $ajouterpar): self
     {
         $this->ajouterpar = $ajouterpar;
 
         return $this;
     }
+
+   
 }

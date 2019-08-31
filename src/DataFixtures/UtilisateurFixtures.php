@@ -31,25 +31,10 @@ class UtilisateurFixtures extends Fixture
         $login->setUpdatedAt( new \DateTime());
         $login->setPassword($pass);
         $login->setImageName("https://pbs.twimg.com/media/DzuvaRsWwAIxSko.jpg");
-    
-
+        $login->setAjouterpar(NULL);
+        $login->setCompte();
         $manager->persist($login);
         $manager->flush();
-        $login1 = new Utilisateur();
-        $login1->setNom("Doudou Mohamet Gaye caissier");
-        $login1->setLogin("dmgcaisier");
-        $mdp = "123";
-        $login1->setEmail("doudoumohametgaye@gmail.com");
-        $login1->setTelephone(782257053);
-        $login1->setStatut("actif");
-        $login1->setRoles(["ROLE_CAISSIER"]);
-        $pass = $this->encoder->encodePassword($login1, $mdp);
-        $login1->setPassword($pass);
-        
-
-        $login1->setUpdatedAt( new \DateTime());
-        $login1->setImageName("https://pbs.twimg.com/media/DzuvaRsWwAIxSko.jpg");
-        $manager->persist($login1);
-        $manager->flush();
+       
     }
 }

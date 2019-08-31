@@ -43,6 +43,7 @@ class Retrait
      */
     private $code;
 
+ 
     public function getId(): ?int
     {
         return $this->id;
@@ -107,4 +108,6 @@ class Retrait
 
         return $this;
     }
+
+  
 }

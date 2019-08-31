@@ -16,6 +16,8 @@ use Symfony\Bundle\MakerBundle\Validator;
 use Vich\UploaderBundle\Naming\UniqidNamer;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
+
+
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\Serializer\SerializerInterface;
@@ -139,6 +141,7 @@ class SecurityController extends AbstractController
 
         $token = $JWTEncoder->encode([
             'username' => $user->getUsername(),
+            'roles'=> $user->getRoles(),
             'exp' => time() + 86400 // 1 day expiration
         ]);
         return $this->json([
@@ -171,6 +174,20 @@ class SecurityController extends AbstractController
             'Content-Type' => 'application/json'
         ]);
     }
+
+      /**
+     *@Route("/liste/partenaireliste" ,name="liste",methods={"GET"})
+     */
+
+    public function listepartenaire( PartenaireRepository  $partenaireRepository, SerializerInterface $serializer)
+    {
+        $partenaire = $partenaireRepository->findAll();
+        $data = $serializer->serialize($partenaire, 'json');
+        return new Response($data, 200, [
+            'Content-Type' => 'application/json'
+        ]);
+    }
+
 
     /**
      *@Route("/liste/partenaire/{id}", name="partenaire_detaill" ,methods={"GET"})
@@ -220,8 +237,11 @@ class SecurityController extends AbstractController
         $entityManager = $this->getDoctrine()->getManager();
         $user =$entityManager->getRepository(Utilisateur::class)->find($id);
         $stat =$user->getStatut();
+        $ajouterpar=$user->getAjouterpar();
+       // var_dump($ajouterpar); die;
 
-        if ($stat === "actif" && $user->getRoles()===["ROLE_SUPERADMIN"]) {
+
+        if ($stat === "actif" && $user->getRoles()===["ROLE_SUPERADMIN"] && $ajouterpar === NULL) {
             return new Response('Vous ne pouver pas bloquer votre supperieur', Response::HTTP_CREATED);
         } elseif ($stat==="actif") {
             $user->setStatut("bloquer");
@@ -243,7 +263,7 @@ class SecurityController extends AbstractController
      *@Route("partenaires/bloquer/{id}", name = "bloquerpartenaire", methods={"PUT"})
      */
 
-    public function bloquerpqrtenqire($id)
+    public function bloquerpartenaire($id)
     {
         $entityManager = $this->getDoctrine()->getManager();
         $partenaire=$entityManager->getRepository(Partenaire::class)->find($id);

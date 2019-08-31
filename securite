@@ -1,0 +1,67 @@
+security:
+    encoders:
+        App\Entity\Utilisateur:
+            algorithm: auto
+
+    # https://symfony.com/doc/current/security.html#where-do-users-come-from-user-providers
+    providers:
+        # used to reload user from session & other features (e.g. switch_user)
+        app_user_provider:
+            entity:
+                class: App\Entity\Utilisateur
+                property: login
+    firewalls:
+      
+            
+        dev:    
+            pattern: ^/(_(profiler|wdt)|css|images|js)/
+            security: false
+        main:   
+            json_login:
+               check_path: /api/login
+        login:
+            pattern:  ^/api/login
+            stateless: true
+         
+            json_login:
+                check_path:               /api/login
+                success_handler:          lexik_jwt_authentication.handler.authentication_success
+                failure_handler:          lexik_jwt_authentication.handler.authentication_failure
+           
+        api:
+            http_basic: ~
+            pattern:   ^/api
+            stateless: true
+            guard:
+                authenticators:
+                    - lexik_jwt_authentication.jwt_token_authenticator
+            anonymous: true
+
+
+            
+    # Easy way to control access for large sections of your site
+    # Note: Only the *first* access control that matches will be used
+    access_control:
+       # - { path: ^/api/liste/partenaireliste,               roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/api/register ,            roles: ROLE_SUPERADMIN }   
+        - { path: ^/api/partenaire,           roles: ROLE_SUPERADMIN }
+        - { path: ^/api/compte,               roles: ROLE_SUPERADMIN }
+        - { path: ^/api/depot,                roles: ROLE_SUPERADMIN }
+        - { path: ^/api/user/newadmin,        roles: ROLE_SUPERADMIN }
+        #- { path: ^/api/user,                 roles: ROLE_ADMINP }
+        #                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        - { path: ^/api/user,                 roles: ROLE_USER }
+        - { path: ^/api/user/newuser,         roles: ROLE_ADMINP }
+        - { path: ^/api/depot/new,            roles: ROLE_CAISSIER }
+        - { path: ^/api/user/envoi,            roles: ROLE_USER }
+        - { path: ^/api/user/retrait,          roles: ROLE_USER }
+        - { path: ^/api/user/remboursement,    roles: ROLE_USER }
+
+
+
+        #- { path: ^/api/user/,                roles: ROLE_ADMINP }  
+        #- { path: ^/api,                      roles: ROLE_ADMIN}
+        - { path: ^/api/login,               roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        #- { path: ^/api/login,               roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/api,                     roles: IS_AUTHENTICATED_FULLY }
+        - { path: ^/api/liste/partenaireliste,               roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        #- { path: ^/api/liste/partenaireliste,                     roles: IS_AUTHENTICATED_FULLY }

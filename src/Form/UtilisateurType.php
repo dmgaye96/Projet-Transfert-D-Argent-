@@ -32,6 +32,7 @@ class UtilisateurType extends AbstractType
                 'class'=> Profile::class,
                 'choice_label' =>'profile_id'
             ])
+            ->add('ajouterpar')
             ;
     }
 

@@ -1,7 +1,9 @@
 <?php
 
 namespace App\Controller;
-
+use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Dompdf\Dompdf;
+use Dompdf\Options;
 use App\Entity\Envoi;
 use App\Entity\Compte;
 use App\Entity\Profile;
@@ -84,6 +86,8 @@ class UtilisateurController extends AbstractController
         $utilisateur->setImageFile($file);
         $utilisateur->setUpdatedAt(new \DateTime);
         $utilisateur->setStatut("actif");
+        $user= $this->getUser();
+        $utilisateur->setAjouterpar($user);
         $hash = $encoder->encodePassword($utilisateur, $utilisateur->getPassword());
         $utilisateur->setPassword($hash);
         $entityManager = $this->getDoctrine()->getManager();
@@ -134,7 +138,8 @@ class UtilisateurController extends AbstractController
         $idpartenaire = $this->getUser()->getPartenaire();
         $utilisateur->setPartenaire($idpartenaire);
         $entityManager = $this->getDoctrine()->getManager();
-
+        $user= $this->getUser();
+        $utilisateur->setAjouterpar($user);
         $errors = $validator->validate($utilisateur);
         if (count($errors)) {
 
@@ -219,6 +224,20 @@ class UtilisateurController extends AbstractController
         }
         $entityManager->persist($envoi);
         $entityManager->flush();
+        //enerer le ficher pdf
+        $pdfOptions = new Options();
+        $pdfOptions->set('defaultFont', 'Arial');
+        $dompdf = new Dompdf($pdfOptions);
+        $html = $this->renderView('default/mypdf.html.twig', [
+            'title' => "Welcome to our PDF Test"
+        ]);
+        $dompdf->loadHtml($html);
+        $dompdf->setPaper('A4', 'portrait');
+        $dompdf->render();
+        $dompdf->stream("mypdf.pdf", [
+            "Attachment" => false
+        ]);
+
         return new Response('envoi effectif ', Response::HTTP_CREATED);
     }
 
@@ -235,13 +254,58 @@ class UtilisateurController extends AbstractController
         $form->handleRequest($request);
         $form->submit($data);
         $codeR = $retrait->getCode(); // recupere le code saisie par le guichetier
+    
+        $repository = $this->getDoctrine()->getRepository(Envoi::class);
+        $envoi = $repository->findByCodeenvoi($codeR); //recher dans la table envoi le code saisie par l utilisateur
+      
+        if ($envoi != null) {
+            $repository = $this->getDoctrine()->getRepository(Retrait::class);
+            $coderetait = $repository->findByCode($codeR); //recherche  dans la table des retrait est ce que ce n est pas encore retirer 
+           
+            if ($coderetait != null) {
+                return new Response('le code est deja retirer', Response::HTTP_CREATED);
+            } else {
+                foreach ($envoi as $envois) {
+                   $comR=$envois->getCommissionguicheretrait();
+                   $montanR=$envois->getMontant();
+          
+                   $total=$comR+ $montanR;  // calcul le totale a mise a jour a niveaux du compte
+                   $compt = $this->getUser()->getCompte(); // permet de recuper le compt au quelle le guichethier est connecté
+                   $compt->setSolde($compt->getSolde()+$total); //met a jour le compte de l utilisateur connecte a l instant T
+                    $retrait->setDate(new \DateTime);
+           
+                    $user = $this->getUser(); //recuper l ID de l utilisateur connecter
+                    $retrait->setGuichetier($user);
+                 
+                    $entityManager->persist($retrait);
+                    $entityManager->flush();
+                }
+                return new Response('retrait  effectif ', Response::HTTP_CREATED);
+            }
+        } else {
+            return new Response('le code  est invalide  veuiller  reassayer', Response::HTTP_CREATED);
+        }
+    }
+
+    /**
+     * @Route("/remboursement" ,name="remboursement" ,methods={"POST"})
+     */
+    public function remboursement(Request $request,  EntityManagerInterface $entityManager, ValidatorInterface $validator): Response
+    {
+
+        $retrait = new Retrait();
+        $form = $this->createForm(RetraiType::class, $retrait);
+        $data = $request->request->all();
+        $form->handleRequest($request);
+        $form->submit($data);
+        $codeR = $retrait->getCode(); // recupere le code saisie par le guichetier
         $repository = $this->getDoctrine()->getRepository(Envoi::class);
         $envoi = $repository->findByCodeenvoi($codeR); //recher dans la table envoi le code saisie par l utilisateur
         if ($envoi != null) {
             $repository = $this->getDoctrine()->getRepository(Retrait::class);
             $coderetait = $repository->findByCode($codeR); //recherche  dans la table des retrait est ce que ce n est pas encore retirer 
             if ($coderetait != null) {
-                return new Response('le code est deja retirer', Response::HTTP_CREATED);
+                return new Response('le remboursemment est deja effectuer', Response::HTTP_CREATED);
             } else {
                 foreach ($envoi as $envois) {
                    $comR=$envois->getCommissionguicheretrait();
@@ -255,10 +319,11 @@ class UtilisateurController extends AbstractController
                     $entityManager->persist($retrait);
                     $entityManager->flush();
                 }
-                return new Response('retrait  effectif ', Response::HTTP_CREATED);
+                return new Response('remboursement  effectif ', Response::HTTP_CREATED);
             }
         } else {
             return new Response('le code  est invalide  veuiller  reassayer', Response::HTTP_CREATED);
         }
     }
+
 }
