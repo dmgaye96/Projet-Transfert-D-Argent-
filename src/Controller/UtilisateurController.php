@@ -109,26 +109,27 @@ class UtilisateurController extends AbstractController
     {
 
         $utilisateur = new Utilisateur();
-        $profile = new Profile();
+      //  $profile = new Profile();
         $file = $request->files->all()['imageName'];
         $form = $this->createForm(UtilisateurType::class, $utilisateur);
         $data = $request->request->all();
         $form->handleRequest($request);
         $form->submit($data);
-
+        
+     // var_dump( $utilisateur->getProfile() );
         $repository = $this->getDoctrine()->getRepository(Profile::class);
-        $a = $repository->findAll($profile->getId());
-
-        if ($utilisateur->getProfile() == $a[2]) {
-            $utilisateur->setRoles(["ROLE_ADMINP"]);
-        } else if ($utilisateur->getProfile() == $a[3]) {
-            $utilisateur->setRoles(["ROLE_USER"]);
-        } else {
-            $utilisateur->setRoles([]);
+        $a = $repository->findById($utilisateur->getProfile());
+        foreach ($a as $id) {
+         $num=$id->getId();
+         //  var_dump($id->getId());
         }
-
-
-
+  //  var_dump($a); die;
+        if ( $num==3) {
+           // var_dump($num);
+            $utilisateur->setRoles(["ROLE_ADMINP"]);
+        } else if ($num == 4) {
+            $utilisateur->setRoles(["ROLE_USER"]);
+        } 
         $hash = $encoder->encodePassword($utilisateur, $utilisateur->getPassword());
         $utilisateur->setPassword($hash);
         $utilisateur->setImageFile($file);

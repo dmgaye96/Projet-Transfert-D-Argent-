@@ -50,11 +50,11 @@ security:
         - { path: ^/api/register ,            roles: ROLE_SUPERADMIN }
         - { path: ^/api/partenaire,           roles: ROLE_SUPERADMIN }
         - { path: ^/api/compte,               roles: ROLE_SUPERADMIN }
-        - { path: ^/api/depot,                roles: ROLE_SUPERADMIN }
+        #- { path: ^/api/depot,                roles: ROLE_SUPERADMIN }
         - { path: ^/api/user/newadmin,        roles: ROLE_SUPERADMIN }
         #- { path: ^/api/user,                 roles: ROLE_ADMINP }
         #                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        - { path: ^/api/user,                 roles: ROLE_USER }
-        - { path: ^/api/user/newuser,         roles: ROLE_ADMINP }
+        #- { path: ^/api/user/newuser,         roles: ROLE_ADMINP }
         - { path: ^/api/depot/new,            roles: ROLE_CAISSIER }
         - { path: ^/api/user/envoi,            roles: ROLE_USER }
         - { path: ^/api/user/retrait,          roles: ROLE_USER }
@@ -68,4 +68,4 @@ security:
         #- { path: ^/api/login,               roles: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/api,                     roles: IS_AUTHENTICATED_FULLY }
         - { path: ^/api/liste/partenaireliste,               roles: IS_AUTHENTICATED_ANONYMOUSLY }
-        #- { path: ^/api/liste/partenaireliste,                     roles: IS_AUTHENTICATED_FULLY }
+        #- { path: ^/api,                     roles: IS_AUTHENTICATED_FULLY }

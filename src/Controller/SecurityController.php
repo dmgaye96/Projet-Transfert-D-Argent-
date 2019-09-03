@@ -9,15 +9,16 @@ use App\Entity\Utilisateur;
 use App\Form\UtilisateurType;
 use App\Repository\DepotRepository;
 use App\Repository\CompteRepository;
+use App\Repository\ProfileRepository;
 use App\Repository\PartenaireRepository;
 use Doctrine\ORM\EntityManagerInterface;
 use App\Repository\UtilisateurRepository;
 use Symfony\Bundle\MakerBundle\Validator;
 use Vich\UploaderBundle\Naming\UniqidNamer;
 use Symfony\Component\HttpFoundation\Request;
+
+
 use Symfony\Component\HttpFoundation\Response;
-
-
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\Serializer\SerializerInterface;
@@ -48,24 +49,33 @@ class SecurityController extends AbstractController
      */
     public function register(Request $request, EntityManagerInterface $entityManager, UserPasswordEncoderInterface $encoder, ValidatorInterface $validator): Response
     {
-        $profile = new Profile();
+        //$profile = new Profile();
         $utilisateur = new Utilisateur();
         $form = $this->createForm(UtilisateurType::class, $utilisateur);
         $data = $request->request->all();
         $form->handleRequest($request);
         $form->submit($data);
         $file = $request->files->all()['imageName'];
+        
+     // var_dump( $utilisateur->getProfile() );
+     $repository = $this->getDoctrine()->getRepository(Profile::class);
+     $a = $repository->findById($utilisateur->getProfile());
+     foreach ($a as $id) {
+      $num=$id->getId();
+      //  var_dump($id->getId());
+     }
+//  var_dump($a); die;
+     if ( $num==1) {
+        // var_dump($num);
+         $utilisateur->setRoles(["ROLE_SUPERADMIN"]);
+     } else if ($num == 2) {
+         $utilisateur->setRoles(["ROLE_CAISSIER"]);
+     } 
 
 
-        $repository = $this->getDoctrine()->getRepository(Profile::class);
-        $a = $repository->findAll($profile->getLibelle());
-        if ($utilisateur->getProfile() === $a[0]) {
-            $utilisateur->setRoles(["ROLE_SUPERADMIN"]);
-        } elseif ($utilisateur->getProfile() === $a[1]) {
-            $utilisateur->setRoles(["ROLE_CAISSIER"]);
-        } else {
-            $utilisateur->setRoles([]);
-        }
+
+     $user= $this->getUser();
+     $utilisateur->setAjouterpar($user);
         $utilisateur->setImageFile($file);
         $utilisateur->setUpdatedAt(new \DateTime);
         $utilisateur->setStatut("Actif");
@@ -150,13 +160,29 @@ class SecurityController extends AbstractController
     }
 
     /**
-     *@Route("/liste/compte",name="listecompte", methods ={"GET"})
+     *@Route("/liste/compteall",name="listecompteAll", methods ={"GET"})
      */
 
     public function listercompte(CompteRepository $compteRepository, SerializerInterface $serializer)
     {
         $compte = $compteRepository->findAll();
         $data = $serializer->serialize($compte, 'json');
+        return new Response($data, 200, [
+            'Content-Type' => 'application/json'
+        ]);
+    }
+
+
+
+
+    /**
+     *@Route("/liste/profile",name="listeprofil", methods ={"GET"})
+     */
+
+    public function listerprofile(ProfileRepository $profileRepository, SerializerInterface $serializer)
+    {
+        $profile = $profileRepository->findAll();
+        $data = $serializer->serialize($profile, 'json');
         return new Response($data, 200, [
             'Content-Type' => 'application/json'
         ]);

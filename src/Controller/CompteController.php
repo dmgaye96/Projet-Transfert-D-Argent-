@@ -16,7 +16,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
 /**
  * @Route("/api/compte")
- * @IsGranted("ROLE_ADMIN")
+ *
  */
 class CompteController extends AbstractController
 {
@@ -24,13 +24,13 @@ class CompteController extends AbstractController
 
     /**
      * @Route("/new", name="comptenew", methods={"GET","POST"})
-     * @IsGranted("ROLE_ADMIN")
+     * 
      */
     public function new(Request $request,SerializerInterface $serializer,EntityManagerInterface $entityManager ): Response
     {
         $compte = new Compte();
         $form = $this->createForm(CompteType::class,$compte);
-        $data=json_decode($request->getContent(), true);
+        $data=$request->request->all();
         
         $form->submit($data);
         $compte->setSolde(1);
