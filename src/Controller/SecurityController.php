@@ -4,6 +4,7 @@ namespace App\Controller;
 
 use App\Entity\Compte;
 use App\Entity\Profile;
+use App\Form\CompteType;
 use App\Entity\Partenaire;
 use App\Entity\Utilisateur;
 use App\Form\UtilisateurType;
@@ -15,9 +16,9 @@ use Doctrine\ORM\EntityManagerInterface;
 use App\Repository\UtilisateurRepository;
 use Symfony\Bundle\MakerBundle\Validator;
 use Vich\UploaderBundle\Naming\UniqidNamer;
+
+
 use Symfony\Component\HttpFoundation\Request;
-
-
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\HttpFoundation\JsonResponse;
@@ -160,13 +161,22 @@ class SecurityController extends AbstractController
     }
 
     /**
-     *@Route("/liste/compteall",name="listecompteAll", methods ={"GET"})
+     *@Route("/liste/compteall",name="listecompteAll", methods ={"GET","POST"})
      */
 
-    public function listercompte(CompteRepository $compteRepository, SerializerInterface $serializer)
+    public function listercompte (Request $request,EntityManagerInterface $entityManager, ValidatorInterface $validator , SerializerInterface $serializer)
     {
-        $compte = $compteRepository->findAll();
-        $data = $serializer->serialize($compte, 'json');
+        $values = json_decode($request->getContent());
+        $compte = new Compte();
+        $compte->setNumerocompte($values->numerocompte);
+      //  var_dump($values->numerocompte); die;
+   // $a="SN9952395704";
+      //  $numero=$form->get('numerocompte')->getData();
+
+        $repository = $this->getDoctrine()->getRepository(Compte::class);
+        $compte = $repository->findBynumerocompte($values->numerocompte);
+     
+        $data = $serializer->serialize($compte, 'json',['groups'=>['liste-compte']]);
         return new Response($data, 200, [
             'Content-Type' => 'application/json'
         ]);
