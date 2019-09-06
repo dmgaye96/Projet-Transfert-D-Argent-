@@ -50,7 +50,7 @@ class Envoi
 
     /**
      * @ORM\ManyToOne(targetEntity="App\Entity\Typedepiece")
-     * @ORM\JoinColumn(nullable=false)
+     * @ORM\JoinColumn(nullable=true)
      */
     private $piece;
 

@@ -1,7 +1,6 @@
 <?php
 
 namespace App\Controller;
-use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Dompdf\Dompdf;
 use Dompdf\Options;
 use App\Entity\Envoi;
@@ -17,6 +16,7 @@ use App\Entity\Utilisateur;
 use App\Form\PartenaireType;
 use Webmozart\Assert\Assert;
 use App\Form\UtilisateurType;
+use App\Repository\EnvoiRepository;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\MakerBundle\Validator;
 use Vich\UploaderBundle\Naming\UniqidNamer;
@@ -24,10 +24,11 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\Validator\Constraints\Date;
+use Symfony\Component\Serializer\SerializerInterface;
+use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\Validator\Validator\ValidatorInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
-use App\Repository\EnvoiRepository;
 
 /**
  * @Route("/api/user")
@@ -103,7 +104,7 @@ class UtilisateurController extends AbstractController
     }
 
     /**
-     * @Route("/newuser", name="utilisateur_new", methods={"POST"})
+     * @Route("/newuser", name="utilisateur_new", methods={"POST" ,"GET"})
      */
     public function newuser(Request $request,  EntityManagerInterface $entityManager, UserPasswordEncoderInterface $encoder, ValidatorInterface $validator): Response
     {
@@ -225,7 +226,7 @@ class UtilisateurController extends AbstractController
         }
         $entityManager->persist($envoi);
         $entityManager->flush();
-        //enerer le ficher pdf
+        /* //enerer le ficher pdf
         $pdfOptions = new Options();
         $pdfOptions->set('defaultFont', 'Arial');
         $dompdf = new Dompdf($pdfOptions);
@@ -237,7 +238,7 @@ class UtilisateurController extends AbstractController
         $dompdf->render();
         $dompdf->stream("mypdf.pdf", [
             "Attachment" => false
-        ]);
+        ]); */
 
         return new Response('envoi effectif ', Response::HTTP_CREATED);
     }
@@ -284,7 +285,7 @@ class UtilisateurController extends AbstractController
                 return new Response('retrait  effectif ', Response::HTTP_CREATED);
             }
         } else {
-            return new Response('le code  est invalide  veuiller  reassayer', Response::HTTP_CREATED);
+            return new Response('le code  est invalide  veuiller  reassayer svp ', Response::HTTP_CREATED);
         }
     }
 
@@ -327,4 +328,29 @@ class UtilisateurController extends AbstractController
         }
     }
 
+    /**
+     * @Route("/findcode" , name="findcodeer", methods={"POST" ,"GET"})
+     */
+
+
+     public function findcode(Request $request,EntityManagerInterface $entityManager, ValidatorInterface $validator , SerializerInterface $serializer){
+
+
+        $retrait = new Retrait();
+        $form = $this->createForm(RetraiType::class, $retrait);
+        $data = $request->request->all();
+        $form->handleRequest($request);
+        $form->submit($data);
+        $codeR=  $retrait->getCode();
+        var_dump($codeR); 
+      //  $codeR =468684690;// $retrait->getCode(); // recupere le code saisie par le guichetier
+        $repository = $this->getDoctrine()->getRepository(Envoi::class);
+        $envoi = $repository->findByCodeenvoi($codeR); //recher dans la table envoi le code saisie par l utilisateur
+      //  var_dump($envoi); die;
+       // return new Response('le code  est invalide  veuiller  reassayer', Response::HTTP_CREATED);
+        $data = $serializer->serialize($envoi, 'json');
+        return new Response($data, 200, [
+            'Content-Type' => 'application/json'
+        ]); 
+     }
 }

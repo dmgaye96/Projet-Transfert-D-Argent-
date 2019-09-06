@@ -40,7 +40,7 @@ class DepotController extends AbstractController
       //  $user =new User();
         $user=$this->getUser();
         $form = $this->createForm(DepotType::class,$depot);
-        $data=json_decode($request->getContent(), true);
+        $data=$request->request->all();
         $depot->setDate(new \Datetime());
         $depot->setCaissier($user);
         $depot->getMontant();
