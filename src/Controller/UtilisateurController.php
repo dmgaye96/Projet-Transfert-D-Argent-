@@ -342,12 +342,24 @@ class UtilisateurController extends AbstractController
         $form->handleRequest($request);
         $form->submit($data);
         $codeR=  $retrait->getCode();
-        var_dump($codeR); 
+      //  var_dump($codeR); 
       //  $codeR =468684690;// $retrait->getCode(); // recupere le code saisie par le guichetier
         $repository = $this->getDoctrine()->getRepository(Envoi::class);
         $envoi = $repository->findByCodeenvoi($codeR); //recher dans la table envoi le code saisie par l utilisateur
-      //  var_dump($envoi); die;
-       // return new Response('le code  est invalide  veuiller  reassayer', Response::HTTP_CREATED);
+    
+    
+        if ($envoi != null) {
+            $repository = $this->getDoctrine()->getRepository(Retrait::class);
+            $coderetait = $repository->findByCode($codeR); //recherche  dans la table des retrait est ce que ce n est pas encore retirer 
+           
+            if ($coderetait != null) {
+                return new Response('le code est deja retirer', Response::HTTP_CREATED);
+            } 
+        } else {
+            return new Response('le code  est invalide  veuiller  reassayer svp ', Response::HTTP_CREATED);
+        }
+
+
         $data = $serializer->serialize($envoi, 'json');
         return new Response($data, 200, [
             'Content-Type' => 'application/json'
