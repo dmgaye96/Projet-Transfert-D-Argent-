@@ -50,24 +50,23 @@ class SecurityController extends AbstractController
      */
     public function register(Request $request, EntityManagerInterface $entityManager, UserPasswordEncoderInterface $encoder, ValidatorInterface $validator): Response
     {
-        //$profile = new Profile();
+       ;
         $utilisateur = new Utilisateur();
         $form = $this->createForm(UtilisateurType::class, $utilisateur);
         $data = $request->request->all();
         $form->handleRequest($request);
         $form->submit($data);
         $file = $request->files->all()['imageName'];
-        
-     // var_dump( $utilisateur->getProfile() );
+
      $repository = $this->getDoctrine()->getRepository(Profile::class);
      $a = $repository->findById($utilisateur->getProfile());
      foreach ($a as $id) {
       $num=$id->getId();
-      //  var_dump($id->getId());
+ 
      }
-//  var_dump($a); die;
+
      if ( $num==1) {
-        // var_dump($num);
+     
          $utilisateur->setRoles(["ROLE_SUPERADMIN"]);
      } else if ($num == 2) {
          $utilisateur->setRoles(["ROLE_CAISSIER"]);
@@ -90,7 +89,12 @@ class SecurityController extends AbstractController
 
         $entityManager->persist($utilisateur);
         $entityManager->flush();
-        return new Response('Le  Partenaire son Administrateur et compte a ete ajouter avec succes', Response::HTTP_CREATED);
+        $data = [
+            'status2' => 200,
+            'message2' => 'Le  Partenaire son Administrateur et compte a ete ajouter avec succes'
+        ];
+        return new JsonResponse($data);
+     //   return new Response(, Response::HTTP_CREATED);
     }
 
 
@@ -138,7 +142,7 @@ class SecurityController extends AbstractController
 
         if ($user->getStatut()!=null && $user->getStatut()=="bloquer") {
             return $this->json([
-                'message1' => 'Ce compte est bloqué'
+                'message2' => 'Ce compte est bloqué'
             ]);
         }
 
@@ -169,10 +173,6 @@ class SecurityController extends AbstractController
         $values = json_decode($request->getContent());
         $compte = new Compte();
         $compte->setNumerocompte($values->numerocompte);
-      //  var_dump($values->numerocompte); die;
-   // $a="SN9952395704";
-      //  $numero=$form->get('numerocompte')->getData();
-
         $repository = $this->getDoctrine()->getRepository(Compte::class);
         $compte = $repository->findBynumerocompte($values->numerocompte);
      
@@ -203,8 +203,8 @@ class SecurityController extends AbstractController
      */
 
     public function listedepot(DepotRepository $depotRepository, SerializerInterface $serializer)
-    {
-        $depot = $depotRepository->findAll();
+    {   $user=$this->getUser();
+        $depot = $depotRepository->findByCaissier($user);
         $data = $serializer->serialize($depot, 'json');
         return new Response($data, 200, [
             'Content-Type' => 'application/json'
@@ -238,25 +238,32 @@ class SecurityController extends AbstractController
     }
 
     /**
-     *@Route("/liste/utilisateur/{id}", name="utilisateurs_detaille", methods={"GET"})
+     *@Route("/liste/utilisateur", name="utilisateurs_detaille", methods={"GET"})
      */
 
-    public function showeuser(UtilisateurRepository $utilisateurRepository, SerializerInterface $serializer, Utilisateur $utilisateur)
-    {
-        $user = $utilisateurRepository->find($utilisateur->getId());
-        $data = $serializer->serialize($user, 'json');
+    public function showeuser(UtilisateurRepository $utilisateurRepository, SerializerInterface $serializer)
+    { 
+      
+      
+      $User=$this->getUser()->getPartenaire();
+     // var_dump($User);
+      //var_dump($User);
+      //die;
+ 
+        $utilisateur = $utilisateurRepository->findByPartenaire($User);
+        $data = $serializer->serialize($utilisateur, 'json');
         return new Response($data, 200, [
             'Content-Type' => 'application/json'
         ]);
     }
 
     /**
-     *@Route("/liste/compte/{id}",name="listecompte", methods ={"GET"})
+     *@Route("/liste/compte",name="listecompte", methods ={"GET"})
      */
 
-    public function showcopte(CompteRepository $compteRepository, SerializerInterface $serializer, Compte $compte)
-    {
-        $compte = $compteRepository->find($compte->getId());
+    public function showcopte(CompteRepository $compteRepository, SerializerInterface $serializer)
+    {   $User=$this->getUser()->getPartenaire();
+        $compte = $compteRepository->findByPartenaire($User);
         $data = $serializer->serialize($compte, 'json');
         return new Response($data, 200, [
             'Content-Type' => 'application/json'
@@ -265,7 +272,7 @@ class SecurityController extends AbstractController
 
 
     /**
-     *@Route("/utilisateur/bloque/{id}", name="bloqueruser", methods ={"PUT"})
+     *@Route("/utilisateur/bloque/{id}", name="bloqueruser", methods ={"PUT" , "POST" ,"GET"})
      */
 
     public function bloquer($id)
@@ -296,7 +303,7 @@ class SecurityController extends AbstractController
 
 
     /**
-     *@Route("partenaires/bloquer/{id}", name = "bloquerpartenaire", methods={"PUT"})
+     *@Route("partenaires/bloquer/{id}", name = "bloquerpartenaire", methods={"PUT" , "POST" ,"GET"})
      */
 
     public function bloquerpartenaire($id)
