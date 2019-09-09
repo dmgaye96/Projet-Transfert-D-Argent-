@@ -7,9 +7,11 @@ use App\Form\CompteType;
 use App\Repository\CompteRepository;
 use App\Repository\PartenaireRepository;
 use Doctrine\ORM\EntityManagerInterface;
+use App\Repository\UtilisateurRepository;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
+use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\Serializer\SerializerInterface;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\IsGranted;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
@@ -48,6 +50,47 @@ class CompteController extends AbstractController
        
         return new Response('Vous devez renseigner les informations du compte ',Response::HTTP_CREATED );
     }
+
+
+    /**
+     * @Route("/addCompte", name="ajou_compte", methods={"POST","PUT"})
+     *
+     */
+    public function addcompteuser (Request $request,  CompteRepository $comptes, UtilisateurRepository $users, EntityManagerInterface $entityManager)
+    {
+       
+        $values =$request->request->all();
+      
+        $ut=$users->findOneBy(['login'=>$values['login']]);
+        $c=$comptes->findById($values['compte']);
+
+   
+
+        if(!$ut ){
+          return new Response("Ce username n'existe pas ",Response::HTTP_CREATED);
+        }
+     
+          $ut->setCompte($c[0]);
+     
+
+
+            $entityManager->flush();
+            $data = [
+                'status14' => 200,
+                'message14' => 'Le compte a bien été  bien ajoute'
+            ];
+            return new JsonResponse($data);
+        
+    }
+
+
+
+
+
+
+
+
+
 
     /**
      * @Route("/{id}", name="compte_show", methods={"GET"})
